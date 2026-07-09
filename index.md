@@ -16,7 +16,7 @@
 
 ## 目录
 
-- [一、Grok、SuperGrok、X Premium+ 是什么](#一grok-supergrok-x-premium-是什么)
+- [一、Grok SuperGrok X Premium Plus 是什么](#一grok-supergrok-x-premium-plus-是什么)
 - [二、SuperGrok 和 X Premium+ 怎么选](#二supergrok-和-x-premium-怎么选)
 - [三、国内开通 SuperGrok 为什么容易付款失败](#三国内开通-supergrok-为什么容易付款失败)
 - [四、国内用户的几种开通方式对比](#四国内用户的几种开通方式对比)
@@ -29,7 +29,7 @@
 - [十一、英文摘要](#十一英文摘要)
 - [十二、参考资料](#十二参考资料)
 
-## 一、Grok、SuperGrok、X Premium+ 是什么
+## 一、Grok SuperGrok X Premium Plus 是什么
 
 **Grok** 是 xAI 提供的 AI 助手，可在 grok.com、X 平台及相关 App 中使用。国内用户搜索“Grok 会员”“SuperGrok 充值”“Grok 付款失败”时，常见的是两条订阅线：
 
