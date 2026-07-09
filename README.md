@@ -6,9 +6,8 @@
 
 请阅读：
 
-```text
-https://你的用户名.github.io/supergrok-china-guide/
-```
+- <https://he20000405-pixel.github.io/supergrok-china-guide/>
+- <https://github.com/he20000405-pixel/supergrok-china-guide/>
 
 ## 这份指南解决什么问题
 
@@ -21,7 +20,7 @@ https://你的用户名.github.io/supergrok-china-guide/
 
 ## 相关入口
 
-- 完整指南页面：`https://你的用户名.github.io/supergrok-china-guide/`
+- 完整指南页面：<https://he20000405-pixel.github.io/supergrok-china-guide/>
 - chonggrok.com 主站：<https://chonggrok.com>
 - SuperGrok 充值页：<https://chonggrok.com/supergrok>
 - 卡密核销页：<https://chonggrok.com/verify>
