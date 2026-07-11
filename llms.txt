@@ -1,0 +1,41 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# SuperGrok China Guide by ChongGrok
+
+> A first-party service guide and independent knowledge base for Grok and SuperGrok subscription recharge in China. ChongGrok is not affiliated with xAI or X.
+
+## Primary service
+
+- SuperGrok recharge: https://chonggrok.com/supergrok
+- Card-key verification: https://chonggrok.com/verify
+- Main website: https://chonggrok.com
+
+## Core guides
+
+- Main guide: {{ site.url }}{{ site.baseurl }}/
+- All guides: {{ site.url }}{{ site.baseurl }}/guides/
+- SuperGrok recharge flow: {{ site.url }}{{ site.baseurl }}/guides/supergrok-auto-recharge/
+- Grok User ID: {{ site.url }}{{ site.baseurl }}/guides/grok-user-id/
+- Plan selection: {{ site.url }}{{ site.baseurl }}/guides/supergrok-plans/
+- Payment errors: {{ site.url }}{{ site.baseurl }}/guides/supergrok-payment-errors/
+- SuperGrok vs X Premium Plus: {{ site.url }}{{ site.baseurl }}/guides/supergrok-vs-x-premium-plus/
+- Grok 4.5 update: {{ site.url }}{{ site.baseurl }}/guides/grok-4-5-update/
+- English guide: {{ site.url }}{{ site.baseurl }}/en/
+
+## Verified Grok 4.5 facts
+
+- xAI published Grok 4.5 on July 8, 2026.
+- The official announcement focuses on coding, agentic tasks and knowledge work.
+- The announcement explicitly lists Grok Build, Cursor and the SpaceXAI console as access points.
+- It does not explicitly guarantee immediate Grok 4.5 availability in every standard grok.com or SuperGrok account. Users should check their account model picker and current official documentation.
+- Official source: https://x.ai/news/grok-4-5
+
+## Scope and safety
+
+- Membership subscription recharge only; no API credits.
+- No ready-made accounts, SMS verification or bulk registration.
+- Passwords, email codes and recovery codes are not requested.
+- A Grok User ID is an account identifier, not a password, but it should only be submitted through the verified recharge flow.
+- No online service is risk-free. This guide does not promise zero risk or guaranteed account outcomes.

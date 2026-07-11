@@ -1,0 +1,8 @@
+{% if page.breadcrumbs %}
+<nav class="breadcrumbs" aria-label="面包屑">
+  {% for item in page.breadcrumbs %}
+    {% unless forloop.first %}<span aria-hidden="true">/</span>{% endunless %}
+    {% if item.url == page.url %}<span>{{ item.name }}</span>{% else %}<a href="{{ item.url | relative_url }}">{{ item.name }}</a>{% endif %}
+  {% endfor %}
+</nav>
+{% endif %}
