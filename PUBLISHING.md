@@ -11,7 +11,7 @@
 Codex 已经完成：
 
 - 升级 README 和 GitHub Pages 首页；
-- 建立 6 篇专题文章；
+- 建立 8 篇专题文章；
 - 建立 Jekyll、SEO、FAQ 结构化数据、站点地图和 `llms.txt`；
 - 完成本地 Git 提交。
 
@@ -355,13 +355,13 @@ Bing 显示“已成功编制索引”表示该页面已经进入 Bing 索引。
 
 - [ ] GitHub 仓库显示新 README 和 `guides` 目录；
 - [ ] GitHub Actions 的 Pages 部署为绿色；
-- [ ] Pages 主页和 7 篇专题都能打开；
+- [ ] Pages 主页和 8 篇专题都能打开；
 - [ ] `sitemap.xml` 能打开；
 - [ ] `llms.txt` 能打开；
 - [ ] Google Search Console 网站地图状态为成功；
-- [ ] Google 已请求主页和 4 个重点页面编入索引；
+- [ ] Google 已请求主页和 6 个重点页面编入索引；
 - [ ] Bing 网站地图状态为成功；
-- [ ] Bing 已检查主页和 4 个重点页面；
+- [ ] Bing 已检查主页和 6 个重点页面；
 - [ ] `https://chonggrok.com/supergrok` 和 `https://chonggrok.com/verify` 链接可以正常打开。
 
 ---

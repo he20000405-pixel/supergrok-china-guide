@@ -23,12 +23,16 @@ defaults:
       path: ""
     values:
       layout: default
-      image: null
+      image: "https://he20000405-pixel.github.io/supergrok-china-guide/img/social-preview.webp"
   - scope:
       path: "guides"
     values:
       lang: "zh-CN"
       schema_type: Article
+  - scope:
+      path: "google3159c3cf58678847.html"
+    values:
+      sitemap: false
 
 exclude:
   - README.md

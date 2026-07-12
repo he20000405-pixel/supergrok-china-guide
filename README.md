@@ -27,7 +27,7 @@
 5. 按页面提示提交自己的 Grok User ID，核对账号后确认充值。
 6. 等待系统处理，完成后回到 grok.com 验收订阅状态；如未刷新，退出后重新登录再检查。
 
-![chonggrok.com SuperGrok 充值页](img/chonggrok-supergrok-home-hero-hd.png)
+<img src="img/chonggrok-supergrok-home-hero.webp" alt="chonggrok.com SuperGrok 充值页" width="1600" height="824" loading="lazy">
 
 套餐和价格可能调整，本文不固定展示金额，请以下单页实时信息为准。
 
@@ -38,7 +38,7 @@
 3. 在返回的 JSON 中找到 `userId`，复制完整 UUID。
 4. 不要把邮箱、X 用户名、昵称或 `xUserId` 当作 Grok User ID。
 
-![Grok User ID 的虚构数据示意图](img/grok-user-id-json-example-hd.png)
+<img src="img/grok-user-id-json-example.webp" alt="Grok User ID 的虚构数据示意图" width="1600" height="824" loading="lazy">
 
 上图仅为虚构数据示意，不包含真实用户信息。详细步骤见 [Grok User ID 查找与核对指南](guides/grok-user-id.md)。
 

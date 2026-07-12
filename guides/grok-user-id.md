@@ -3,7 +3,7 @@ title: "Grok User ID 怎么找：userId 获取、UUID 核对与安全说明"
 description: "Grok User ID 查询教程：登录 grok.com 后打开 api/auth/session，复制 userId 字段，区分邮箱、X 用户名和 xUserId。"
 permalink: /guides/grok-user-id/
 date_published: 2026-07-11
-date_modified: 2026-07-11
+last_modified_at: 2026-07-11
 breadcrumbs:
   - name: "首页"
     url: /
@@ -32,9 +32,9 @@ faq:
 4. 复制引号内的完整值，不要手动输入。
 5. 回到 [chonggrok.com 卡密核销页](https://chonggrok.com/verify)，核对后提交。
 
-![先确认已经登录目标 Grok 账号](../img/grok-login-homepage-hd.png)
+<img src="../../img/grok-login-homepage.webp" alt="先确认已经登录目标 Grok 账号" width="1600" height="824" loading="lazy">
 
-![在地址栏打开 Grok session 页面](../img/grok-user-id-session-url-hd.png)
+<img src="../../img/grok-user-id-session-url.webp" alt="在地址栏打开 Grok session 页面" width="1600" height="950" loading="lazy">
 
 ## 正确格式是什么
 
@@ -46,7 +46,7 @@ faq:
 
 它通常由字母、数字和横线组成。复制前后不要带空格，也不要漏掉字符。
 
-![使用虚构数据制作的 Grok User ID JSON 示意图](../img/grok-user-id-json-example-hd.png)
+<img src="../../img/grok-user-id-json-example.webp" alt="使用虚构数据制作的 Grok User ID JSON 示意图" width="1600" height="824" loading="lazy">
 
 上图使用虚构 UUID 和隐藏邮箱，仅用于说明字段位置，不是真实用户数据。
 

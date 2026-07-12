@@ -2,6 +2,7 @@
 title: "SuperGrok 专题指南索引"
 description: "SuperGrok 国内充值、Grok User ID、套餐选择、付款失败、付款后仍显示 Free、Grok Build 登录 403、X Premium+ 对比和 Grok 4.5 更新专题。"
 permalink: /guides/
+last_modified_at: 2026-07-12
 breadcrumbs:
   - name: "首页"
     url: /

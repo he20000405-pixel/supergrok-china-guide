@@ -3,7 +3,7 @@ title: "SuperGrok 和 X Premium+ 有什么区别：国内用户选择指南"
 description: "SuperGrok vs X Premium+ 对比：按 grok.com 使用、X 平台权益、订阅入口和验收方式选择，具体权益以官方实时页面为准。"
 permalink: /guides/supergrok-vs-x-premium-plus/
 date_published: 2026-07-11
-date_modified: 2026-07-11
+last_modified_at: 2026-07-11
 breadcrumbs:
   - name: "首页"
     url: /
