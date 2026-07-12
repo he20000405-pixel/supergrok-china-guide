@@ -42,6 +42,8 @@ Grok Build 登录失败或返回 `403` 时，**先确认报错发生在哪一步
 
 如果错误来自付款页面，而不是 Grok Build 终端，请转到 [Grok / SuperGrok 付款失败排查]({{ '/guides/supergrok-payment-errors/' | relative_url }})。
 
+如果付款已经完成，但 Grok 网页仍显示 Free、Activate 或 Upgrade，这属于消费者订阅状态问题，请使用[付款后仍显示 Free 诊断树]({{ '/guides/supergrok-paid-but-still-free/' | relative_url }})，不要把它与 Grok Build 403 混为一谈。
+
 ## 第二步：检查当前版本
 
 官方 CLI 参考文档提供了版本和更新命令：

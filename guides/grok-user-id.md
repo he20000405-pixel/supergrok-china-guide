@@ -77,4 +77,6 @@ User ID 不是密码，也不能单独登录账号，但仍不应随意公开。
 
 主站补充图文：[Grok User ID 怎么找](https://chonggrok.com/blog/grok-user-id-zenme-zhao)。准备提交前也可查看[完整充值流程]({{ '/guides/supergrok-auto-recharge/' | relative_url }})。
 
+如果 User ID 已提交、订单也已付款，但账号仍显示 Free，请停止尝试其他 User ID，转到[付款后仍显示 Free 排查]({{ '/guides/supergrok-paid-but-still-free/' | relative_url }})核对核销状态和当前登录账号。
+
 {% include faq.html %}

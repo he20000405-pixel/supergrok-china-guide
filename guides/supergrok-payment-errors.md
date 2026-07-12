@@ -1,9 +1,9 @@
 ---
-title: "Grok / SuperGrok 付款失败：card declined、3DS 与未到账排查"
-description: "Grok 付款失败排查：Your credit card was declined、unable to authenticate payment、3D Secure、账单地址、付款后仍显示 Free。"
+title: "Grok / SuperGrok 付款失败：card declined、3DS 与账单地址排查"
+description: "Grok 付款失败排查：Your credit card was declined、unable to authenticate payment、3D Secure、发卡行限制与账单地址。"
 permalink: /guides/supergrok-payment-errors/
 date_published: 2026-07-11
-date_modified: 2026-07-11
+date_modified: 2026-07-12
 breadcrumbs:
   - name: "首页"
     url: /
@@ -16,8 +16,8 @@ faq:
     answer: "通常不能这样判断。它更多指向发卡行、卡片境外订阅权限、余额、卡段或支付风控，应先按支付链路排查。"
   - question: "unable to authenticate payment 怎么办？"
     answer: "优先检查 3D Secure 或银行验证是否完成、卡片是否支持境外线上订阅，以及账单地址是否与开卡信息一致。"
-  - question: "付款后仍显示 Free 应该重复下单吗？"
-    answer: "不建议。先确认付款账号、当前登录账号和订阅入口一致，重新登录并查看订阅状态；保留凭证后再联系对应售后。"
+  - question: "付款失败时应该连续换卡重试吗？"
+    answer: "不建议短时间连续提交。先记录完整报错，检查卡片能力、银行验证、账单资料和购买入口，再决定是否更换支付方式。"
 ---
 
 # Grok / SuperGrok 付款失败排查
@@ -60,13 +60,9 @@ Grok 付款报错不等于账号一定异常。先区分问题发生在卡片、
 
 ## 付款成功但仍显示 Free
 
-1. 确认扣款对应的账户就是当前登录账户；
-2. 区分 grok.com、X 和应用商店的不同订阅入口；
-3. 到账号订阅或账单页面检查状态；
-4. 退出后重新登录，让页面重新获取权益；
-5. 保存扣款记录并联系原支付入口的支持渠道。
+这类问题与“卡片被拒”不同，重点是确认交易、购买入口和账号归属。不要重复付款；先核对 grok.com、App Store、Google Play、X Premium+ 或 ChongGrok 中实际完成订单的平台，再检查当前登录账号。
 
-不要因为界面未即时刷新就重复下单，否则可能让退款和权益核对更复杂。
+完整诊断树见 [SuperGrok 付款成功但仍显示 Free 排查]({{ '/guides/supergrok-paid-but-still-free/' | relative_url }})，其中包含 Apple 隐藏邮箱、应用订阅同步、X 账号连接、付费周额度和卡密核销状态的处理步骤。
 
 ## 没有境外卡时的可选路径
 
