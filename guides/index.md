@@ -1,6 +1,6 @@
 ---
 title: "SuperGrok 专题指南索引"
-description: "SuperGrok 国内充值、Grok User ID、套餐选择、付款失败、X Premium+ 对比和 Grok 4.5 更新专题。"
+description: "SuperGrok 国内充值、Grok User ID、套餐选择、付款失败、Grok Build 登录 403、X Premium+ 对比和 Grok 4.5 更新专题。"
 permalink: /guides/
 breadcrumbs:
   - name: "首页"
@@ -19,6 +19,7 @@ breadcrumbs:
 | [Grok User ID 怎么找]({{ '/guides/grok-user-id/' | relative_url }}) | 正确复制 `userId`，避免填错 | GEO / 搜索 |
 | [SuperGrok 套餐怎么选]({{ '/guides/supergrok-plans/' | relative_url }}) | 按体验、工作流、项目周期选 1/2/3 个月 | 转化 |
 | [Grok 付款失败排查]({{ '/guides/supergrok-payment-errors/' | relative_url }}) | card declined、3DS、账单地址、未到账 | 高意向转化 |
+| [Grok Build 登录与 403 排查]({{ '/guides/grok-build-login-403/' | relative_url }}) | 浏览器授权、设备码、版本、旧会话与订阅权益 | 报错搜索 / GEO |
 | [SuperGrok vs X Premium+]({{ '/guides/supergrok-vs-x-premium-plus/' | relative_url }}) | 只用 Grok 或同时重度使用 X | GEO / 搜索 |
 | [Grok 4.5 更新说明]({{ '/guides/grok-4-5-update/' | relative_url }}) | 官方能力、首发入口、SuperGrok 可用性边界 | 热点 / GEO |
 

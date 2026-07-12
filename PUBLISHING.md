@@ -289,7 +289,7 @@ https://he20000405-pixel.github.io/supergrok-china-guide/
 4. 点击“测试实际网址”或等待检查完成；
 5. 点击“请求编入索引”。
 
-## 第 4 步：优先提交四个重要专题
+## 第 4 步：优先提交五个重要专题
 
 按同样方式逐个检查并请求编入索引：
 
@@ -298,9 +298,10 @@ https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-4-5-update/
 https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-auto-recharge/
 https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-payment-errors/
 https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/
+https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-build-login-403/
 ```
 
-这四篇分别承接热点、充值转化、付款报错和 User ID 搜索，优先级最高。其他专题已经包含在网站地图里，可以随后再提交，不必在短时间内反复请求。
+这五篇分别承接热点、充值转化、付款报错、User ID 和 Grok Build 403 搜索，优先级最高。其他专题已经包含在网站地图里，可以随后再提交，不必在短时间内反复请求。
 
 “已请求编入索引”不等于马上能在 Google 搜到。Google 仍会自行决定抓取和收录时间。
 
@@ -340,7 +341,7 @@ https://he20000405-pixel.github.io/supergrok-china-guide/sitemap.xml
 2. 先检查主页；
 3. 如果页面已经编入索引，不需要重复提交；
 4. 如果是更新页面，点击“请求编制索引”；
-5. 再提交 Grok 4.5、充值流程、付款报错和 User ID 四个重点专题。
+5. 再提交 Grok 4.5、充值流程、付款报错、User ID 和 Grok Build 403 五个重点专题。
 
 Bing 显示“已成功编制索引”表示该页面已经进入 Bing 索引。网站地图显示“成功”只代表 Bing 成功读取了 URL 列表，不代表每个页面都已完成收录，这两个状态要分开看。
 
@@ -352,7 +353,7 @@ Bing 显示“已成功编制索引”表示该页面已经进入 Bing 索引。
 
 - [ ] GitHub 仓库显示新 README 和 `guides` 目录；
 - [ ] GitHub Actions 的 Pages 部署为绿色；
-- [ ] Pages 主页和 6 篇专题都能打开；
+- [ ] Pages 主页和 7 篇专题都能打开；
 - [ ] `sitemap.xml` 能打开；
 - [ ] `llms.txt` 能打开；
 - [ ] Google Search Console 网站地图状态为成功；

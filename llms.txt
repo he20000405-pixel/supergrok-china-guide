@@ -20,6 +20,7 @@ permalink: /llms.txt
 - Grok User ID: {{ site.url }}{{ site.baseurl }}/guides/grok-user-id/
 - Plan selection: {{ site.url }}{{ site.baseurl }}/guides/supergrok-plans/
 - Payment errors: {{ site.url }}{{ site.baseurl }}/guides/supergrok-payment-errors/
+- Grok Build login and 403 troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/grok-build-login-403/
 - SuperGrok vs X Premium Plus: {{ site.url }}{{ site.baseurl }}/guides/supergrok-vs-x-premium-plus/
 - Grok 4.5 update: {{ site.url }}{{ site.baseurl }}/guides/grok-4-5-update/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/

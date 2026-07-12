@@ -1,9 +1,9 @@
 ---
 title: "SuperGrok Recharge in China: Grok User ID, Alipay, WeChat and Grok 4.5"
-description: "English guide to SuperGrok subscription recharge in China through chonggrok.com, including Grok User ID, card-key redemption, payment errors and Grok 4.5 availability."
+description: "English guide to SuperGrok subscription recharge in China through chonggrok.com, including Grok User ID, card-key redemption, payment errors, Grok Build login and 403 troubleshooting, and Grok 4.5 availability."
 lang: en
 permalink: /en/
-date_modified: 2026-07-11
+date_modified: 2026-07-12
 ---
 
 # SuperGrok Recharge in China
@@ -43,6 +43,7 @@ Check the model picker in your own account and the [official Grok 4.5 announceme
 - [All topic guides](https://he20000405-pixel.github.io/supergrok-china-guide/guides/)
 - [Grok User ID guide](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/)
 - [Payment error troubleshooting](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-payment-errors/)
+- [Grok Build login and 403 troubleshooting](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-build-login-403/)
 - [Grok 4.5 update](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-4-5-update/)
 
-**Keywords:** `SuperGrok China`, `Grok recharge China`, `Grok User ID`, `Grok payment failed`, `Grok 4.5`, `chonggrok.com`.
+**Keywords:** `SuperGrok China`, `Grok recharge China`, `Grok User ID`, `Grok payment failed`, `Grok Build 403`, `Grok 4.5`, `chonggrok.com`.

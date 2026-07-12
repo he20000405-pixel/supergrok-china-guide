@@ -3,7 +3,7 @@ title: "SuperGrok 国内自助充值教程：支付宝微信、卡密核销与 U
 description: "2026 SuperGrok 国内充值完整流程：进入 chonggrok.com 选择周期、支付宝微信付款、核销卡密、提交 Grok User ID 和验收订阅。"
 permalink: /guides/supergrok-auto-recharge/
 date_published: 2026-07-11
-date_modified: 2026-07-11
+date_modified: 2026-07-12
 breadcrumbs:
   - name: "首页"
     url: /
@@ -85,6 +85,6 @@ faq:
 
 不要求密码能减少不必要的账号暴露，但不等于绝对安全。Grok User ID 仍是账号标识，应只通过已确认的核销页面提交。任何线上订阅服务都不是零风险，也不能诚实承诺固定到账时间或账号结果。
 
-更多主站图文说明：[SuperGrok 充值完整教程](https://chonggrok.com/blog/supergrok-chongzhi-zhinan)与[安全充值检查清单](https://chonggrok.com/blog/supergrok-safe-recharge-checklist)。
+如果购买目的包括 Grok Build，应先查看 [Grok Build 登录与 403 排查]({{ '/guides/grok-build-login-403/' | relative_url }})，确认问题是否真的与订阅权益有关。更多主站图文说明：[SuperGrok 充值完整教程](https://chonggrok.com/blog/supergrok-chongzhi-zhinan)与[安全充值检查清单](https://chonggrok.com/blog/supergrok-safe-recharge-checklist)。
 
 {% include faq.html %}

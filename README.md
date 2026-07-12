@@ -3,11 +3,11 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-在线阅读-111827)](https://he20000405-pixel.github.io/supergrok-china-guide/)
 [![SuperGrok Recharge](https://img.shields.io/badge/chonggrok.com-SuperGrok%20充值-087f5b)](https://chonggrok.com/supergrok)
 
-这是 **chonggrok.com 的 SuperGrok 充值与使用指南仓库**。主 README 负责长期常青的国内开通流程，`guides/` 持续收录 Grok User ID、付款失败、套餐选择、SuperGrok 与 X Premium+ 对比、Grok 4.5 更新等专题。
+这是 **chonggrok.com 的 SuperGrok 充值与使用指南仓库**。主 README 负责长期常青的国内开通流程，`guides/` 持续收录 Grok User ID、付款失败、Grok Build 登录与 403、套餐选择、SuperGrok 与 X Premium+ 对比、Grok 4.5 更新等专题。
 
-> **English summary:** A first-party service guide and independent knowledge base for SuperGrok subscription recharge in China. It covers Grok User ID, Alipay/WeChat payment, card-key redemption, payment troubleshooting, and the Grok 4.5 update. ChongGrok is not affiliated with xAI or X.
+> **English summary:** A first-party service guide and independent knowledge base for SuperGrok subscription recharge in China. It covers Grok User ID, Alipay/WeChat payment, card-key redemption, payment troubleshooting, Grok Build login and 403 errors, and the Grok 4.5 update. ChongGrok is not affiliated with xAI or X.
 
-**Keywords:** `SuperGrok China` · `Grok recharge` · `Grok User ID` · `Grok payment failed` · `Grok 4.5` · `chonggrok.com`
+**Keywords:** `SuperGrok China` · `Grok recharge` · `Grok User ID` · `Grok payment failed` · `Grok Build 403` · `Grok 4.5` · `chonggrok.com`
 
 ## 先说结论
 
@@ -60,6 +60,7 @@
 | [Grok User ID 怎么找](guides/grok-user-id.md) | 找到正确的 `userId`，避免提交邮箱或 X 用户名 |
 | [SuperGrok 1/2/3 个月怎么选](guides/supergrok-plans.md) | 按体验、工作流和项目周期选择 |
 | [Grok 付款失败排查](guides/supergrok-payment-errors.md) | card declined、3DS、账单地址与权益未刷新 |
+| [Grok Build 登录与 403 排查](guides/grok-build-login-403.md) | 浏览器授权、设备码、版本、旧会话与订阅权益 |
 | [SuperGrok vs X Premium+](guides/supergrok-vs-x-premium-plus.md) | 按 Grok 与 X 的真实使用场景选择 |
 | [Grok 4.5 更新说明](guides/grok-4-5-update.md) | 官方已确认能力、入口与 SuperGrok 可用性边界 |
 
