@@ -68,4 +68,7 @@ img { display: block; max-width: 100%; height: auto; margin: 24px auto; border: 
   h2 { font-size: 1.32rem; }
   .guide-grid { grid-template-columns: 1fr; }
   th,td { min-width: 126px; }
+  table:not(:has(tr > :nth-child(4))) { display: table; table-layout: fixed; overflow: visible; }
+  table:not(:has(tr > :nth-child(4))) th,
+  table:not(:has(tr > :nth-child(4))) td { min-width: 0; padding: 9px 8px; overflow-wrap: anywhere; }
 }

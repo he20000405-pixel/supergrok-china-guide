@@ -1,6 +1,6 @@
 ---
-title: "SuperGrok Recharge in China: Grok User ID, Alipay, WeChat and Grok 4.5"
-description: "English guide to SuperGrok subscription recharge in China through chonggrok.com, including Grok User ID, card-key redemption, payment errors, charged-but-still-Free troubleshooting, Grok Build login and 403 errors, and Grok 4.5 availability."
+title: "SuperGrok Recharge Guide: User ID and Payment Errors"
+description: "English guide to SuperGrok recharge in China, covering Grok User ID, card-key redemption, payment errors, paid-but-Free checks, Grok Build 403 and Grok 4.5."
 lang: en
 permalink: /en/
 last_modified_at: 2026-07-12

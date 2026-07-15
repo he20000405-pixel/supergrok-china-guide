@@ -1,5 +1,5 @@
 ---
-title: "2026 SuperGrok 国内充值指南：Grok User ID、支付宝微信与 Grok 4.5"
+title: "SuperGrok 国内充值指南：User ID、付款报错与 Grok 4.5"
 description: "chonggrok.com 官方服务指南：国内如何用支付宝微信开通 SuperGrok，完成卡密核销和 Grok User ID 提交，并排查付款失败、付款后仍显示 Free、Grok Build 登录 403 与 Grok 4.5 可用性。"
 permalink: /
 last_modified_at: 2026-07-12
