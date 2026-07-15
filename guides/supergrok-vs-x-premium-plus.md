@@ -59,4 +59,6 @@ faq:
 
 主站延伸：[SuperGrok 和 X Premium+ 有什么区别](https://chonggrok.com/blog/supergrok-vs-x-premium-plus)。
 
+续费、扣款或权益状态不一致时，不要跨入口重复订阅；先按[AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)确认实际账单渠道和原购买账号。
+
 {% include faq.html %}

@@ -72,4 +72,6 @@ Grok 付款报错不等于账号一定异常。先区分问题发生在卡片、
 
 主站深度排查：[SuperGrok 国内充值失败怎么办](https://chonggrok.com/blog/supergrok-payment-failed-ai-recharge-2026)。
 
+如果尚不能确定问题在银行、应用商店、X、xAI 账号权益还是 ChongGrok 订单，可先使用[跨产品 AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)。
+
 {% include faq.html %}
