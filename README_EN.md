@@ -1,5 +1,5 @@
 ---
-title: "SuperGrok Recharge Guide: User ID and Payment Errors"
+title: "SuperGrok Recharge: User ID and Payment Errors"
 description: "English guide to SuperGrok recharge in China, covering Grok User ID, card-key redemption, payment errors, paid-but-Free checks, Grok Build 403 and Grok 4.5."
 lang: en
 permalink: /en/
