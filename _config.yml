@@ -1,5 +1,5 @@
 title: "SuperGrok 国内充值与使用指南"
-tagline: "chonggrok.com Grok 充值、User ID 与报错知识库"
+tagline: "ChongGrok Grok 知识库"
 description: "chonggrok.com 的 SuperGrok 国内充值指南，说明支付宝微信付款、卡密核销、Grok User ID、付款报错、付款后仍显示 Free 与 Grok 4.5 更新。"
 url: "https://he20000405-pixel.github.io"
 baseurl: "/supergrok-china-guide"
@@ -9,7 +9,7 @@ chatgpt_guide_url: "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-gu
 grok_guide_url: "https://he20000405-pixel.github.io/supergrok-china-guide/"
 claude_guide_url: "https://he20000405-pixel.github.io/claude-pro-max-china-guide/"
 gemini_guide_url: "https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/"
-asset_version: "20260715-seo-audit"
+asset_version: "20260720-visual-refresh"
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
 author:
