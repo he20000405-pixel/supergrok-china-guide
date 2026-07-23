@@ -1,5 +1,5 @@
 ---
-title: "Grok Build 403: Login, Device Auth and Subscription Checks"
+title: "Grok Build 403: Login and Device Auth"
 description: "Troubleshoot Grok Build CLI 403 errors by checking the failure stage, client version, browser account, device authentication, cached session and subscription entitlement."
 permalink: /en/guides/grok-build-login-403/
 lang: en
