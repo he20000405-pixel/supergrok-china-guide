@@ -24,6 +24,9 @@ permalink: /llms.txt
 - Grok Build login and 403 troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/grok-build-login-403/
 - SuperGrok vs X Premium Plus: {{ site.url }}{{ site.baseurl }}/guides/supergrok-vs-x-premium-plus/
 - Grok 4.5 update: {{ site.url }}{{ site.baseurl }}/guides/grok-4-5-update/
+- Weekly limit vs subscription status: {{ site.url }}{{ site.baseurl }}/guides/supergrok-weekly-limit-vs-subscription/
+- English Grok User ID / UUID guide: {{ site.url }}{{ site.baseurl }}/en/guides/grok-user-id/
+- English Grok Build 403 guide: {{ site.url }}{{ site.baseurl }}/en/guides/grok-build-login-403/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
 ## Verified Grok 4.5 facts

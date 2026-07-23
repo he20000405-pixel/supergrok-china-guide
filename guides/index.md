@@ -26,6 +26,12 @@ item_list:
     url: /guides/supergrok-vs-x-premium-plus/
   - name: Grok 4.5 更新
     url: /guides/grok-4-5-update/
+  - name: SuperGrok 周额度与订阅状态
+    url: /guides/supergrok-weekly-limit-vs-subscription/
+  - name: Grok User ID / UUID English Guide
+    url: /en/guides/grok-user-id/
+  - name: Grok Build 403 English Guide
+    url: /en/guides/grok-build-login-403/
 ---
 
 <p class="eyebrow">SuperGrok Topic Index</p>
@@ -42,7 +48,13 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/grok-build-login-403/' | relative_url }}"><span class="catalog-number">06</span><span class="catalog-copy"><strong>Grok Build 登录与 403</strong><p>浏览器授权、设备码、版本、旧会话和订阅权益。</p></span><span class="intent-label">开发者 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/supergrok-vs-x-premium-plus/' | relative_url }}"><span class="catalog-number">07</span><span class="catalog-copy"><strong>SuperGrok 与 X Premium+ 对比</strong><p>区分 Grok 订阅与 X 平台权益，按使用场景选择。</p></span><span class="intent-label">对比 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-4-5-update/' | relative_url }}"><span class="catalog-number">08</span><span class="catalog-copy"><strong>Grok 4.5 更新说明</strong><p>官方能力、首发入口和普通账号可用性边界。</p></span><span class="intent-label">热点 / GEO</span></a>
+  <a class="catalog-item" href="{{ '/guides/supergrok-weekly-limit-vs-subscription/' | relative_url }}"><span class="catalog-number">09</span><span class="catalog-copy"><strong>周额度用完还是订阅未生效</strong><p>区分 Usage 周上限、登录错账号、订单待处理与权益未附着。</p></span><span class="intent-label">高意向 / 搜索</span></a>
 </div>
+
+## English troubleshooting guides
+
+- [Grok User ID / UUID: How to Find and Verify It]({{ '/en/guides/grok-user-id/' | relative_url }})
+- [Grok Build 403: Login, Device Auth and Subscription Checks]({{ '/en/guides/grok-build-login-403/' | relative_url }})
 
 ## 内容原则
 
