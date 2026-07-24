@@ -32,6 +32,10 @@ item_list:
     url: /en/guides/grok-user-id/
   - name: Grok Build 403 English Guide
     url: /en/guides/grok-build-login-403/
+  - name: SuperGrok Card Declined English Guide
+    url: /en/guides/supergrok-card-declined/
+  - name: SuperGrok Paid but Still Free English Guide
+    url: /en/guides/supergrok-paid-but-still-free/
 ---
 
 <p class="eyebrow">SuperGrok Topic Index</p>
@@ -55,6 +59,8 @@ item_list:
 
 - [Grok User ID / UUID: How to Find and Verify It]({{ '/en/guides/grok-user-id/' | relative_url }})
 - [Grok Build 403: Login, Device Auth and Subscription Checks]({{ '/en/guides/grok-build-login-403/' | relative_url }})
+- [SuperGrok Card Declined: Payment Troubleshooting]({{ '/en/guides/supergrok-card-declined/' | relative_url }})
+- [SuperGrok Paid but Still Free: Account and Billing Checks]({{ '/en/guides/supergrok-paid-but-still-free/' | relative_url }})
 
 ## 内容原则
 

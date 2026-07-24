@@ -27,6 +27,8 @@ permalink: /llms.txt
 - Weekly limit vs subscription status: {{ site.url }}{{ site.baseurl }}/guides/supergrok-weekly-limit-vs-subscription/
 - English Grok User ID / UUID guide: {{ site.url }}{{ site.baseurl }}/en/guides/grok-user-id/
 - English Grok Build 403 guide: {{ site.url }}{{ site.baseurl }}/en/guides/grok-build-login-403/
+- English SuperGrok card-declined guide: {{ site.url }}{{ site.baseurl }}/en/guides/supergrok-card-declined/
+- English SuperGrok paid-but-still-Free guide: {{ site.url }}{{ site.baseurl }}/en/guides/supergrok-paid-but-still-free/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
 ## Verified Grok 4.5 facts
