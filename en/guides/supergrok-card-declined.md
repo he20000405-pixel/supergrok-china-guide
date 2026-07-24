@@ -84,11 +84,13 @@ A failure on one route does not prove that another route will work, and starting
 
 ## 5. Do not confuse decline, pending and entitlement
 
-A declined attempt, a pending authorization and an active membership are different states:
+A declined attempt, a pending authorization and an active membership are different states. Check them in this order:
 
-```text
-payment attempt -> bank authorization -> captured payment -> active subscription -> account entitlement
-```
+1. payment attempt;
+2. bank authorization;
+3. captured payment;
+4. active subscription;
+5. account entitlement.
 
 If the bank shows a completed charge or the billing provider shows an active subscription, stop treating the problem as a card decline. Follow the [SuperGrok paid-but-still-Free checks]({{ '/en/guides/supergrok-paid-but-still-free/' | relative_url }}) instead.
 
