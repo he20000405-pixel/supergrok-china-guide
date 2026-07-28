@@ -3,7 +3,7 @@ title: "SuperGrok Recharge: User ID and Payment Errors"
 description: "English guide to SuperGrok recharge in China, covering Grok User ID, card-key redemption, payment errors, paid-but-Free checks, Grok Build 403 and Grok 4.5."
 lang: en
 permalink: /en/
-last_modified_at: 2026-07-12
+last_modified_at: 2026-07-28
 ---
 
 # SuperGrok Recharge in China
@@ -25,7 +25,7 @@ No account password, email verification code, SMS code or recovery code should b
 
 ## Grok 4.5 availability
 
-xAI announced Grok 4.5 on **July 8, 2026**, describing it as a model for coding, agentic tasks and knowledge work. The launch page explicitly lists Grok Build, Cursor and the SpaceXAI console as launch access points. It does not explicitly guarantee immediate Grok 4.5 access in every standard grok.com or SuperGrok account.
+xAI announced Grok 4.5 on **July 16, 2026**, describing it as a model for coding, agentic tasks and knowledge work. The launch page explicitly lists Grok Build, Cursor and the SpaceXAI console as launch access points. It does not explicitly guarantee immediate Grok 4.5 access in every standard grok.com or SuperGrok account.
 
 Check the model picker in your own account and the [official Grok 4.5 announcement](https://x.ai/news/grok-4-5). A SuperGrok purchase should not be interpreted as a guarantee that Grok 4.5 is already available to that account.
 

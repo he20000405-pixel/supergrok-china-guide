@@ -3,7 +3,7 @@ title: "SuperGrok 国内充值与付款排障指南"
 description: "SuperGrok 支付宝微信充值、卡密核销、Grok User ID、付款失败、仍显示 Free、Grok Build 403 与 Grok 4.5 知识库。"
 permalink: /
 schema_type: CollectionPage
-last_modified_at: 2026-07-20
+last_modified_at: 2026-07-28
 breadcrumbs:
   - name: 首页
     url: /
@@ -30,7 +30,7 @@ faq:
   - question: "chonggrok.com 充值 SuperGrok 需要密码吗？"
     answer: "不需要。流程只要求本次升级所需的 Grok User ID，不应提交登录密码、邮箱验证码或恢复码。"
   - question: "开通 SuperGrok 后一定能看到 Grok 4.5 吗？"
-    answer: "不能仅凭订阅名称保证。xAI 的 2026 年 7 月 8 日发布页明确了 Grok Build、Cursor 和 SpaceXAI console 等入口，但普通 grok.com 账号的可用性应以账号模型选择器和官方实时说明为准。"
+    answer: "不能仅凭订阅名称保证。xAI 的 2026 年 7 月 16 日发布页明确了 Grok Build、Cursor 和 SpaceXAI console 等入口，但普通 grok.com 账号的可用性应以账号模型选择器和官方实时说明为准。"
   - question: "这个仓库提供 Grok API 充值吗？"
     answer: "不提供。本仓库和 chonggrok.com 这里只讨论 Grok / SuperGrok 会员订阅，不提供 API 额度、成品号、接码或批量注册服务。"
 ---

@@ -1,9 +1,9 @@
 ---
 title: "Grok 4.5 正式发布：更新内容、首发入口与 SuperGrok 可用性"
-description: "xAI 于 2026 年 7 月 8 日发布 Grok 4.5。本文整理官方确认的编程、智能体和知识工作能力，并说明 SuperGrok 是否可用的事实边界。"
+description: "xAI 于 2026 年 7 月 16 日发布 Grok 4.5。本文整理官方确认的编程、智能体和知识工作能力，并说明 SuperGrok 是否可用的事实边界。"
 permalink: /guides/grok-4-5-update/
 date_published: 2026-07-11
-last_modified_at: 2026-07-12
+last_modified_at: 2026-07-28
 breadcrumbs:
   - name: "首页"
     url: /
@@ -13,7 +13,7 @@ breadcrumbs:
     url: /guides/grok-4-5-update/
 faq:
   - question: "Grok 4.5 什么时候发布？"
-    answer: "xAI 官方发布页日期为 2026 年 7 月 8 日。"
+    answer: "xAI 官方发布页日期为 2026 年 7 月 16 日。"
   - question: "Grok 4.5 主要更新了什么？"
     answer: "官方重点强调编程、智能体任务和知识工作，并公布了多项软件工程与终端任务基准结果。"
   - question: "开通 SuperGrok 一定能使用 Grok 4.5 吗？"
@@ -24,7 +24,7 @@ faq:
 
 # Grok 4.5 正式发布：更新内容与 SuperGrok 可用性
 
-xAI 于 **2026 年 7 月 8 日**发布 Grok 4.5。对普通用户最重要的不是只看跑分，而是分清三件事：官方确认了哪些能力、当前从哪些入口提供、自己的 SuperGrok 账号是否已经实际可见。
+xAI 于 **2026 年 7 月 16 日**发布 Grok 4.5。对普通用户最重要的不是只看跑分，而是分清三件事：官方确认了哪些能力、当前从哪些入口提供、自己的 SuperGrok 账号是否已经实际可见。
 
 ## 先说结论
 
@@ -71,7 +71,7 @@ Grok 4.5 官方发布内容包含开发者入口，但本仓库只服务于 Grok
 
 ## 信息来源
 
-- [xAI: Grok 4.5（2026-07-08）](https://x.ai/news/grok-4-5)
+- [xAI: Grok 4.5（2026-07-16）](https://x.ai/news/grok-4-5)
 - [xAI News](https://x.ai/news?category=all)
 - [Grok plans](https://grok.com/plans)
 

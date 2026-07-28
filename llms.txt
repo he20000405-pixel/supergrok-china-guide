@@ -33,7 +33,7 @@ permalink: /llms.txt
 
 ## Verified Grok 4.5 facts
 
-- xAI published Grok 4.5 on July 8, 2026.
+- xAI published Grok 4.5 on July 16, 2026.
 - The official announcement focuses on coding, agentic tasks and knowledge work.
 - The announcement explicitly lists Grok Build, Cursor and the SpaceXAI console as access points.
 - It does not explicitly guarantee immediate Grok 4.5 availability in every standard grok.com or SuperGrok account. Users should check their account model picker and current official documentation.

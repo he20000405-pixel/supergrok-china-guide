@@ -67,7 +67,7 @@
 
 ## Grok 4.5：热点入口，订阅可用性需分开核实
 
-xAI 于 **2026 年 7 月 8 日**发布 Grok 4.5，官方将其定位于编程、智能体任务和知识工作。发布页明确写到首发入口包括 Grok Build、Cursor 和 SpaceXAI console，但没有在该页明确承诺所有普通 grok.com / SuperGrok 账号都能立即在模型选择器看到 Grok 4.5。
+xAI 于 **2026 年 7 月 16 日**发布 Grok 4.5，官方将其定位于编程、智能体任务和知识工作。发布页明确写到首发入口包括 Grok Build、Cursor 和 SpaceXAI console，但没有在该页明确承诺所有普通 grok.com / SuperGrok 账号都能立即在模型选择器看到 Grok 4.5。
 
 因此，开通 SuperGrok 前应检查自己账号内的模型选择器和官方实时说明，不应把“购买 SuperGrok”理解为“保证立即获得 Grok 4.5”。详见 [Grok 4.5 更新与 SuperGrok 可用性说明](guides/grok-4-5-update.md)。
 
