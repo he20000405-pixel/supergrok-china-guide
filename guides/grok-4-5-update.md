@@ -2,7 +2,7 @@
 title: "Grok 4.5 正式发布：更新内容、首发入口与 SuperGrok 可用性"
 description: "xAI 于 2026 年 7 月 16 日发布 Grok 4.5。本文整理官方确认的编程、智能体和知识工作能力，并说明 SuperGrok 是否可用的事实边界。"
 permalink: /guides/grok-4-5-update/
-date_published: 2026-07-11
+date_published: 2026-07-16
 last_modified_at: 2026-07-28
 breadcrumbs:
   - name: "首页"

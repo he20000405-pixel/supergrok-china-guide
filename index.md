@@ -152,4 +152,4 @@ Grok User ID 是用于定位账号的标识，不是登录密码，不能单独�
   <div class="hero-actions"><a class="primary-link" href="https://chonggrok.com/supergrok">查看实时方案</a><a class="secondary-link" href="https://chonggrok.com/verify">核销已有卡密</a></div>
 </section>
 
-<p class="meta">最后更新：2026-07-20</p>
+<p class="meta">最后更新：2026-07-28</p>
