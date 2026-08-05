@@ -3,7 +3,7 @@ title: "Grok / SuperGrok 付款失败：card declined、3DS 与账单地址排�
 description: "Grok 付款失败排查：Your credit card was declined、unable to authenticate payment、3D Secure、发卡行限制与账单地址。"
 permalink: /guides/supergrok-payment-errors/
 date_published: 2026-07-11
-last_modified_at: 2026-07-12
+last_modified_at: 2026-08-05
 breadcrumbs:
   - name: "首页"
     url: /
@@ -22,7 +22,17 @@ faq:
 
 # Grok / SuperGrok 付款失败排查
 
-Grok 付款报错不等于账号一定异常。先区分问题发生在卡片、银行验证、账单信息、订阅入口，还是付款后的权益同步。
+Grok 付款报错不等于账号异常。先停止连续重试，保存完整报错、发生时间和购买入口，再判断问题发生在卡片、银行验证、账单信息，还是付款后的权益同步。
+
+## 开始前准备
+
+1. 记录完整报错文字和发生时间；
+2. 确认购买入口是 grok.com、Apple、Google Play 还是 X；
+3. 查看银行是否只有待处理交易，还是已经形成最终扣款；
+4. 保存订单号或收据，但遮住完整卡号和验证码；
+5. 确认当前登录的 Grok 账号和登录方式。
+
+如果已经有最终扣款、有效订阅或待处理订单，请停止付款，直接进入“付款成功但仍显示 Free”排查。
 
 ## 报错与优先检查项
 
@@ -46,6 +56,8 @@ Grok 付款报错不等于账号一定异常。先区分问题发生在卡片、
 
 “再试几次就一定成功”并不是可靠建议，也不能把支付拒绝夸大成“马上封号”。如果缺少稳定境外支付方式，可以评估其他开通路径。
 
+**预期结果：** 发卡行允许交易后，付款页面生成成功订单或收据。若银行明确拒绝该类交易，或无法解释拒付，请停止使用同一卡片连续尝试。
+
 ## unable to authenticate payment
 
 该提示通常与支付验证有关：
@@ -58,6 +70,8 @@ Grok 付款报错不等于账号一定异常。先区分问题发生在卡片、
 
 应先确认银行端验证能力，必要时更换一张明确支持该类订阅的卡。反复提交同一组错误信息通常不会解决根因。
 
+**预期结果：** 银行验证完成后返回原结账页，并显示付款成功。若验证页打不开、验证超时或银行拒绝认证，请停止重试并联系发卡行。
+
 ## 付款成功但仍显示 Free
 
 这类问题与“卡片被拒”不同，重点是确认交易、购买入口和账号归属。不要重复付款；先核对 grok.com、App Store、Google Play、X Premium+ 或 ChongGrok 中实际完成订单的平台，再检查当前登录账号。
@@ -66,7 +80,7 @@ Grok 付款报错不等于账号一定异常。先区分问题发生在卡片、
 
 ## 没有境外卡时的可选路径
 
-[chonggrok.com SuperGrok 充值](https://chonggrok.com/supergrok)支持支付宝/微信付款。用户在核销卡密后提交自己的 Grok User ID，不需要登录密码，账号仍归用户本人。完成后回到 grok.com 验收订阅。
+只有确认没有成功扣款、有效订阅或待处理订单后，才考虑新的付款路径。[chonggrok.com SuperGrok 充值](https://chonggrok.com/supergrok)支持支付宝/微信付款。用户按当前核销页面提交自己的 Grok User ID，不需要登录密码，账号仍归用户本人。完成后回到 grok.com 验收订阅。
 
 这是一种省去境外卡支付环节的可选方案，不代表零风险或官方合作。完整步骤见 [SuperGrok 自助充值教程]({{ '/guides/supergrok-auto-recharge/' | relative_url }})。
 

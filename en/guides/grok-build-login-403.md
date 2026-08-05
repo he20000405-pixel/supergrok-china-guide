@@ -5,7 +5,7 @@ permalink: /en/guides/grok-build-login-403/
 lang: en
 schema_type: Article
 date_published: 2026-07-23
-last_modified_at: 2026-07-23
+last_modified_at: 2026-08-05
 breadcrumbs:
   - name: "Home"
     url: /
@@ -59,6 +59,8 @@ grok update
 
 Restart the terminal and run `grok version` again. Do not hard-code an old version as the permanent minimum; review the [official Grok Build changelog](https://x.ai/build/changelog) for current authentication and session fixes.
 
+**Expected result:** `grok version` shows the installed version and `grok update --check` reports that it is current. If the update command itself fails, stop the 403 investigation and fix the installation first.
+
 ## 2. Verify the browser account
 
 The official Getting Started page states that the first interactive launch opens a browser for authentication. A common failure is authorizing a different Grok account that was already signed in to the browser.
@@ -78,6 +80,8 @@ grok login
 
 Do not share browser codes, callbacks, cookies or credential files in screenshots or support posts.
 
+**Expected result:** the browser confirms authorization and the terminal returns to an authenticated Grok Build prompt. If the browser authorizes one account but the terminal still fails, sign out in both places and repeat the login once with the intended account.
+
 ## 3. Use device authentication in remote environments
 
 For SSH, WSL, servers or terminals that cannot complete a local browser callback, the official CLI reference provides:
@@ -87,6 +91,8 @@ grok login --device-auth
 ```
 
 Open the displayed verification page on a trusted browser, enter the short code and verify the account before approving. A successful device-code screen does not prove that the correct account was used, so confirm the signed-in identity explicitly.
+
+Stop if the verification page asks for anything beyond the official device code and normal account sign-in. Do not send the code to another person.
 
 ## 4. Clear the supported session state
 
@@ -98,6 +104,8 @@ If authentication succeeds but a previous session returns 403:
 4. update the client before retrying a team or shared-workspace session.
 
 Use supported commands rather than manually deleting unknown files. The changelog has documented authentication refresh and session-related 403 fixes, but an issue fixed for one release or account type should not be generalized to every 403.
+
+**Expected result:** a new small session works after re-login. If only an old session fails, preserve its identifier and treat it as a session-specific issue. If every new session fails, continue to the entitlement check.
 
 ## 5. Decide whether it is an entitlement problem
 
@@ -125,6 +133,15 @@ If an active or pending charge already exists, do not purchase again. Resolve th
 | Existing charge but entitlement not attached | Do not repurchase; resolve the existing transaction |
 
 Only after confirming that there is no active or pending subscription should the current membership options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok) be considered.
+
+## Completion checklist
+
+- The client is current and the installation commands work.
+- The browser and terminal authenticated the same intended account.
+- Device authentication was used when a local browser callback was unavailable.
+- A fresh session was tested separately from old sessions.
+- The current account page confirms whether the required membership entitlement exists.
+- A new membership was not purchased to cover an unresolved software, account or network error.
 
 ## Security and scope
 

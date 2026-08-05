@@ -5,7 +5,7 @@ permalink: /en/guides/supergrok-card-declined/
 lang: en
 schema_type: Article
 date_published: 2026-07-24
-last_modified_at: 2026-07-24
+last_modified_at: 2026-08-05
 breadcrumbs:
   - name: "Home"
     url: /
@@ -36,7 +36,7 @@ First identify whether the attempted purchase was made on grok.com, through Appl
 |---|---|---|
 | `Your card was declined` | The current payment attempt was not approved | Stop retrying and ask the issuer whether it rejected the transaction |
 | 3DS or bank verification did not complete | Cardholder authentication was interrupted or refused | Complete the bank's supported verification flow |
-| A pending bank entry | Funds may be authorized but not finally captured | Wait for the issuer's final status; do not repurchase |
+| The bank shows `pending` | The bank recorded the payment request, but has not confirmed a final payment to the provider | Wait for the issuer's final status; do not repurchase |
 | Apple or Google Play rejected the purchase | The app-store billing route did not approve it | Review the purchase in the original store account |
 | X Premium payment failed | The issue belongs to the X billing route | Use X Premium billing support, not grok.com billing |
 | A receipt and active subscription are present | This is no longer a simple card-decline case | Use the [paid-but-still-Free guide]({{ '/en/guides/supergrok-paid-but-still-free/' | relative_url }}) |
@@ -52,6 +52,8 @@ Do not troubleshoot every platform at once. Find the route that actually receive
 
 The support owner and cancellation or refund path depend on this route.
 
+**Expected result:** one route contains the attempted order or subscription record. If none does, keep the bank and checkout evidence and resolve the original attempt before starting a new one.
+
 ## 2. Check the issuer decision
 
 For a direct card payment, contact the card issuer and ask whether it rejected the transaction. Common categories include:
@@ -65,11 +67,15 @@ For a direct card payment, contact the card issuer and ask whether it rejected t
 
 Do not claim a false billing address or repeatedly change identity details. Use information that matches the card issuer's records.
 
+If the issuer confirms a specific restriction, follow the issuer's supported remedy. If the issuer confirms that it did not reject the transaction, return to the original billing provider with the exact time, amount and error.
+
 ## 3. Complete 3DS through the bank
 
 If the checkout opens a bank verification page, complete it through the issuer's supported app, SMS or authentication method. A closed verification window, expired code or bank-side rejection can leave the merchant unable to complete the charge.
 
 Never send a password, one-time bank code, recovery code or full card details to another person for troubleshooting.
+
+**Expected result:** the bank verification page reports success and the original checkout gives a final result. If the page expires, closes or reports failure, stop retrying and ask the bank which step was rejected.
 
 ## 4. Check Apple, Google Play and X separately
 
@@ -88,9 +94,9 @@ A declined attempt, a pending authorization and an active membership are differe
 
 1. payment attempt;
 2. bank authorization;
-3. captured payment;
+3. payment completed by the provider;
 4. active subscription;
-5. account entitlement.
+5. paid plan shown on the current account.
 
 If the bank shows a completed charge or the billing provider shows an active subscription, stop treating the problem as a card decline. Follow the [SuperGrok paid-but-still-Free checks]({{ '/en/guides/supergrok-paid-but-still-free/' | relative_url }}) instead.
 
@@ -105,6 +111,14 @@ Only consider a different route after all of these are true:
 - you have confirmed which Grok account should receive the membership.
 
 If those conditions are met and an overseas payment method remains unavailable, the current membership-assistance options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok) can be reviewed. The service uses the user's own account and does not request the account password, but account identifiers remain sensitive and no online service is risk-free.
+
+## Completion checklist
+
+- The original purchasing route and account are known.
+- The payment has a final failed state, not a pending or completed state.
+- No active subscription exists on grok.com, Apple, Google Play or X.
+- The bank or billing provider has identified the owner of the failure.
+- No repeated attempt created a second charge or subscription.
 
 ## Evidence to keep
 

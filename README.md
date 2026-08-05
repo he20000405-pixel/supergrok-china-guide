@@ -31,16 +31,14 @@
 
 套餐和价格可能调整，本文不固定展示金额，请以下单页实时信息为准。
 
-## Grok User ID 怎么找
+## Grok User ID 怎么核对
 
-1. 在浏览器登录 [grok.com](https://grok.com)。
-2. 在同一浏览器打开 `https://grok.com/api/auth/session`。
-3. 在返回的 JSON 中找到 `userId`，复制完整 UUID。
-4. 不要把邮箱、X 用户名、昵称或 `xUserId` 当作 Grok User ID。
+1. 先在 [grok.com](https://grok.com) 登录要升级的账号，并确认没有登录错账号。
+2. 购买后进入 [卡密核销页](https://chonggrok.com/verify)，按照页面当前显示的说明核对 Grok User ID。
+3. 只提交页面明确要求的账号标识，不要用邮箱、X 用户名、昵称、密码、验证码或恢复码代替。
+4. 如果页面显示完整的账号或会话内容，或者你无法判断哪一项是 User ID，应立即停止，不要复制整页内容，并通过 [SuperGrok 服务页](https://chonggrok.com/supergrok)联系售后确认。
 
-<img src="img/grok-user-id-json-example.webp" alt="Grok User ID 的虚构数据示意图" width="1600" height="824" loading="lazy">
-
-上图仅为虚构数据示意，不包含真实用户信息。详细步骤见 [Grok User ID 查找与核对指南](guides/grok-user-id.md)。
+xAI 当前消费者 FAQ 说明了账号、账单和支持入口，但没有把某个内部接口公布为长期固定的 User ID 获取方法。因此，本指南以核销页实时说明为准，不把可能变化的内部地址包装成 xAI 官方流程。详细说明见 [Grok User ID 查找与核对指南](guides/grok-user-id.md)。
 
 ## 充值方式对比
 
@@ -92,6 +90,7 @@ xAI 于 **2026 年 7 月 16 日**发布 Grok 4.5，官方将其定位于编程�
 ## 官方参考
 
 - [xAI: Grok 4.5](https://x.ai/news/grok-4-5)
+- [xAI Consumer FAQ](https://docs.x.ai/grok/faq)
 - [Grok plans](https://grok.com/plans)
 
 ## 仓库入口

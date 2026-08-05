@@ -18,10 +18,12 @@ This is the English entry to the **chonggrok.com SuperGrok subscription guide**.
 2. Confirm that your own Grok account can sign in and choose the currently displayed subscription period.
 3. Pay with Alipay or WeChat and keep the order details and card key.
 4. Redeem the card key at [chonggrok.com/verify](https://chonggrok.com/verify).
-5. Submit the `userId` from `https://grok.com/api/auth/session` after confirming the target account.
+5. Follow the current card-key verification instructions and submit only the Grok User ID requested for the confirmed target account. If the page exposes a complete account or session response, do not copy the whole response; stop and ask ChongGrok support which single value is required.
 6. Return to grok.com and verify the subscription status. Sign out and back in if the interface has not refreshed.
 
 No account password, email verification code, SMS code or recovery code should be provided. A Grok User ID is not a password, but it is still an account identifier and should only be submitted through the verified recharge flow.
+
+xAI's current consumer FAQ documents account, billing and support routes, but it does not publish a permanent public endpoint for retrieving a Grok User ID. This guide therefore follows the live ChongGrok verification instructions instead of presenting an internal address as an official xAI procedure.
 
 ## Grok 4.5 availability
 
@@ -46,5 +48,6 @@ Check the model picker in your own account and the [official Grok 4.5 announceme
 - [Charged but still showing Free](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-paid-but-still-free/)
 - [Grok Build login and 403 troubleshooting](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-build-login-403/)
 - [Grok 4.5 update](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-4-5-update/)
+- [xAI consumer Grok FAQ](https://docs.x.ai/grok/faq)
 
 **Keywords:** `SuperGrok China`, `Grok recharge China`, `Grok User ID`, `Grok payment failed`, `SuperGrok still Free`, `Grok Build 403`, `Grok 4.5`, `chonggrok.com`.

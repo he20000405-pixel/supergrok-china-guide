@@ -31,7 +31,7 @@ faq:
 | 检查项 | 正确状态 |
 |---|---|
 | 账号 | 可以正常登录 grok.com，确认是要升级的账号 |
-| User ID | 能在 `grok.com/api/auth/session` 找到完整 `userId` |
+| User ID | 能按照当前核销页说明确认本次需要提交的 Grok User ID |
 | 套餐 | 已按当前用途选择主站实时展示的订阅周期 |
 | 安全 | 不准备提交密码、邮箱验证码或恢复码 |
 | 记录 | 能保存订单号、卡密、付款时间和核销状态 |
@@ -64,9 +64,9 @@ faq:
 
 ## 第四步：提交 Grok User ID
 
-登录目标 Grok 账号，在同一浏览器打开 `https://grok.com/api/auth/session`，复制 `userId` 字段的完整 UUID。它不是邮箱、昵称、X 用户名或 `xUserId`。
+先登录目标 Grok 账号，再按照核销页当前显示的说明确认 Grok User ID。只提交页面明确要求的账号标识，不要用邮箱、昵称、X 用户名、密码、验证码或恢复码代替。
 
-不要把整个 session 页面公开给他人；只复制流程明确要求的 `userId`。详细核对见 [Grok User ID 查找指南]({{ '/guides/grok-user-id/' | relative_url }})。
+如果说明与本文不一致，或者页面显示了完整的账号或会话内容，应停止操作，不要复制整页内容，并通过 [SuperGrok 服务页](https://chonggrok.com/supergrok)联系售后确认当前只需要提交哪一个值。详细核对见 [Grok User ID 查找指南]({{ '/guides/grok-user-id/' | relative_url }})。
 
 ## 第五步：确认账号并提交充值
 

@@ -123,7 +123,7 @@ Grok User ID 是用于定位账号的标识，不是登录密码，不能单独�
 
 <div class="resource-grid">
   <section class="resource-card"><span class="resource-icon" aria-hidden="true">01</span><h3><a href="{{ site.portal_url }}resources/ai-membership-safety-checklist/">AI 会员订阅安全清单</a></h3><p>付款前检查账号和套餐，付款后回官方页面验收，并只提交最小必要资料。</p></section>
-  <section class="resource-card"><span class="resource-icon" aria-hidden="true">02</span><h3><a href="{{ site.portal_url }}resources/ai-subscription-payment-troubleshooting/">AI 订阅付款排障决策树</a></h3><p>区分预授权、最终扣款、有效订阅和账号权益，找到正确的处理方。</p></section>
+  <section class="resource-card"><span class="resource-icon" aria-hidden="true">02</span><h3><a href="{{ site.portal_url }}resources/ai-subscription-payment-troubleshooting/">AI 订阅付款排障决策树</a></h3><p>区分银行仍在处理、平台已经收款、订阅是否有效，以及当前账号是否显示会员。</p></section>
 </div>
 
 ## 服务边界与风险说明

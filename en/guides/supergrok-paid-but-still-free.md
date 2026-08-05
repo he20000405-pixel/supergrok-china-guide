@@ -1,11 +1,11 @@
 ---
 title: "SuperGrok Paid but Still Free: Account and Billing Checks"
-description: "If SuperGrok was charged but Grok still shows Free or Upgrade, check the receipt, billing route, original account, Apple Hide My Email, weekly limit and entitlement before paying again."
+description: "If SuperGrok was charged but Grok still shows Free or Upgrade, check the receipt, billing route, original account, Apple Hide My Email, weekly limit and paid plan on the account before paying again."
 permalink: /en/guides/supergrok-paid-but-still-free/
 lang: en
 schema_type: Article
 date_published: 2026-07-24
-last_modified_at: 2026-07-24
+last_modified_at: 2026-08-05
 breadcrumbs:
   - name: "Home"
     url: /
@@ -15,9 +15,9 @@ breadcrumbs:
     url: /en/guides/supergrok-paid-but-still-free/
 faq:
   - question: "Why does Grok still show Free after I paid for SuperGrok?"
-    answer: "The payment, active subscription and account entitlement are separate states. The purchase may be pending, attached to another login, associated with Apple Hide My Email or X, or active while a weekly usage limit has been reached."
+    answer: "The payment, active subscription and paid plan shown on the current account are separate states. The purchase may be pending, attached to another login, associated with Apple Hide My Email or X, or active while a weekly usage limit has been reached."
   - question: "Should I buy SuperGrok again if the first payment was charged?"
-    answer: "No. Check the original billing channel and account first. A second purchase can create duplicate subscriptions or charges without attaching the first entitlement to the account you are using."
+    answer: "No. Check the original billing channel and account first. A second purchase can create duplicate subscriptions or charges without making the first paid plan appear on the account you are using."
   - question: "Can a weekly usage limit make an active SuperGrok account show an upgrade prompt?"
     answer: "An active subscription can temporarily lose access to some paid usage after a weekly limit is reached. Check Settings and Usage before treating the prompt as an inactive subscription."
   - question: "What should I check for a ChongGrok card-key order?"
@@ -26,7 +26,7 @@ faq:
 
 # SuperGrok Was Charged but Still Shows Free: Account, Billing Route and Entitlement Checks
 
-**Short answer:** do not pay again. A bank charge, store receipt, active subscription and Grok entitlement are separate states, so first identify the original purchase route and the exact account that owns it.
+**Short answer:** do not pay again. A bank charge, store receipt, active subscription and paid plan shown in Grok are separate states, so first identify the original purchase route and the exact account that owns it.
 
 If the plan is active but a feature is unavailable, also check the weekly usage limit. A usage cap and a missing subscription are not the same problem.
 
@@ -34,10 +34,10 @@ If the plan is active but a feature is unavailable, also check the weekly usage 
 
 | State | What it proves | What it does not prove |
 |---|---|---|
-| Bank authorization or pending charge | The bank reserved or reviewed funds | That the payment was finally captured |
+| Bank shows `pending` | The bank recorded the payment request, but has not confirmed a final payment to the provider | That the purchase completed |
 | Final receipt | The provider recorded a completed purchase | That the current login is the purchasing account |
 | Active subscription | The billing provider considers the plan active | That every feature has remaining usage |
-| Account entitlement | The current Grok identity received the paid plan | That another Apple, Google or X login owns the same plan |
+| Paid plan on the account | The current Grok identity shows the paid plan | That another Apple, Google or X login owns the same plan |
 
 ## 1. Find the original billing route
 
@@ -53,6 +53,8 @@ Check only the platform that processed the purchase:
 
 If you cannot identify the route, search the receipt issuer and transaction description before changing accounts or paying again.
 
+**Expected result:** one billing route shows the order and its final state. If the only evidence is a pending bank record, wait for the final outcome and do not continue to account troubleshooting yet.
+
 ## 2. Verify the original account and sign-in method
 
 The xAI consumer FAQ states that subscriptions are tied to the account used to buy them. Confirm:
@@ -63,6 +65,8 @@ The xAI consumer FAQ states that subscriptions are tied to the account used to b
 4. whether the active subscription appears inside that exact account.
 
 Similar display names do not establish that two sessions are the same account.
+
+**Expected result:** the account that owns the receipt is the account currently open in Grok. If it is not, return to the original sign-in method before refreshing or reinstalling anything.
 
 ## 3. Check Apple Hide My Email
 
@@ -83,6 +87,8 @@ An account can have an active paid subscription while some paid usage is tempora
 
 Check the current usage screen and reset information. Do not purchase another membership to bypass a weekly usage limit.
 
+If Billing shows an active plan and Usage shows a reached limit, the subscription is working; wait for the reset shown on that account. If Billing shows no plan, continue with account and purchase checks instead.
+
 ## 5. Refresh the app or browser state
 
 After confirming the correct account and active subscription:
@@ -94,6 +100,8 @@ After confirming the correct account and active subscription:
 5. reinstall the app only after recording the account and purchase evidence.
 
 These actions can refresh local state, but they cannot transfer a subscription between accounts.
+
+The expected result is that the same account now shows the active plan. If it remains Free after one clean sign-in, stop repeating refresh steps and contact the provider that owns the completed receipt.
 
 ## 6. Check a ChongGrok order without repurchasing
 
@@ -109,11 +117,19 @@ A Grok User ID is an account identifier, not a password, but it is sensitive and
 
 Only after confirming that no active, completed or pending purchase exists should current options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok) be considered.
 
+## Completion checklist
+
+- The original billing route and final order state are known.
+- The current Grok login matches the purchasing account and sign-in method.
+- An active plan has been distinguished from a reached weekly usage limit.
+- The correct provider has received the redacted receipt and account evidence when paid access is still missing.
+- No second purchase was created while the first charge or order remained unresolved.
+
 ## Who should handle the problem?
 
 | Evidence | Contact |
 |---|---|
-| Direct grok.com receipt but entitlement is missing | xAI consumer support |
+| Direct grok.com receipt but the correct account still lacks the paid plan | xAI consumer support |
 | Apple receipt or App Store subscription issue | Apple |
 | Google Play receipt or Play subscription issue | Google Play |
 | X Premium+ billing or linked X account issue | X |
