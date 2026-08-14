@@ -34,6 +34,8 @@ item_list:
     url: /guides/grok-automations/
   - name: SuperGrok 取消订阅与退款
     url: /guides/supergrok-cancel-refund/
+  - name: Grok 实时搜索与来源核验
+    url: /guides/grok-real-time-search-verification/
   - name: Grok User ID / UUID English Guide
     url: /en/guides/grok-user-id/
   - name: Grok Build 403 English Guide
@@ -64,6 +66,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/supergrok-renewal-failed/' | relative_url }}"><span class="catalog-number">10</span><span class="catalog-copy"><strong>SuperGrok 续费失败排查</strong><p>回到 grok.com、Apple、Google Play 或 X Premium+ 原购买平台处理。</p><span class="catalog-meta">约 10 分钟 · 完成目标：找到原购买平台并恢复或结束续费</span></span><span class="intent-label">高意向 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-automations/' | relative_url }}"><span class="catalog-number">11</span><span class="catalog-copy"><strong>Grok Automations 使用教程</strong><p>创建和测试定时任务，并理解邮件触发器与 SuperGrok 的套餐边界。</p><span class="catalog-meta">约 10 分钟 · 完成目标：建立并验证第一项自动化任务</span></span><span class="intent-label">教程 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/supergrok-cancel-refund/' | relative_url }}"><span class="catalog-number">12</span><span class="catalog-copy"><strong>取消订阅、退款与更换付款方式</strong><p>按 grok.com、Apple、Google Play 或 X 原购买渠道处理。</p><span class="catalog-meta">约 10 分钟 · 完成目标：停止续费并找到正确退款责任方</span></span><span class="intent-label">订阅管理 / 搜索</span></a>
+  <a class="catalog-item" href="{{ '/guides/grok-real-time-search-verification/' | relative_url }}"><span class="catalog-number">13</span><span class="catalog-copy"><strong>Grok 实时搜索与来源核验</strong><p>搜索网页和 X，并按发布者、日期、原文与多方证据检查回答。</p><span class="catalog-meta">约 12 分钟 · 完成目标：把实时搜索结果变成可复查的证据</span></span><span class="intent-label">教程 / GEO</span></a>
 </div>
 
 ## English troubleshooting guides
