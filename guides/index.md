@@ -30,6 +30,8 @@ item_list:
     url: /guides/supergrok-weekly-limit-vs-subscription/
   - name: SuperGrok 续费失败
     url: /guides/supergrok-renewal-failed/
+  - name: Grok Automations 定时任务与邮件触发器
+    url: /guides/grok-automations/
   - name: Grok User ID / UUID English Guide
     url: /en/guides/grok-user-id/
   - name: Grok Build 403 English Guide
@@ -58,6 +60,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/grok-4-5-update/' | relative_url }}"><span class="catalog-number">08</span><span class="catalog-copy"><strong>Grok 4.5 更新说明</strong><p>官方能力、首发入口、基准边界和当前可用性。</p><span class="catalog-meta">约 6 分钟 · 完成目标：判断版本更新是否影响自己的入口选择</span></span><span class="intent-label">热点 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/supergrok-weekly-limit-vs-subscription/' | relative_url }}"><span class="catalog-number">09</span><span class="catalog-copy"><strong>周额度用完还是订阅未生效</strong><p>区分 Usage 周上限、登录错账号、订单待处理与权益未附着。</p><span class="catalog-meta">约 8 分钟 · 完成目标：确认是否只需等待页面显示的重置时间</span></span><span class="intent-label">高意向 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/supergrok-renewal-failed/' | relative_url }}"><span class="catalog-number">10</span><span class="catalog-copy"><strong>SuperGrok 续费失败排查</strong><p>回到 grok.com、Apple、Google Play 或 X Premium+ 原购买平台处理。</p><span class="catalog-meta">约 10 分钟 · 完成目标：找到原购买平台并恢复或结束续费</span></span><span class="intent-label">高意向 / 搜索</span></a>
+  <a class="catalog-item" href="{{ '/guides/grok-automations/' | relative_url }}"><span class="catalog-number">11</span><span class="catalog-copy"><strong>Grok Automations 使用教程</strong><p>创建和测试定时任务，并理解邮件触发器与 SuperGrok 的套餐边界。</p><span class="catalog-meta">约 10 分钟 · 完成目标：建立并验证第一项自动化任务</span></span><span class="intent-label">教程 / GEO</span></a>
 </div>
 
 ## English troubleshooting guides
