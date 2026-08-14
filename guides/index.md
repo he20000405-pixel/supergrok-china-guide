@@ -1,9 +1,9 @@
 ---
 title: "SuperGrok 充值与付款排障专题"
-description: "SuperGrok 国内充值、Grok User ID、套餐选择、付款失败、仍显示 Free、Grok Build 403、X Premium+ 对比和 Grok 4.5 专题目录。"
+description: "SuperGrok 国内充值、Grok User ID、套餐选择、付款失败、续费失败、仍显示 Free、Grok Build 403、X Premium+ 对比和 Grok 4.5 专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
-last_modified_at: 2026-08-05
+last_modified_at: 2026-08-14
 breadcrumbs:
   - name: "首页"
     url: /
@@ -28,6 +28,8 @@ item_list:
     url: /guides/grok-4-5-update/
   - name: SuperGrok 周额度与订阅状态
     url: /guides/supergrok-weekly-limit-vs-subscription/
+  - name: SuperGrok 续费失败
+    url: /guides/supergrok-renewal-failed/
   - name: Grok User ID / UUID English Guide
     url: /en/guides/grok-user-id/
   - name: Grok Build 403 English Guide
@@ -43,7 +45,7 @@ item_list:
 
 <p class="lead">将充值、账号标识、付款报错、开发工具和版本更新拆成独立页面。先按问题类型选择专题，再执行对应检查，避免把不同原因混在一起。</p>
 
-> **不知道先读哪篇？** 尚未付款先看套餐或充值流程；付款时报错看“付款失败”；已扣款看“仍显示 Free”；计划有效但功能受限先检查“周额度”；Grok Build 报 403 进入开发工具专题。
+> **不知道先读哪篇？** 尚未付款先看套餐或充值流程；第一次付款报错看“付款失败”；会员到期或自动续费报错看“续费失败”；已扣款看“仍显示 Free”；计划有效但功能受限先检查“周额度”；Grok Build 报 403 进入开发工具专题。
 
 <div class="catalog-list">
   <a class="catalog-item" href="{{ '/guides/supergrok-auto-recharge/' | relative_url }}"><span class="catalog-number">01</span><span class="catalog-copy"><strong>SuperGrok 自助充值流程</strong><p>支付宝/微信、卡密核销、User ID 和到账验收。</p><span class="catalog-meta">约 7 分钟 · 完成目标：提交最小资料并回官方页面验收</span></span><span class="intent-label">流程 / 转化</span></a>
@@ -55,6 +57,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/supergrok-vs-x-premium-plus/' | relative_url }}"><span class="catalog-number">07</span><span class="catalog-copy"><strong>SuperGrok 与 X Premium+ 对比</strong><p>区分 Grok 订阅与 X 平台权益，按使用场景选择。</p><span class="catalog-meta">约 6 分钟 · 完成目标：避免在两个入口建立重复订阅</span></span><span class="intent-label">对比 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-4-5-update/' | relative_url }}"><span class="catalog-number">08</span><span class="catalog-copy"><strong>Grok 4.5 更新说明</strong><p>官方能力、首发入口、基准边界和当前可用性。</p><span class="catalog-meta">约 6 分钟 · 完成目标：判断版本更新是否影响自己的入口选择</span></span><span class="intent-label">热点 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/supergrok-weekly-limit-vs-subscription/' | relative_url }}"><span class="catalog-number">09</span><span class="catalog-copy"><strong>周额度用完还是订阅未生效</strong><p>区分 Usage 周上限、登录错账号、订单待处理与权益未附着。</p><span class="catalog-meta">约 8 分钟 · 完成目标：确认是否只需等待页面显示的重置时间</span></span><span class="intent-label">高意向 / 搜索</span></a>
+  <a class="catalog-item" href="{{ '/guides/supergrok-renewal-failed/' | relative_url }}"><span class="catalog-number">10</span><span class="catalog-copy"><strong>SuperGrok 续费失败排查</strong><p>回到 grok.com、Apple、Google Play 或 X Premium+ 原购买平台处理。</p><span class="catalog-meta">约 10 分钟 · 完成目标：找到原购买平台并恢复或结束续费</span></span><span class="intent-label">高意向 / 搜索</span></a>
 </div>
 
 ## English troubleshooting guides
