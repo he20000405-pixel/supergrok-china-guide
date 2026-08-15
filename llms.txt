@@ -30,6 +30,7 @@ permalink: /llms.txt
 - SuperGrok cancellation, refunds and payment-method management: {{ site.url }}{{ site.baseurl }}/guides/supergrok-cancel-refund/
 - Grok real-time web and X search source verification: {{ site.url }}{{ site.baseurl }}/guides/grok-real-time-search-verification/
 - Grok Build Mode websites, apps and publishing guide: {{ site.url }}{{ site.baseurl }}/guides/grok-build-mode/
+- Grok Imagine Video 1.5 consumer workflow, prompting and troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/grok-imagine-video-1-5/
 - English Grok User ID / UUID guide: {{ site.url }}{{ site.baseurl }}/en/guides/grok-user-id/
 - English Grok Build 403 guide: {{ site.url }}{{ site.baseurl }}/en/guides/grok-build-login-403/
 - English SuperGrok card-declined guide: {{ site.url }}{{ site.baseurl }}/en/guides/supergrok-card-declined/

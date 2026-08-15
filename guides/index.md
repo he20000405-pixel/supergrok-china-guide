@@ -3,7 +3,7 @@ title: "SuperGrok 充值与付款排障专题"
 description: "SuperGrok 国内充值、Grok User ID、套餐选择、付款失败、续费失败、仍显示 Free、Grok Build 403、X Premium+ 对比和 Grok 4.5 专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
-last_modified_at: 2026-08-14
+last_modified_at: 2026-08-15
 breadcrumbs:
   - name: "首页"
     url: /
@@ -38,6 +38,8 @@ item_list:
     url: /guides/grok-real-time-search-verification/
   - name: Grok Build Mode 创建与发布
     url: /guides/grok-build-mode/
+  - name: Grok Imagine Video 1.5 使用指南
+    url: /guides/grok-imagine-video-1-5/
   - name: Grok User ID / UUID English Guide
     url: /en/guides/grok-user-id/
   - name: Grok Build 403 English Guide
@@ -70,6 +72,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/supergrok-cancel-refund/' | relative_url }}"><span class="catalog-number">12</span><span class="catalog-copy"><strong>取消订阅、退款与更换付款方式</strong><p>按 grok.com、Apple、Google Play 或 X 原购买渠道处理。</p><span class="catalog-meta">约 10 分钟 · 完成目标：停止续费并找到正确退款责任方</span></span><span class="intent-label">订阅管理 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-real-time-search-verification/' | relative_url }}"><span class="catalog-number">13</span><span class="catalog-copy"><strong>Grok 实时搜索与来源核验</strong><p>搜索网页和 X，并按发布者、日期、原文与多方证据检查回答。</p><span class="catalog-meta">约 12 分钟 · 完成目标：把实时搜索结果变成可复查的证据</span></span><span class="intent-label">教程 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-build-mode/' | relative_url }}"><span class="catalog-number">14</span><span class="catalog-copy"><strong>Grok Build Mode 使用指南</strong><p>从模式选择器创建网站、应用或游戏，检查预览并发布 grok.me 链接。</p><span class="catalog-meta">约 12 分钟 · 完成目标：完成第一个可检查、可分享的 Build Mode 项目</span></span><span class="intent-label">热点 / 教程</span></a>
+  <a class="catalog-item" href="{{ '/guides/grok-imagine-video-1-5/' | relative_url }}"><span class="catalog-number">15</span><span class="catalog-copy"><strong>Grok Imagine Video 1.5 使用指南</strong><p>从图片、动作、镜头和声音提示开始，生成并验收第一段短视频。</p><span class="catalog-meta">约 14 分钟 · 完成目标：完成一次图生视频并判断失败原因</span></span><span class="intent-label">热点 / 教程</span></a>
 </div>
 
 ## English troubleshooting guides
