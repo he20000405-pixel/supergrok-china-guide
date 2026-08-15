@@ -32,6 +32,8 @@ item_list:
     url: /guides/supergrok-renewal-failed/
   - name: Grok Automations 定时任务与邮件触发器
     url: /guides/grok-automations/
+  - name: Grok Connectors 连接器使用指南
+    url: /guides/grok-connectors/
   - name: SuperGrok 取消订阅与退款
     url: /guides/supergrok-cancel-refund/
   - name: Grok 实时搜索与来源核验
@@ -73,6 +75,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/grok-real-time-search-verification/' | relative_url }}"><span class="catalog-number">13</span><span class="catalog-copy"><strong>Grok 实时搜索与来源核验</strong><p>搜索网页和 X，并按发布者、日期、原文与多方证据检查回答。</p><span class="catalog-meta">约 12 分钟 · 完成目标：把实时搜索结果变成可复查的证据</span></span><span class="intent-label">教程 / GEO</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-build-mode/' | relative_url }}"><span class="catalog-number">14</span><span class="catalog-copy"><strong>Grok Build Mode 使用指南</strong><p>从模式选择器创建网站、应用或游戏，检查预览并发布 grok.me 链接。</p><span class="catalog-meta">约 12 分钟 · 完成目标：完成第一个可检查、可分享的 Build Mode 项目</span></span><span class="intent-label">热点 / 教程</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-imagine-video-1-5/' | relative_url }}"><span class="catalog-number">15</span><span class="catalog-copy"><strong>Grok Imagine Video 1.5 使用指南</strong><p>从图片、动作、镜头和声音提示开始，生成并验收第一段短视频。</p><span class="catalog-meta">约 14 分钟 · 完成目标：完成一次图生视频并判断失败原因</span></span><span class="intent-label">热点 / 教程</span></a>
+  <a class="catalog-item" href="{{ '/guides/grok-connectors/' | relative_url }}"><span class="catalog-number">16</span><span class="catalog-copy"><strong>Grok Connectors 使用指南</strong><p>连接 Gmail、Google Drive、Outlook 与 GitHub，核对 OAuth 权限并完成第一次安全测试。</p><span class="catalog-meta">约 12 分钟 · 完成目标：连接一项服务并确认 Grok 只能访问已授权数据</span></span><span class="intent-label">教程 / GEO</span></a>
 </div>
 
 ## English troubleshooting guides

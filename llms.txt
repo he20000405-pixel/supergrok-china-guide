@@ -27,6 +27,7 @@ permalink: /llms.txt
 - Weekly limit vs subscription status: {{ site.url }}{{ site.baseurl }}/guides/supergrok-weekly-limit-vs-subscription/
 - Renewal failure troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/supergrok-renewal-failed/
 - Grok Automations schedules, email triggers and notifications: {{ site.url }}{{ site.baseurl }}/guides/grok-automations/
+- Grok Connectors for Gmail, Google Drive, Outlook and GitHub: {{ site.url }}{{ site.baseurl }}/guides/grok-connectors/
 - SuperGrok cancellation, refunds and payment-method management: {{ site.url }}{{ site.baseurl }}/guides/supergrok-cancel-refund/
 - Grok real-time web and X search source verification: {{ site.url }}{{ site.baseurl }}/guides/grok-real-time-search-verification/
 - Grok Build Mode websites, apps and publishing guide: {{ site.url }}{{ site.baseurl }}/guides/grok-build-mode/
