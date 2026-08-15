@@ -42,6 +42,8 @@ item_list:
     url: /guides/grok-build-mode/
   - name: Grok Imagine Video 1.5 使用指南
     url: /guides/grok-imagine-video-1-5/
+  - name: Grok Google Workspace 使用指南
+    url: /guides/grok-google-workspace/
   - name: Grok User ID / UUID English Guide
     url: /en/guides/grok-user-id/
   - name: Grok Build 403 English Guide
@@ -76,6 +78,7 @@ item_list:
   <a class="catalog-item" href="{{ '/guides/grok-build-mode/' | relative_url }}"><span class="catalog-number">14</span><span class="catalog-copy"><strong>Grok Build Mode 使用指南</strong><p>从模式选择器创建网站、应用或游戏，检查预览并发布 grok.me 链接。</p><span class="catalog-meta">约 12 分钟 · 完成目标：完成第一个可检查、可分享的 Build Mode 项目</span></span><span class="intent-label">热点 / 教程</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-imagine-video-1-5/' | relative_url }}"><span class="catalog-number">15</span><span class="catalog-copy"><strong>Grok Imagine Video 1.5 使用指南</strong><p>从图片、动作、镜头和声音提示开始，生成并验收第一段短视频。</p><span class="catalog-meta">约 14 分钟 · 完成目标：完成一次图生视频并判断失败原因</span></span><span class="intent-label">热点 / 教程</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-connectors/' | relative_url }}"><span class="catalog-number">16</span><span class="catalog-copy"><strong>Grok Connectors 使用指南</strong><p>连接 Gmail、Google Drive、Outlook 与 GitHub，核对 OAuth 权限并完成第一次安全测试。</p><span class="catalog-meta">约 12 分钟 · 完成目标：连接一项服务并确认 Grok 只能访问已授权数据</span></span><span class="intent-label">教程 / GEO</span></a>
+  <a class="catalog-item" href="{{ '/guides/grok-google-workspace/' | relative_url }}"><span class="catalog-number">17</span><span class="catalog-copy"><strong>Grok Google Workspace 使用指南</strong><p>安装 SpaceXAI 官方插件，在 Google Docs、Sheets 和 Slides 中完成第一次安全测试。</p><span class="catalog-meta">约 14 分钟 · 完成目标：核对权限并在测试文件中验收一次修改</span></span><span class="intent-label">办公 / 教程</span></a>
 </div>
 
 ## English troubleshooting guides
