@@ -33,6 +33,7 @@ permalink: /llms.txt
 - Grok Build Mode websites, apps and publishing guide: {{ site.url }}{{ site.baseurl }}/guides/grok-build-mode/
 - Grok Imagine Video 1.5 consumer workflow, prompting and troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/grok-imagine-video-1-5/
 - Grok for Google Workspace installation, permissions and first safe test in Docs, Sheets and Slides: {{ site.url }}{{ site.baseurl }}/guides/grok-google-workspace/
+- Grok for Microsoft 365 installation, permissions and first safe test in Word, Excel, PowerPoint and Outlook: {{ site.url }}{{ site.baseurl }}/guides/grok-microsoft-365/
 - English Grok User ID / UUID guide: {{ site.url }}{{ site.baseurl }}/en/guides/grok-user-id/
 - English Grok Build 403 guide: {{ site.url }}{{ site.baseurl }}/en/guides/grok-build-login-403/
 - English SuperGrok card-declined guide: {{ site.url }}{{ site.baseurl }}/en/guides/supergrok-card-declined/
