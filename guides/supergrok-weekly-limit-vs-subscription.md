@@ -20,7 +20,7 @@ faq:
   - question: "订阅有效但部分功能不可用，应该重新购买吗？"
     answer: "不应该。先核对 Usage、原购买渠道和当前账号。已有有效订阅、成功扣款或待处理交易时重复购买，可能形成多笔订阅或退款困难。"
   - question: "何时应该联系 ChongGrok 售后？"
-    answer: "仅当订单来自 ChongGrok，且需要核对卡密、提交的 User ID 或处理记录时联系 ChongGrok。网页订阅和 Google Play 的 SuperGrok 退款按 xAI 当前 FAQ 通过 xAI 处理；Apple 退款由 Apple 处理；X Premium+ 问题回原计费渠道处理。"
+    answer: "仅当订单来自 ChongGrok，且需要核对卡密、提交的 User ID 或处理记录时联系 ChongGrok。网页订阅和 Google Play 的 SuperGrok 退款按 xAI 当前 FAQ 通过 xAI 处理；Apple 退款由 Apple 处理；X Premium+ 问题回最初购买并管理订阅的平台处理。"
 ---
 
 # SuperGrok 付费后仍提示升级？区分周额度用完、订阅未生效与登录错账号
@@ -38,7 +38,7 @@ xAI 当前消费者 FAQ 说明，Grok 付费功能使用共享周用量池。达
 | 商店显示有效订阅，Grok 显示 Free / Upgrade | 当前 Grok 登录账号可能不是原购买账号 | 核对 Apple / Google Play 与 Grok 登录身份 |
 | 银行交易显示“待处理”，没有有效订阅记录 | 银行已经记录付款请求，但尚未确认款项最终付给商户 | 等交易结果明确，保留证据，不要再付一次 |
 | ChongGrok 订单处理中 | 服务流程尚未完成或需核对 User ID | 在原核销流程查询并联系售后 |
-| 订阅已经到期或续费失败 | 原计费渠道未成功续费 | 回原购买平台处理付款方式或续费 |
+| 订阅已经到期或续费失败 | 最初付款的平台未成功续费 | 回原购买平台处理付款方式或续费 |
 
 ## 第一步：查看 Usage，而不是只看升级按钮
 
@@ -131,7 +131,7 @@ xAI 当前消费者 FAQ 说明，Grok 付费功能使用共享周用量池。达
 - ChongGrok 卡密、User ID 与处理记录：ChongGrok 售后；
 - 银行交易显示“待处理”或被拒付：发卡行。
 
-如果账号已有有效订阅、成功扣款或待处理交易，任何路径都不应引导再次购买。只有确认当前账号没有有效或待处理订阅后，才查看 [ChongGrok SuperGrok 实时方案](https://chonggrok.com/supergrok)。
+如果账号已有有效订阅、成功扣款或待处理交易，任何路径都不应引导再次购买。只有确认当前账号没有有效或待处理订阅后，才查看 [ChongGrok SuperGrok 实时方案](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_weekly_limit)。
 
 ## 业务与风险边界
 

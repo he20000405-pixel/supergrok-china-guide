@@ -4,7 +4,7 @@ description: "Grok Imagine Video 1.5 中文教程：从 grok.com/imagine 或 Gro
 permalink: /guides/grok-imagine-video-1-5/
 schema_type: Article
 date_published: 2026-08-15
-last_modified_at: 2026-08-15
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "首页"
     url: /
@@ -22,7 +22,7 @@ faq:
   - question: "Grok 视频上的水印可以关闭吗？"
     answer: "不能。xAI Consumer FAQ 明确说明，Grok 生成的图片和视频会带有水印，当前没有关闭设置，也不应删除、遮挡或修改水印和其他来源标识。"
   - question: "已经付费，但 Imagine 仍不能生成视频怎么办？"
-    answer: "先确认当前登录的是原购买账号，并回原计费渠道核对订阅是否有效。然后打开 Settings → Usage 检查周用量和重置时间。如果订阅有效但周用量已满，应按页面显示的重置时间或官方选项处理；如果账号显示 Free 或权益没有附着，则转入订阅状态排查，不要再次购买。"
+    answer: "先确认当前登录的是原购买账号，再回到最初付款的平台核对订阅是否有效。然后打开 Settings → Usage 检查周用量和重置时间。如果订阅有效但周用量已满，应按页面显示的重置时间或官方选项处理；如果账号显示 Free，或会员权益没有显示在当前登录账号上，则转入订阅状态排查，不要再次购买。"
 ---
 
 # Grok Imagine Video 1.5 怎么用？图片生成视频、提示词与失败排查
@@ -58,7 +58,7 @@ xAI 的同一篇发布说明同时提到了 Grok 消费者产品和 Imagine API�
 
 ### 2. 分别检查订阅状态和周用量
 
-先回到原计费渠道确认订阅状态。网页订阅可打开 Grok 的 `Settings → Billing`；Apple 或 Google Play 订阅应在原商店账号的订阅列表中核对。确认订阅仍然有效后，再打开 `Settings → Usage`，记录以下信息：
+先回到最初付款的平台确认订阅状态。网页订阅可打开 Grok 的 `Settings → Billing`；Apple 或 Google Play 订阅应在原商店账号的订阅列表中核对。确认订阅仍然有效后，再打开 `Settings → Usage`，记录以下信息：
 
 - 周用量已经使用多少；
 - Imagine 占用了多少用量；
@@ -190,7 +190,7 @@ xAI 在 Video 1.5 发布时宣布了三项消费者工作流功能：
 
 xAI 套餐页把图片和视频生成列为 Grok 的消费者能力，并说明付费计划会提高各项产品的使用上限。官方 Video 1.5 发布页没有把网页和 App 的消费者入口统一限定为单一套餐，因此不要仅根据第三方文章判断自己必须购买哪一档。
 
-先在当前账号检查 Imagine 入口，并回原计费渠道核对订阅状态，再查看 `Settings → Usage`。只有在账号**没有有效订阅、没有待处理交易，也没有已经完成的扣款**时，才可以前往 [ChongGrok SuperGrok 页面](https://chonggrok.com/supergrok)查看实时方案，并在付款前向客服确认当前方案能否满足所需的 Imagine 用量和清晰度。
+先在当前账号检查 Imagine 入口，并回到最初付款的平台核对订阅状态，再查看 `Settings → Usage`。只有在账号**没有有效订阅、没有待处理交易，也没有已经完成的扣款**时，才可以前往 [ChongGrok SuperGrok 页面](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_imagine_video)查看实时方案，并在付款前向客服确认当前方案能否满足所需的 Imagine 用量和清晰度。
 
 已有有效订阅、待处理交易或扣款记录时，应先处理原账号的用量或权益问题，不要再次购买。
 

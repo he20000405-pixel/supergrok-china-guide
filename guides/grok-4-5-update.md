@@ -3,7 +3,7 @@ title: "Grok 4.5 正式发布：更新内容、首发入口与 SuperGrok 可用�
 description: "xAI 于 2026 年 7 月 16 日发布 Grok 4.5。本文整理官方确认的编程、智能体和知识工作能力，并说明 SuperGrok 是否可用的事实边界。"
 permalink: /guides/grok-4-5-update/
 date_published: 2026-07-16
-last_modified_at: 2026-08-05
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "首页"
     url: /
@@ -67,13 +67,15 @@ xAI 于 **2026 年 7 月 16 日**发布 Grok 4.5。对普通用户最重要的�
 
 如果你本来就持续使用 Grok 做写作、检索、分析或编程辅助，SuperGrok 的价值应根据当前账号实际权益判断，而不是只为了追一个新版本名称。若账号模型列表没有出现 Grok 4.5，应先检查当前登录账号、套餐权益和官方可用入口，不要把第三方承诺当作官方可用性证明。
 
-没有稳定境外支付方式时，可查看 [chonggrok.com SuperGrok 充值页](https://chonggrok.com/supergrok)。该服务使用支付宝/微信付款，只提交自己的 Grok User ID，不需要密码；但它解决的是会员订阅付款问题，**不承诺某个模型必然已向你的账号开放**。
+没有稳定境外支付方式时，可查看 [chonggrok.com SuperGrok 充值页](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_4_5_update)。该服务使用支付宝/微信付款，只提交自己的 Grok User ID，不需要密码；但它解决的是会员订阅付款问题，**不承诺某个模型必然已向你的账号开放**。
 
 ## 本文不讨论 API 充值
 
 Grok 4.5 官方发布内容包含开发者入口，但本仓库只服务于 Grok / SuperGrok 会员订阅信息，不提供 API 额度、开发者控制台充值、成品号、接码或批量注册建议。
 
-## 信息来源
+## 官方来源与核验日期
+
+**事实核验日期：2026 年 8 月 17 日。** 模型入口、套餐和可用范围可能继续调整，使用前应同时查看官方页面和当前账号内的实时显示。
 
 - [xAI: Grok 4.5（2026-07-16）](https://x.ai/news/grok-4-5)
 - [xAI News](https://x.ai/news?category=all)

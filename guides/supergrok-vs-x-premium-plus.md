@@ -3,7 +3,7 @@ title: "SuperGrok 和 X Premium+ 有什么区别：国内用户选择指南"
 description: "SuperGrok vs X Premium+ 对比：按 grok.com 使用、X 平台权益、订阅入口和验收方式选择，具体权益以官方实时页面为准。"
 permalink: /guides/supergrok-vs-x-premium-plus/
 date_published: 2026-07-11
-last_modified_at: 2026-08-05
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "首页"
     url: /
@@ -54,7 +54,7 @@ faq:
 2. 如果每天使用 X 发布、浏览或运营内容，并且 X 平台会员权益本身有价值，再核对 X Premium+。
 3. 如果两个目标都存在，先比较当前账号已经拥有的订阅和实际使用频率，不要仅凭套餐名称决定。
 
-**选择完成的标志：** 你能明确说出主要使用入口是 Grok 还是 X，以及准备保留哪一个计费渠道。无法确定时先不要切换。
+**选择完成的标志：** 你能明确说出主要使用入口是 Grok 还是 X，以及准备保留哪一个最初付款并管理订阅的平台。无法确定时先不要切换。
 
 ## X Premium+ 权益没有同步到 Grok 怎么办
 
@@ -80,10 +80,18 @@ xAI 官方说明，可以在 Grok 打开 `Settings → Account`，选择 `Connec
 3. 当前账号已经有哪些订阅，避免重复购买；
 4. 付款、取消和退款由哪个平台处理。
 
-如果确定选择 SuperGrok，可查看 [chonggrok.com SuperGrok 实时套餐](https://chonggrok.com/supergrok)和[自助充值流程]({{ '/guides/supergrok-auto-recharge/' | relative_url }})。
+如果确定选择 SuperGrok，可查看 [chonggrok.com SuperGrok 实时套餐](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_vs_x_premium_plus)和[自助充值流程]({{ '/guides/supergrok-auto-recharge/' | relative_url }})。
 
 主站延伸：[SuperGrok 和 X Premium+ 有什么区别](https://chonggrok.com/blog/supergrok-vs-x-premium-plus)。
 
 续费、扣款或权益状态不一致时，不要跨入口重复订阅；先按[AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)确认实际账单渠道和原购买账号。
+
+## 官方来源与核验日期
+
+**事实核验日期：2026 年 8 月 17 日。** 两项订阅的价格、功能、额度和地区可用性可能变化，购买前应以官方页面和当前账号内显示为准。
+
+- [xAI：Grok Website / Apps FAQ](https://docs.x.ai/grok/faq)
+- [xAI：Grok plans](https://grok.com/plans)
+- [X：Premium FAQ](https://help.x.com/en/using-x/x-premium-faq)
 
 {% include faq.html %}

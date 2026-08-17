@@ -3,7 +3,7 @@ title: "Grok / SuperGrok 付款失败：card declined、3DS 与账单地址排�
 description: "Grok 付款失败排查：Your credit card was declined、unable to authenticate payment、3D Secure、发卡行限制与账单地址。"
 permalink: /guides/supergrok-payment-errors/
 date_published: 2026-07-11
-last_modified_at: 2026-08-05
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "首页"
     url: /
@@ -13,7 +13,7 @@ breadcrumbs:
     url: /guides/supergrok-payment-errors/
 faq:
   - question: "Your credit card was declined 是账号被封了吗？"
-    answer: "通常不能这样判断。它更多指向发卡行、卡片境外订阅权限、余额、卡段或支付风控，应先按支付链路排查。"
+    answer: "通常不能这样判断。它更多指向发卡行、卡片是否支持境外线上订阅、可用额度、账单资料或支付验证，应先按付款流程排查。"
   - question: "unable to authenticate payment 怎么办？"
     answer: "优先检查 3D Secure 或银行验证是否完成、卡片是否支持境外线上订阅，以及账单地址是否与开卡信息一致。"
   - question: "付款失败时应该连续换卡重试吗？"
@@ -38,7 +38,7 @@ Grok 付款报错不等于账号异常。先停止连续重试，保存完整报
 
 | 报错或现象 | 常见方向 | 优先动作 |
 |---|---|---|
-| `Your credit card was declined` | 发卡行拒绝、境外订阅权限、余额、卡段或风控 | 检查卡片能力，避免短时间重复提交 |
+| `Your credit card was declined` | 发卡行拒绝、卡片不支持境外线上订阅、可用额度不足或资料不一致 | 检查卡片与银行限制，避免短时间重复提交 |
 | `unable to authenticate payment` | 3D Secure、银行验证或地区验证失败 | 完成验证，核对银行和账单信息 |
 | `payment failed` | 通用支付失败 | 查看是否有更具体提示，检查入口与卡片 |
 | 已扣款仍显示 Free | 账号不一致、入口混用、同步延迟 | 核对账号并重新登录，不要立刻再买 |
@@ -80,12 +80,21 @@ Grok 付款报错不等于账号异常。先停止连续重试，保存完整报
 
 ## 没有境外卡时的可选路径
 
-只有确认没有成功扣款、有效订阅或待处理订单后，才考虑新的付款路径。[chonggrok.com SuperGrok 充值](https://chonggrok.com/supergrok)支持支付宝/微信付款。用户按当前核销页面提交自己的 Grok User ID，不需要登录密码，账号仍归用户本人。完成后回到 grok.com 验收订阅。
+只有确认没有成功扣款、有效订阅或待处理订单后，才考虑新的付款路径。[chonggrok.com SuperGrok 充值](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_payment_errors)支持支付宝/微信付款。用户按当前核销页面提交自己的 Grok User ID，不需要登录密码，账号仍归用户本人。完成后回到 grok.com 验收订阅。
 
 这是一种省去境外卡支付环节的可选方案，不代表零风险或官方合作。完整步骤见 [SuperGrok 自助充值教程]({{ '/guides/supergrok-auto-recharge/' | relative_url }})。
 
 主站深度排查：[SuperGrok 国内充值失败怎么办](https://chonggrok.com/blog/supergrok-payment-failed-ai-recharge-2026)。
 
 如果尚不能确定问题在银行、应用商店、X、xAI 账号权益还是 ChongGrok 订单，可先使用[跨产品 AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)。
+
+## 官方来源与核验日期
+
+**事实核验日期：2026 年 8 月 17 日。** 不同购买入口由不同平台处理付款，按钮名称和支持流程应以实时页面为准。
+
+- [xAI：Grok Website / Apps FAQ](https://docs.x.ai/grok/faq)
+- [X：Premium FAQ](https://help.x.com/en/using-x/x-premium-faq)
+- [Apple：If your payment method is declined](https://support.apple.com/en-us/108095)
+- [Google Play：Fix payment issues on your account](https://support.google.com/googleplay/answer/1267137)
 
 {% include faq.html %}

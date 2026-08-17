@@ -3,7 +3,7 @@ title: "SuperGrok 1个月、2个月、3个月怎么选：按使用周期选择�
 description: "SuperGrok 套餐选择指南：首次体验、稳定工作流和连续项目分别如何选择 1/2/3 个月，价格以 chonggrok.com 实时页面为准。"
 permalink: /guides/supergrok-plans/
 date_published: 2026-07-11
-last_modified_at: 2026-08-05
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "首页"
     url: /
@@ -20,7 +20,7 @@ faq:
 
 # SuperGrok 1/2/3 个月怎么选
 
-选择套餐时，最重要的不是“哪个看起来最便宜”，而是你能否在订阅周期内持续使用 Grok。当前可选周期和价格请直接查看 [chonggrok.com SuperGrok 充值页](https://chonggrok.com/supergrok)。
+选择套餐时，最重要的不是“哪个看起来最便宜”，而是你能否在订阅周期内持续使用 Grok。当前可选周期和价格请直接查看 [chonggrok.com SuperGrok 充值页](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_plans)。
 
 页面中的 1、2、3 个月是 ChongGrok 当前提供的服务周期，不应当被理解为 xAI 永久固定的官方套餐名称。已经有有效订阅、成功扣款或待处理订单时，先核对原订单，不要为了延长周期再次购买。
 
@@ -83,5 +83,13 @@ faq:
 如果你主要重度使用 X，先阅读 [SuperGrok 与 X Premium+ 对比]({{ '/guides/supergrok-vs-x-premium-plus/' | relative_url }})。如果准备用 Grok Build，先查看 [Grok Build 登录与 403 排查]({{ '/guides/grok-build-login-403/' | relative_url }})，确认问题是否真的与订阅权益有关。如果已确定购买，继续查看 [SuperGrok 自助充值流程]({{ '/guides/supergrok-auto-recharge/' | relative_url }})。
 
 主站延伸：[SuperGrok 套餐怎么选](https://chonggrok.com/blog/supergrok-taocan-zenme-xuan)。
+
+## 官方来源与本站信息核验
+
+**事实核验日期：2026 年 8 月 17 日。** xAI 的计划、权益和计费规则以官方实时页面为准；本文中的 1、2、3 个月是 ChongGrok 产品页当前提供的服务周期，不是 xAI 固定套餐名称。
+
+- [xAI：Grok plans](https://grok.com/plans)
+- [xAI：Grok Website / Apps FAQ](https://docs.x.ai/grok/faq)
+- [ChongGrok：SuperGrok 实时方案](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_plans&utm_content=source)
 
 {% include faq.html %}
