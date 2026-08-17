@@ -4,7 +4,7 @@ description: "SuperGrok 付费后仍提示升级时，区分周额度用完、�
 permalink: /guides/supergrok-weekly-limit-vs-subscription/
 schema_type: Article
 date_published: 2026-07-23
-last_modified_at: 2026-07-23
+last_modified_at: 2026-08-17
 breadcrumbs:
   - name: "首页"
     url: /
@@ -20,7 +20,7 @@ faq:
   - question: "订阅有效但部分功能不可用，应该重新购买吗？"
     answer: "不应该。先核对 Usage、原购买渠道和当前账号。已有有效订阅、成功扣款或待处理交易时重复购买，可能形成多笔订阅或退款困难。"
   - question: "何时应该联系 ChongGrok 售后？"
-    answer: "仅当订单来自 ChongGrok，且需要核对卡密、提交的 User ID 或处理记录时联系 ChongGrok。官网、Apple、Google Play 或 X 的账单与退款应由对应平台处理。"
+    answer: "仅当订单来自 ChongGrok，且需要核对卡密、提交的 User ID 或处理记录时联系 ChongGrok。网页订阅和 Google Play 的 SuperGrok 退款按 xAI 当前 FAQ 通过 xAI 处理；Apple 退款由 Apple 处理；X Premium+ 问题回原计费渠道处理。"
 ---
 
 # SuperGrok 付费后仍提示升级？区分周额度用完、订阅未生效与登录错账号
@@ -47,12 +47,27 @@ xAI 当前消费者 FAQ 说明，Grok 付费功能使用共享周用量池。达
 1. 周用量池已使用比例；
 2. 使用明细；
 3. 页面显示的下一次重置时间；
-4. 当前账号和登录方式；
-5. 是否只有某项付费功能不可用。
+4. Extra Usage Credits 的余额和设置（如果页面提供）；
+5. 当前账号和登录方式；
+6. 是否只有某项付费功能不可用。
 
 周额度规则和具体消耗会变化，本文不写死固定请求次数，也不承诺某个统一重置时刻。应以当前账号 Usage 页面为准。
 
 > 达到周额度后，xAI 说明付费功能会暂停到重置；这不等于订阅被取消，也不代表重新购买就能立即恢复。
+
+### 如果确实是周额度用完
+
+先确认 Billing 仍显示有效计划，并且 Usage 已到上限。确认后按自己的需求选择一种方式，不要重新购买第二份 SuperGrok：
+
+1. **等待重置。**以 Usage 页面显示的日期和时间为准。重置前不要反复退出账号或新增订阅。
+2. **继续使用免费额度。**xAI 当前说明，付费额度用完后仍可在免费层级限制内使用 Chat 和 Voice；实际可用功能以账号页面为准。
+3. **在网页端使用 Extra Usage Credits。**如果 Usage 页面提供该选项，可按页面提示购买额外用量。xAI 当前说明最低购买金额为 5 美元，额外用量按标准费率扣除，未使用余额通常在购买后一年到期，除非页面另有说明。
+4. **设置 Auto Top Up。**如果账号页面提供自动补充，可设置单次补充金额和每月上限。先设置可接受的最高支出，再确认保存。
+5. **长期频繁触顶时再比较更高套餐。**升级前先确认原计划没有待处理交易，并核对新套餐的实时额度与价格。
+
+完成任何付费操作后，回到 `Settings → Usage` 查看余额或用量状态是否已经更新。若银行已扣款但页面没有出现余额，停止再次付款，保存收据并联系 xAI。
+
+> Extra Usage Credits 是 xAI 面向消费者账号提供的额外用量功能。ChongGrok 不销售 API 额度，也不提供 API 充值服务。
 
 ## 第二步：核对订阅是否仍有效
 
@@ -62,7 +77,7 @@ xAI 当前消费者 FAQ 说明，Grok 付费功能使用共享周用量池。达
 |---|---|---|
 | grok.com 网页 | `Settings → Billing` | xAI |
 | iPhone / iPad | Apple ID 的订阅与购买记录 | Apple |
-| Android | Google Play 原购买账号的订阅记录 | Google Play |
+| Android | Google Play 原购买账号的订阅记录 | 取消由 Google Play 管理；SuperGrok 退款按 xAI FAQ 由 xAI 处理 |
 | X Premium+ | X Premium 设置及 Grok 账号连接 | X |
 | ChongGrok | 卡密、核销状态、User ID 和处理记录 | ChongGrok |
 
@@ -110,7 +125,8 @@ xAI 当前消费者 FAQ 说明，Grok 付费功能使用共享周用量池。达
 
 - grok.com 网页订阅、账号权益：xAI 支持；
 - Apple 订单和退款：Apple；
-- Google Play 订单和退款：Google Play；
+- Google Play 订阅状态和取消：Google Play；
+- Google Play 购买的 SuperGrok 退款：按 xAI 当前 FAQ 提交 xAI Refund Request；
 - X Premium+ 订阅：X；
 - ChongGrok 卡密、User ID 与处理记录：ChongGrok 售后；
 - 银行交易显示“待处理”或被拒付：发卡行。
@@ -131,4 +147,4 @@ xAI 当前消费者 FAQ 说明，Grok 付费功能使用共享周用量池。达
 - [xAI Grok Website / Apps FAQ](https://docs.x.ai/grok/faq)
 - [AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)
 
-**核验日期：2026 年 7 月 23 日。**套餐、周额度、功能和支持入口以 xAI、X、Apple、Google Play 的实时页面为准。
+**核验日期：2026 年 8 月 17 日。**套餐、周额度、额外用量、退款规则和支持入口以 xAI、X、Apple、Google Play 的实时页面为准。
