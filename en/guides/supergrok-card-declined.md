@@ -110,7 +110,7 @@ Only consider a different route after all of these are true:
 - the original payment attempt has a final failed status; and
 - you have confirmed which Grok account should receive the membership.
 
-If those conditions are met and an overseas payment method remains unavailable, the current membership-assistance options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok) can be reviewed. The service uses the user's own account and does not request the account password, but account identifiers remain sensitive and no online service is risk-free.
+If those conditions are met and an overseas payment method remains unavailable, the current membership-assistance options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_card_declined&utm_content=en_service_options) can be reviewed. The service uses the user's own account and does not request the account password, but account identifiers remain sensitive and no online service is risk-free.
 
 ## Completion checklist
 
@@ -141,6 +141,8 @@ Do not publish full card numbers, bank codes, User IDs, passwords or recovery in
 - No payment route guarantees approval or a particular account outcome.
 - This guide covers consumer memberships, not API credits or API billing.
 - Ready-made accounts, SMS verification and bulk registration are outside this service.
+
+{% include faq_en.html %}
 
 ## Official references
 

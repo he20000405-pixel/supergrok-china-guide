@@ -45,9 +45,9 @@ This identifier is part of **ChongGrok's fulfillment process**, not an xAI requi
 
 1. Sign in to the **Grok account that should receive the membership**.
 2. Check the profile or account settings and confirm that this is your intended target account. Stop if the wrong account is signed in.
-3. After receiving a ChongGrok card key, open the current [card-key verification page](https://chonggrok.com/verify) and read the User ID instructions shown there.
+3. After receiving a ChongGrok card key, open the current [card-key verification page](https://chonggrok.com/verify?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_user_id&utm_content=en_verify_existing_order) and read the User ID instructions shown there.
 4. Copy only the single account identifier explicitly requested as the Grok User ID.
-5. If the page shows several similar fields or exposes a complete account, session or JSON response, do not copy the whole response. Stop and ask ChongGrok support through the [SuperGrok service page](https://chonggrok.com/supergrok) which one value is required.
+5. If the page shows several similar fields or exposes a complete account, session or JSON response, do not copy the whole response. Stop and ask ChongGrok support through the [SuperGrok service page](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_user_id&utm_content=en_contact_support) which one value is required.
 6. When the verification page identifies the account, confirm that it is your own target account before submitting the recharge.
 
 xAI's current consumer FAQ documents account, billing and support routes, but it does not publish a permanent public endpoint for retrieving a Grok User ID. This guide therefore does not present an internal address as an official xAI procedure.
@@ -85,7 +85,9 @@ Do not guess a value or submit an identifier from another account.
 
 Do not buy again. First verify the original billing channel and account status using the [SuperGrok charged-but-still-Free guide]({{ '/guides/supergrok-paid-but-still-free/' | relative_url }}).
 
-Only after confirming that there is no active or pending subscription should a new membership path be considered. Current service details are available at [chonggrok.com/supergrok](https://chonggrok.com/supergrok).
+Only after confirming that there is no active or pending subscription should a new membership path be considered. Current service details are available at [chonggrok.com/supergrok](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_user_id&utm_content=en_service_options).
+
+{% include faq_en.html %}
 
 ## Official and service references
 

@@ -105,7 +105,7 @@ The expected result is that the same account now shows the active plan. If it re
 
 ## 6. Check a ChongGrok order without repurchasing
 
-For an existing ChongGrok card key or order, use [chonggrok.com/verify](https://chonggrok.com/verify) and confirm:
+For an existing ChongGrok card key or order, use [chonggrok.com/verify](https://chonggrok.com/verify?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_paid_but_still_free&utm_content=en_verify_existing_order) and confirm:
 
 - the card key was accepted;
 - the submitted Grok User ID belongs to the intended account;
@@ -115,7 +115,7 @@ For an existing ChongGrok card key or order, use [chonggrok.com/verify](https://
 
 A Grok User ID is an account identifier, not a password, but it is sensitive and must not be posted publicly. Do not place a second order while the first order or payment remains unresolved.
 
-Only after confirming that no active, completed or pending purchase exists should current options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok) be considered.
+Only after confirming that no active, completed or pending purchase exists should current options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_paid_but_still_free&utm_content=en_repurchase_boundary) be considered.
 
 ## Completion checklist
 
@@ -145,6 +145,8 @@ Keep the account email, login method, platform, redacted receipt, date, currency
 - No online service is risk-free, and no fixed recovery time or account outcome is guaranteed.
 - This guide covers consumer memberships, not API credits or API billing.
 - Ready-made accounts, SMS verification and bulk registration are outside this service.
+
+{% include faq_en.html %}
 
 ## Official references
 

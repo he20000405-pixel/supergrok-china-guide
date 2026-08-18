@@ -142,6 +142,8 @@ xAI 当前消费者 FAQ 说明，Grok 付费功能使用共享周用量池。达
 - 不保证固定恢复时间、固定额度或所有账号结果；
 - 任何线上订阅与第三方协助都不是零风险。
 
+{% include faq.html %}
+
 ## 官方来源
 
 - [xAI Grok Website / Apps FAQ](https://docs.x.ai/grok/faq)

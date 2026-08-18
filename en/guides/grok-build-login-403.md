@@ -132,7 +132,7 @@ If an active or pending charge already exists, do not purchase again. Resolve th
 | Network or callback is blocked | No; use supported device auth or fix the environment |
 | Existing charge but entitlement not attached | Do not repurchase; resolve the existing transaction |
 
-Only after confirming that there is no active or pending subscription should the current membership options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok) be considered.
+Only after confirming that there is no active or pending subscription should the current membership options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_build_403&utm_content=en_service_options) be considered.
 
 ## Completion checklist
 
@@ -150,6 +150,8 @@ Only after confirming that there is no active or pending subscription should the
 - No online service is risk-free, and no specific account outcome is guaranteed.
 - This guide covers membership and Grok Build sign-in boundaries; it does not sell or teach API credits.
 - Ready-made accounts, SMS verification and bulk registration are outside this service.
+
+{% include faq_en.html %}
 
 ## References
 
