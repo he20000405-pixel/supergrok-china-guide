@@ -24,7 +24,7 @@ faq:
   - question: "怎样更换 SuperGrok 的付款方式？"
     answer: "grok.com 网页购买的订阅可在 grok.com/?_s=billing 更新付款方式。Apple、Google Play 或 X Premium+ 购买的订阅，需要回到对应平台管理付款方式。"
   - question: "ChongGrok 订单应该在哪里查询？"
-    answer: "已有卡密或订单时，先在 chonggrok.com/verify 查看核销与处理状态，再通过主站售后核对。不要把 ChongGrok 订单提交到 xAI、Apple、Google Play 或 X 的退款入口。"
+    answer: "已有卡密或订单时，旧版 SuperGrok 在 chonggrok.com/verify-grok、联合会员在 chonggrok.com/verify-x 查询结果，再通过主站售后核对。不要把 ChongGrok 订单提交到 xAI、Apple、Google Play 或 X 的退款入口。"
 ---
 
 # SuperGrok 怎么取消订阅、申请退款或更换付款方式？
@@ -65,7 +65,7 @@ faq:
 | Apple 收据，iPhone 订阅中有 Grok | Apple App Store | iPhone `设置 → Apple 账户 → 订阅` |
 | Google Play 收据，Play 订阅中有 Grok | Google Play | Play 商店 `头像 → 付款和订阅 → 订阅` |
 | X Premium+ 收据 | X 或购买 X Premium+ 的应用商店 | X 或对应商店的订阅管理 |
-| ChongGrok 卡密或订单记录 | ChongGrok | [卡密核销与状态查询](https://chonggrok.com/verify) |
+| ChongGrok 卡密或订单记录 | ChongGrok | [旧版 Grok 查询](https://chonggrok.com/verify-grok) / [联合会员查询](https://chonggrok.com/verify-x) |
 
 如果找不到订阅，先确认登录账号是否与收据一致。Apple“隐藏我的邮箱”、Google 登录、X 登录和普通邮箱登录可能进入不同账号。
 
@@ -176,11 +176,15 @@ X 官方说明，Premium 订阅通常不可退款，法律另有要求或平台�
 
 回到原平台管理付款方式。不要在 grok.com Billing 中修改由 Apple、Google Play 或 X 管理的订单；该页面可能根本不会显示对应订阅。
 
+## 官方转换与普通取消不同
+
+若准备将旧会员转换成 The X Subscription，不要机械照普通取消步骤先取消所有订阅。官方转换对 Cursor、Grok、X 及不同应用商店有不同处理，见[联合会员转换与退款分支]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }})。ChongGrok 不办理旧会员转换。
+
 ## ChongGrok 订单应该怎样处理？
 
-如果你持有 ChongGrok 卡密或订单，不要把该订单提交到 xAI、Apple、Google Play 或 X 的退款入口。
+如果你持有 ChongGrok 卡密或订单，不要把该订单提交到 xAI、Apple、Google Play 或 X 的退款入口。联合会员订单使用 [verify-x](https://chonggrok.com/verify-x) 查询并联系本站售后，不提交 SSO 到客服聊天；以下 User ID 步骤适用于旧版 SuperGrok。
 
-1. 打开 [ChongGrok 卡密核销页面](https://chonggrok.com/verify)；
+1. 打开 [ChongGrok 卡密核销页面](https://chonggrok.com/verify-grok)；
 2. 检查卡密是否已核销以及当前处理状态；
 3. 核对当时提交的 Grok User ID；
 4. 保存订单号、付款记录和处理状态的脱敏截图；
@@ -238,7 +242,7 @@ xAI 当前消费者 FAQ 说明，Google Play 购买的 SuperGrok 在 Google Play
 
 ### 已有 ChongGrok 订单怎么办？
 
-先在 [chonggrok.com/verify](https://chonggrok.com/verify) 检查核销与处理状态，再通过主站售后核对。不要再次购买。
+按订单产品在 [旧版 Grok 查询](https://chonggrok.com/verify-grok)或[联合会员查询](https://chonggrok.com/verify-x)检查处理状态，再通过主站售后核对。不要再次购买。
 
 ## 官方来源
 

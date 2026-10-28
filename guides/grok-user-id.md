@@ -22,15 +22,17 @@ faq:
 
 # Grok User ID 怎么找
 
-**Grok User ID** 是 ChongGrok 在履约时用于确认目标 Grok 账号的标识。它不是邮箱、昵称、X 用户名或密码，也不是 xAI 用户直接购买 SuperGrok 时必须提交的官方材料。
+**Grok User ID** 是 ChongGrok 在旧版 SuperGrok 兑换中用于确认目标账号的标识。它不是邮箱、昵称、X 用户名或密码，也不是 xAI 用户直接购买 SuperGrok 时必须提交的官方材料。
 
 **直接结论：**先确认自己登录的是要升级的 Grok 账号，再按照当前卡密核销页的说明，只提交页面明确要求的 Grok User ID。若页面显示完整账号或会话内容，不要复制整页，也不要猜测字段；停止操作并联系售后确认。
+
+本文用于旧版 [verify-grok](https://chonggrok.com/verify-grok) 流程。联合会员使用 [verify-x](https://chonggrok.com/verify-x)，该页要求的 SSO 是临时登录凭证，不是 User ID；新旧区别见 [联合会员指南]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }})。
 
 ## Grok User ID 获取与核对步骤
 
 1. 打开 [grok.com](https://grok.com)，登录要升级的账号。
 2. 先检查头像、账户设置或订阅页面，确认当前账号确实是自己的目标账号。若登录错账号，先切换正确账号，不要继续核销。
-3. 已购买并取得卡密后，打开 [chonggrok.com 卡密核销页](https://chonggrok.com/verify)，验证卡密并阅读页面当前显示的 User ID 说明。
+3. 已购买并取得卡密后，打开 [chonggrok.com 卡密核销页](https://chonggrok.com/verify-grok)，验证卡密并阅读页面当前显示的 User ID 说明。
 4. 只复制页面明确要求的 Grok User ID。不要用邮箱、昵称、X 用户名、手机号码、密码、验证码或恢复码代替。
 5. 如果页面出现多个相似字段，或显示完整的账号、会话或 JSON 内容，不要复制整页。停止提交，并通过 [SuperGrok 服务页](https://chonggrok.com/supergrok)联系售后确认当前只需要哪一个值。
 6. 核销页识别账号后，再次确认它是自己的目标账号，然后才提交充值。
@@ -62,7 +64,7 @@ User ID 不是密码，也不能单独用于登录账号，但仍属于账号相
 
 - 不要把完整账号、会话或 JSON 内容发布到公开平台；
 - 不向服务方提供密码、验证码或恢复码；
-- 只在已确认的 [核销页面](https://chonggrok.com/verify)提交当前流程明确要求的 Grok User ID；
+- 只在已确认的 [核销页面](https://chonggrok.com/verify-grok)提交当前流程明确要求的 Grok User ID；
 - 发现账号不一致时立即停止，不要尝试多个 User ID。
 
 ## 找不到 User ID 或页面与教程不同怎么办
@@ -70,7 +72,7 @@ User ID 不是密码，也不能单独用于登录账号，但仍属于账号相
 按下面的顺序处理：
 
 1. 回到 grok.com，确认账号可以正常登录，并核对当前登录方式和目标账号。
-2. 重新打开最新的 [卡密核销页](https://chonggrok.com/verify)，不要继续使用旧截图、旧收藏地址或第三方转载步骤。
+2. 重新打开最新的 [卡密核销页](https://chonggrok.com/verify-grok)，不要继续使用旧截图、旧收藏地址或第三方转载步骤。
 3. 如果核销说明已经变化，以当前页面为准。
 4. 如果仍找不到明确的 Grok User ID，或者页面要求的资料超出最小必要范围，立即停止并通过 [SuperGrok 服务页](https://chonggrok.com/supergrok)联系售后。
 
@@ -84,7 +86,7 @@ xAI 当前的消费者 FAQ 说明了账号、账单和支持入口，但没有�
 
 - [xAI Consumer FAQ](https://docs.x.ai/grok/faq)
 - [ChongGrok SuperGrok 服务页](https://chonggrok.com/supergrok)
-- [ChongGrok 卡密核销页](https://chonggrok.com/verify)
+- [ChongGrok 卡密核销页](https://chonggrok.com/verify-grok)
 
 **事实与流程核验日期：2026-08-05。** 产品界面和履约说明可能变化，请以当前页面为准。
 

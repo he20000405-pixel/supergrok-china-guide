@@ -1,97 +1,82 @@
 ---
-title: "SuperGrok 和 X Premium+ 有什么区别：国内用户选择指南"
-description: "SuperGrok vs X Premium+ 对比：按 grok.com 使用、X 平台权益、订阅入口和验收方式选择，具体权益以官方实时页面为准。"
+title: "旧版 SuperGrok、X Premium+ 与 X 联合会员有什么区别"
+description: "说明旧版 SuperGrok、X Premium+ 与 The X Subscription 的关系，区分保留旧权益、Bot 账号关联和不可撤销的官方 Unify 转换。"
 permalink: /guides/supergrok-vs-x-premium-plus/
 date_published: 2026-07-11
-last_modified_at: 2026-08-17
+last_modified_at: 2026-10-28
 breadcrumbs:
   - name: "首页"
     url: /
   - name: "专题"
     url: /guides/
-  - name: "SuperGrok vs X Premium+"
+  - name: "新旧订阅对比"
     url: /guides/supergrok-vs-x-premium-plus/
 faq:
-  - question: "只想使用 Grok 应该选哪个？"
-    answer: "如果主要入口是 grok.com，核心需求是 Grok 本身，通常优先评估 SuperGrok。最终仍应核对账号内实时权益。"
-  - question: "什么人更适合 X Premium+？"
-    answer: "如果 X 是主要平台，并且同时需要 X 的会员、发布、浏览或创作者相关权益，应再评估 X Premium+。"
-  - question: "两个订阅的模型和额度永远一样吗？"
-    answer: "不能这样假设。官方可能调整模型、额度、价格和地区可用性，购买前应查看各自官方页面和账号内展示。"
+  - question: "只想用 Grok，新用户应该买旧版 SuperGrok 吗？"
+    answer: "官方新用户选择 The X Subscription；旧版 SuperGrok 是已有用户需要核对和保留的方案，不能继续把旧套餐作为所有新用户的默认入口。"
+  - question: "绑定旧版 SuperGrok 的 Bot 资格等于转换联合会员吗？"
+    answer: "不等于。旧版绑定只提供 Bot 使用资格，不自动成为 Cursor 订阅或联合会员；官方 Unify 则改变订阅和账单体系，完成后不可撤销。"
+  - question: "已有旧会员必须转换吗？"
+    answer: "不必。官方说明转换自愿，旧套餐可继续保留。应先比较原权益、第三方模型费用、账号和退款渠道，再决定是否转换。"
 ---
 
-# SuperGrok 和 X Premium+ 有什么区别
+# 旧版 SuperGrok、X Premium+ 与 X 联合会员有什么区别
 
-两者都可能涉及 Grok，但购买逻辑不同：**SuperGrok 更偏向 grok.com 的 Grok 使用体验，X Premium+ 属于 X 平台会员体系。**
+旧版 SuperGrok 偏向 Grok 独立订阅，旧版 X Premium+ 属于 X 会员体系；**The X Subscription 则把 Grok、Cursor 与 X 权益放进一个订阅体系，符合条件的 Grok 和 Cursor 使用共享周额度。**
 
-先检查自己是否已经在 grok.com、Apple、Google Play 或 X 购买过订阅。存在有效订阅或待处理交易时，不要为了切换入口立即再买一份。
+这一区别会改变购买判断：官方新用户选择联合会员，已有旧套餐的用户可继续保留。不能再把“只用 Grok 就买 SuperGrok、常用 X 就买 X Premium+”作为所有用户的现行建议。[官方总览](https://docs.x.ai/x-subscription/overview)
 
-## 快速对比
+本页核查于 **2026 年 10 月 28 日**，未进行账号转换或付款实测。
 
-| 判断维度 | SuperGrok | X Premium+ |
-|---|---|---|
-| 主要入口 | grok.com / Grok 相关入口 | X App / X 网页 |
-| 核心目标 | 使用 Grok 完成对话、检索、写作和分析等任务 | X 平台会员权益，并结合 Grok 相关权益 |
-| 更适合 | 主要把 Grok 当 AI 工具的人 | 每天重度使用 X 的用户 |
-| 购买前核对 | Grok 账号内订阅、模型和额度 | X 会员状态及 Grok 权益 |
-| 价格与功能 | 以官方实时页面为准 | 以官方实时页面为准 |
+## 三种名称对应什么
 
-## 只想用 Grok
+| 判断维度 | 旧版 SuperGrok | 旧版 X Premium+ | The X Subscription |
+|---|---|---|---|
+| 核心对象 | Grok 独立订阅及原有权益 | X 会员及相关 Grok 权益 | Grok、Cursor、X 的联合订阅 |
+| 当前读者 | 已有旧版账号、核对续费资格的人 | 已有旧版 X 付费会员的人 | 新用户，或自愿转换且符合条件的旧用户 |
+| Grok Bot | 符合条件的旧版个人订阅可按规则关联 | 符合条件时按规则关联 | Premium、Super、Ultra 包含；Plus 不含 |
+| 额度判断 | 按旧套餐及账号显示核对 | 按旧套餐及账号显示核对 | 符合条件的第一方使用共享每周额度 |
+| 需要防止的误解 | 充值不会自动变成联合会员 | X 会员不等于自动建立联合账单 | 不是三份旧套餐的用量相加 |
 
-如果你的主要工作流在 grok.com，平时不依赖 X 的会员功能，优先评估 SuperGrok 更直接。选择前仍需查看 [Grok plans](https://grok.com/plans) 和账号内模型列表。
-
-## 同时重度使用 X
-
-如果你每天在 X 上发布、浏览、运营内容，并且 X 平台权益本身就有价值，再评估 X Premium+。不要只因为名称中可能出现 Grok，就忽略它首先是 X 的会员产品。
-
-## 为什么不能只看模型名称
-
-模型、额度、地区和订阅权益会调整。同一个模型在不同入口的开放时间、使用额度或功能组合也可能不同。尤其在 Grok 4.5 这类新版本发布期，应核对账号内实际模型选择器，而不是根据旧文章推断。
+旧版 Bot 关联是使用资格，不是 Cursor 订阅。已有 Cursor 套餐和旧版关联同时存在时，Bot 采用其中较高用量资格，不叠加。[Cursor：Grok Bot 套餐与关联规则](https://cursor.com/help/grok-bot/plans)
 
 ## 按实际目标选择
 
-1. 如果主要在 `grok.com` 或 Grok App 中对话、分析文件、生成内容，先核对 SuperGrok 的实时权益。
-2. 如果每天使用 X 发布、浏览或运营内容，并且 X 平台会员权益本身有价值，再核对 X Premium+。
-3. 如果两个目标都存在，先比较当前账号已经拥有的订阅和实际使用频率，不要仅凭套餐名称决定。
+- **新用户主要用 Grok 或轻量编程：**先看免费功能与联合会员 Plus 的限制。需要 Bot 或云端代理时，再从 Premium 比较。
+- **已有旧套餐，工作流正常：**先记录当前权益和实际费用。看到新方案不构成必须转换的理由。
+- **同时需要 Grok、Cursor 和 X：**比较联合订阅的功能及共享周额度，特别检查 Cursor 第三方模型另计费的影响。
+- **主要看重 X 权益：**核对个人 X 账号绑定、对应档位与资格审核；付款不等于蓝标或变现资格必然通过。
 
-**选择完成的标志：** 你能明确说出主要使用入口是 Grok 还是 X，以及准备保留哪一个最初付款并管理订阅的平台。无法确定时先不要切换。
+详细档位、额外用量及选择方法见 [X 联合会员与 Grok Bot 指南]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }})。模型名称相同，也不能据此推断不同入口的额度与功能完全相同。
 
-## X Premium+ 权益没有同步到 Grok 怎么办
+## 旧版账号关联与 Unify 是两种操作
 
-xAI 官方说明，可以在 Grok 打开 `Settings → Account`，选择 `Connect your X Account`，将当前 X 账号添加为 xAI 登录方式。连接后按以下顺序核对：
+旧版 SuperGrok/X Premium+ 的 Bot 关联让符合条件的账号获得 Bot 用量资格，不取消或替换原 Cursor 套餐。关联账号也有不可随意解绑或转移的限制，操作前应核对目标账号。
 
-1. X Premium+ 是否属于当前连接的 X 账号；
-2. Grok 当前登录账号是否就是刚连接的 xAI 账号；
-3. `accounts.x.ai` 中是否显示预期登录方式；
-4. 退出 Grok 后使用同一方式重新登录，再检查权益。
+Unify 则将符合条件的 Grok、Cursor 账号及所选订阅合并到新的工作区、套餐和账单中；个人 X 账号关联后取得对应 X 权益。**完成 Unify 后不能撤销，官方支持也不能恢复原方案。**不要仅因登录界面变化或想排查权限而发起转换。[官方转换说明](https://docs.x.ai/x-subscription/unify-accounts)
 
-若连接的是错误 X 账号，或无法确认账号归属，请停止购买并先处理账号问题。
+ChongGrok 不办理旧会员转换；需要转换时按官方 [Grok/X Unify](https://accounts.x.ai/unify) 或 [Cursor Unify](https://cursor.com/unify) 流程核对条件，不能以购买本站服务代替迁移。
 
-## 准备切换购买渠道时
+## 账号或权益没有同步，先核对来源
 
-先回原购买渠道取消未来续费，并保存取消确认和原订阅到期时间。确认没有待处理交易后，再决定是否在新渠道建立订阅；取消未来续费不等于立即退款，也不等于权益会立刻消失。
+先确认 X 会员属于哪个 X 账号、当前 Grok 与 Cursor 登录的是哪个账号，以及自己究竟保留旧套餐还是已转换联合订阅。
 
-更多边界见 [Grok 4.5 更新说明]({{ '/guides/grok-4-5-update/' | relative_url }})。
+- 保留旧版时，按旧产品的账户关联和权益说明处理，不把普通关联当作联合订阅。
+- 已转换时，在 [Grok Dashboard](https://grok.com/dashboard) 核对工作区、套餐和用量，再检查所连接的个人 X 账号。
+- 出现错误账号、未知订单或权益不符时，先停止新增购买，保留已脱敏的状态截图联系原付款渠道或官方支持。
 
-## 购买前四项检查
+不要通过重复购买来尝试“同步”权益。若已扣款但仍显示 Free，继续按[原订单排查]({{ '/guides/supergrok-paid-but-still-free/' | relative_url }})处理。
 
-1. 主要使用入口是 grok.com 还是 X；
-2. 是否真正需要 X 平台会员权益；
-3. 当前账号已经有哪些订阅，避免重复购买；
-4. 付款、取消和退款由哪个平台处理。
+## 转换前不要一律先取消旧订阅
 
-如果确定选择 SuperGrok，可查看 [chonggrok.com SuperGrok 实时套餐](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_vs_x_premium_plus)和[自助充值流程]({{ '/guides/supergrok-auto-recharge/' | relative_url }})。
+普通停止续费与官方 Unify 的账单处理不同。官方对符合条件的网页订阅有取消及未用时间退款安排；Cursor 的 Apple 订阅需要本人取消并向 Apple 申请退款，Grok/Grok Bot/X Premium 的 Apple 订阅则有不同处理，Google Play 还需检查转换后是否仍续费。
 
-主站延伸：[SuperGrok 和 X Premium+ 有什么区别](https://chonggrok.com/blog/supergrok-vs-x-premium-plus)。
+因此应先记录原付款平台，再阅读[联合会员指南中的取消与退款分支]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }})及[官方流程](https://docs.x.ai/x-subscription/unify-accounts)，不要机械照旧教程先取消所有会员。普通取消续费与退款可看[取消订阅专题]({{ '/guides/supergrok-cancel-refund/' | relative_url }})。
 
-续费、扣款或权益状态不一致时，不要跨入口重复订阅；先按[AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)确认实际账单渠道和原购买账号。
+## 购买与续费入口分别核对
 
-## 官方来源与核验日期
+已明确选择第三方协助时，联合会员新购查看[本站联合会员说明](https://chonggrok.com/x-subscription?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_vs_x_premium_plus&utm_content=new_plan)；符合条件的旧版续费查看[旧版 SuperGrok 商品](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_vs_x_premium_plus&utm_content=legacy_plan)。账号资格、办理时间、交付和售后均应在付款前确认。
 
-**事实核验日期：2026 年 8 月 17 日。** 两项订阅的价格、功能、额度和地区可用性可能变化，购买前应以官方页面和当前账号内显示为准。
-
-- [xAI：Grok Website / Apps FAQ](https://docs.x.ai/grok/faq)
-- [xAI：Grok plans](https://grok.com/plans)
-- [X：Premium FAQ](https://help.x.com/en/using-x/x-premium-faq)
+ChongGrok 与产品厂商无官方授权关系。[官方购买 FAQ](https://x.ai/pricing)明确未授权第三方销售，并说明相关账号可能被暂停或终止。本文不把商家服务说明当作官方背书。
 
 {% include faq.html %}

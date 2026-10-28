@@ -28,7 +28,9 @@ faq:
 
 **Short answer:** sign in to the Grok account that should receive the membership, then follow the current ChongGrok card-key verification instructions and submit only the identifier explicitly requested as the Grok User ID. Do not substitute an email address, X handle, display name, password, verification code or recovery code.
 
-This identifier is part of **ChongGrok's fulfillment process**, not an xAI requirement for purchasing SuperGrok directly. A Grok User ID is not a password, but it remains private account data and should not be posted publicly.
+This identifier is part of **ChongGrok's legacy SuperGrok redemption process**, not an xAI requirement for purchasing SuperGrok directly. A Grok User ID is not a password, but it remains private account data and should not be posted publicly.
+
+This guide applies to [legacy Grok redemption](https://chonggrok.com/verify-grok). [X Subscription redemption](https://chonggrok.com/verify-x) instead requests SSO, a temporary login credential. User ID and SSO are not interchangeable.
 
 ## Which value is the correct one?
 
@@ -45,7 +47,7 @@ This identifier is part of **ChongGrok's fulfillment process**, not an xAI requi
 
 1. Sign in to the **Grok account that should receive the membership**.
 2. Check the profile or account settings and confirm that this is your intended target account. Stop if the wrong account is signed in.
-3. After receiving a ChongGrok card key, open the current [card-key verification page](https://chonggrok.com/verify?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_user_id&utm_content=en_verify_existing_order) and read the User ID instructions shown there.
+3. After receiving a ChongGrok card key, open the current [card-key verification page](https://chonggrok.com/verify-grok?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_user_id&utm_content=en_verify_existing_order) and read the User ID instructions shown there.
 4. Copy only the single account identifier explicitly requested as the Grok User ID.
 5. If the page shows several similar fields or exposes a complete account, session or JSON response, do not copy the whole response. Stop and ask ChongGrok support through the [SuperGrok service page](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_user_id&utm_content=en_contact_support) which one value is required.
 6. When the verification page identifies the account, confirm that it is your own target account before submitting the recharge.

@@ -1,6 +1,6 @@
 title: "ChongGrok"
 tagline: "ChongGrok Grok 知识库"
-description: "chonggrok.com 的 SuperGrok 国内充值指南，说明支付宝微信付款、卡密核销、Grok User ID、付款报错、付款后仍显示 Free 与 Grok 4.5 更新。"
+description: "ChongGrok 维护的 Grok 知识库：X 联合会员、Grok Bot 共享额度、旧版 SuperGrok 续费、账号凭据与付款排障。"
 url: "https://he20000405-pixel.github.io"
 baseurl: "/supergrok-china-guide"
 repository: "he20000405-pixel/supergrok-china-guide"
@@ -14,7 +14,7 @@ lang: "zh-CN"
 timezone: "Asia/Shanghai"
 author:
   name: "ChongGrok"
-  url: "https://chonggrok.com/supergrok"
+  url: "https://chonggrok.com/"
 
 markdown: kramdown
 highlighter: rouge

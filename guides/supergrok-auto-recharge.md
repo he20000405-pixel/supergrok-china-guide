@@ -1,9 +1,9 @@
 ---
-title: "SuperGrok 国内自助充值教程：支付宝微信、卡密核销与 User ID"
-description: "2026 SuperGrok 国内充值完整流程：进入 chonggrok.com 选择周期、支付宝微信付款、核销卡密、提交 Grok User ID 和验收订阅。"
+title: "旧版 SuperGrok 续费教程：支付宝微信、卡密核销与 User ID"
+description: "符合条件的旧版 SuperGrok 账号续费流程：先核对资格、商品与交付，再付款、核销卡密、提交 User ID 并回原账号验收；不适用于联合会员兑换。"
 permalink: /guides/supergrok-auto-recharge/
 date_published: 2026-07-11
-last_modified_at: 2026-07-12
+last_modified_at: 2026-10-28
 breadcrumbs:
   - name: "首页"
     url: /
@@ -15,22 +15,22 @@ faq:
   - question: "SuperGrok 国内充值需要提供密码吗？"
     answer: "不需要。chonggrok.com 的流程只提交本次升级所需的 Grok User ID，不应提交登录密码、验证码或恢复码。"
   - question: "卡密应该在哪里核销？"
-    answer: "付款获得卡密后，进入 https://chonggrok.com/verify 验证卡密，并按页面提示提交 Grok User ID。"
+    answer: "付款获得卡密后，进入 https://chonggrok.com/verify-grok 验证卡密，并按页面提示提交 Grok User ID。"
   - question: "充值完成后如何确认到账？"
     answer: "回到自己的 grok.com 账号检查订阅和权益状态；如果页面没有刷新，可退出后重新登录再检查。"
 ---
 
-# SuperGrok 国内自助充值完整流程
+# 旧版 SuperGrok 续费与自助兑换流程
 
-**适合谁：**没有稳定境外卡，希望使用支付宝或微信为自己的 Grok 账号开通 SuperGrok 的用户。
+**适合谁：**已确认账号符合旧版 SuperGrok 商品条件，希望使用支付宝或微信续费的用户。新购联合会员或准备使用 Grok Bot，请先看 [X 联合会员与 Grok Bot]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }})；联合会员兑换使用 [verify-x](https://chonggrok.com/verify-x) 并要求 SSO，不能套用本文 User ID 流程。本站不办理旧会员转换。
 
-> 结论：进入 [chonggrok.com/supergrok](https://chonggrok.com/supergrok)选择实时套餐并付款，拿到卡密后在 [chonggrok.com/verify](https://chonggrok.com/verify)核销，提交自己的 Grok User ID，最后回到 grok.com 验收订阅。全程不需要登录密码。
+> 结论：进入 [chonggrok.com/supergrok](https://chonggrok.com/supergrok)先确认旧版资格、商品周期与交付，再付款，拿到卡密后在 [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)核销，提交自己的 Grok User ID，最后回到 grok.com 验收订阅。全程不需要登录密码。
 
 ## 下单前先检查
 
 | 检查项 | 正确状态 |
 |---|---|
-| 账号 | 可以正常登录 grok.com，确认是要升级的账号 |
+| 账号 | 可以正常登录 grok.com，确认目标账号并符合旧版商品条件 |
 | User ID | 能按照当前核销页说明确认本次需要提交的 Grok User ID |
 | 套餐 | 已按当前用途选择主站实时展示的订阅周期 |
 | 安全 | 不准备提交密码、邮箱验证码或恢复码 |
@@ -40,13 +40,13 @@ faq:
 
 ## 第一步：进入 SuperGrok 充值页
 
-打开 [https://chonggrok.com/supergrok](https://chonggrok.com/supergrok)，查看当前可选周期和实时价格。套餐、活动和价格可能变化，因此本指南不固定展示金额。
+打开 [https://chonggrok.com/supergrok](https://chonggrok.com/supergrok)，核对旧版账号资格及当前 1 个月、3 个月商品和实时价格。套餐、活动和价格可能变化，因此本指南不固定展示金额。
 
 <img src="../../img/chonggrok-supergrok-home-hero.webp" alt="chonggrok.com SuperGrok 充值页" width="1600" height="824" loading="lazy">
 
 ## 第二步：选择订阅周期并付款
 
-按实际使用周期选择套餐，使用支付宝或微信完成付款。首次尝试、已形成稳定工作流和有连续项目的人，适合的周期不同，具体判断见 [SuperGrok 套餐怎么选]({{ '/guides/supergrok-plans/' | relative_url }})。
+按实际使用周期选择套餐，使用支付宝或微信完成付款。在账号符合旧版条件的前提下，需求尚未稳定、已有工作流和有连续项目的人，适合的周期不同，具体判断见 [SuperGrok 套餐怎么选]({{ '/guides/supergrok-plans/' | relative_url }})。
 
 付款后保存：
 
@@ -58,7 +58,7 @@ faq:
 
 ## 第三步：核销卡密
 
-进入 [https://chonggrok.com/verify](https://chonggrok.com/verify)，粘贴卡密并提交验证。卡密属于订单凭证，不要公开发布，也不要让无关人员代为核销。
+进入 [https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)，粘贴卡密并提交验证。卡密属于订单凭证，不要公开发布，也不要让无关人员代为核销。
 
 <img src="../../img/chonggrok-supergrok-redeem-console.webp" alt="chonggrok.com 卡密核销页面" width="1600" height="824" loading="lazy">
 
@@ -85,7 +85,9 @@ faq:
 
 ## 风险说明
 
-不要求密码能减少不必要的账号暴露，但不等于绝对安全。Grok User ID 仍是账号标识，应只通过已确认的核销页面提交。任何线上订阅服务都不是零风险，也不能诚实承诺固定到账时间或账号结果。
+ChongGrok 是独立第三方服务。[官方购买政策](https://x.ai/pricing)明确未授权第三方销售，相关来源账号可能被暂停或终止。商品及交付说明不代表官方授权。本文于 2026-10-28 核对新旧适用范围及兑换入口，示例截图为历史界面，当前表单以实际页面为准。
+
+本流程不要求密码，不等于绝对安全。Grok User ID 仍是账号标识，应只通过已确认的核销页面提交。任何线上订阅服务都不是零风险，也不能诚实承诺固定到账时间或账号结果。
 
 如果购买目的包括 Grok Build，应先查看 [Grok Build 登录与 403 排查]({{ '/guides/grok-build-login-403/' | relative_url }})，确认问题是否真的与订阅权益有关。更多主站图文说明：[SuperGrok 充值完整教程](https://chonggrok.com/blog/supergrok-chongzhi-zhinan)与[安全充值检查清单](https://chonggrok.com/blog/supergrok-safe-recharge-checklist)。
 

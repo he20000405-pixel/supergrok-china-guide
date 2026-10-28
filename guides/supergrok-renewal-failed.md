@@ -67,7 +67,7 @@ faq:
 | Apple 的 App Store 收据 | Apple | iPhone `设置 → Apple 账户 → 订阅` |
 | Google Play 收据 | Google Play | Play 商店 `头像 → 付款和订阅 → 订阅` |
 | X Premium+ 收据 | X、Apple 或 Google Play | 回到购买 X Premium+ 的同一平台 |
-| ChongGrok 订单或卡密记录 | ChongGrok | [卡密核销与状态查询](https://chonggrok.com/verify) |
+| ChongGrok 订单或卡密记录 | ChongGrok | [旧版 Grok 查询](https://chonggrok.com/verify-grok) / [联合会员查询](https://chonggrok.com/verify-x) |
 
 如果同时找到两份有效订阅，先不要处理续费。记录两份订阅各自的平台、账号和下次扣款日期，再决定保留哪一份。
 
@@ -128,11 +128,11 @@ X 官方要求在最初订阅的平台管理或取消 Premium。X Premium+ 的�
 ChongGrok 订单不应被默认理解为会自动续费。先按以下顺序确认：
 
 1. 在 grok.com 检查当前计划和到期状态。
-2. 如果手上还有卡密或订单，进入[核销与状态查询](https://chonggrok.com/verify)。
+2. 如果手上还有卡密或订单，按产品进入[旧版 Grok 查询](https://chonggrok.com/verify-grok)或[联合会员查询](https://chonggrok.com/verify-x)。
 3. 如果订单显示处理中或异常，保存订单号、卡密、提交时间和脱敏截图，联系 ChongGrok 售后核对。
 4. 如果官方会员已经到期，并且没有有效订单、待处理交易或退款流程，再决定是否重新购买。
 
-Grok User ID 是账号标识，不是密码，但仍属于敏感资料。只通过确认的核销流程提交，不要公开发布。
+旧版兑换的 Grok User ID 是账号标识；联合会员兑换要求的 SSO 是临时登录凭证，不能互换。不要公开凭据，也不要将 SSO 发到客服聊天。旧会员转换须走[官方 Unify 流程说明]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }})，本站不办理转换。
 
 ## 第三步：根据检查结果进入下一条路径
 

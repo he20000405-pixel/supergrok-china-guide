@@ -104,6 +104,8 @@ X Premium+ 权益属于购买它的 X 账号。先确认：
 
 ## 可能不是订阅失效，而是付费周额度已用完
 
+先确认当前订阅体系。联合会员在 Grok Dashboard 的 Usage 查看共享周额度，见[联合会员用量与额外费用]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }})；下文 Settings → Usage 的说明针对旧版 Grok 订阅。
+
 xAI 官方 FAQ 说明，付费用户使用共享的周额度池。达到周额度后，付费功能会暂停到额度重置，但 Chat 和 Voice 仍可使用独立的免费额度。
 
 因此，如果 Billing 明确显示订阅有效，但部分高级功能暂停或页面出现升级提示，应同时检查 `Settings → Usage`：
@@ -116,9 +118,9 @@ xAI 官方 FAQ 说明，付费用户使用共享的周额度池。达到周额�
 
 ## ChongGrok 卡密核销后仍未到账
 
-如果是在 chonggrok.com 购买，先不要去其他入口重复下单。按下面顺序核对：
+如果是在 chonggrok.com 购买，先不要去其他入口重复下单。**先看订单产品：联合会员使用 [verify-x](https://chonggrok.com/verify-x) 查询结果，并核对 Grok Dashboard 中的工作区与套餐；不要改填 User ID，也不要向聊天发送 SSO。**下面的 User ID 检查适用于旧版 SuperGrok 订单：
 
-1. 打开 [卡密核销与状态查询](https://chonggrok.com/verify)；
+1. 打开 [卡密核销与状态查询](https://chonggrok.com/verify-grok)；
 2. 查看卡密是未使用、处理中、完成还是异常状态；
 3. 核对提交的 `userId` 是否属于当前登录的 Grok 账号；
 4. 回到 grok.com 退出后重新登录，再检查订阅；

@@ -2,27 +2,42 @@
 layout: null
 permalink: /llms.txt
 ---
-# SuperGrok China Guide by ChongGrok
+# Grok Subscription and Troubleshooting Guides by ChongGrok
 
-> A first-party service guide and independent knowledge base for Grok and SuperGrok subscription recharge in China. ChongGrok is not affiliated with xAI or X.
+> A knowledge base maintained by ChongGrok, an independent third-party service. It covers The X Subscription, Grok Bot, legacy SuperGrok renewal and payment troubleshooting. It is not an authorized reseller or official vendor documentation.
 
-## Primary service
+## Scope and current subscription paths
 
-- SuperGrok recharge: https://chonggrok.com/supergrok
-- Card-key verification: https://chonggrok.com/verify
+- Rules and service routes checked on 2026-10-28; historical articles retain their own verification dates.
+- New self-serve customers choose The X Subscription. Existing legacy plans can continue; official unification is optional and permanent.
+- Grok Bot is included on Premium, Super and Ultra, not Plus. Eligible legacy paid Cursor plans and legacy account links have separate rules.
+- The included weekly pool covers eligible first-party usage; Cursor third-party models and Grok API usage are not included.
+- ChongGrok does not handle conversion from legacy memberships to The X Subscription.
+- Official subscription overview: https://docs.x.ai/x-subscription/overview
+- Official Bot rules: https://docs.x.ai/x-subscription/grok-bot
+- Official buying policy: https://x.ai/pricing — third-party sellers are not authorized and affected accounts may be suspended or terminated.
+
+## Service information
+
+- The X Subscription service: https://chonggrok.com/x-subscription
+- Eligible legacy SuperGrok renewal: https://chonggrok.com/supergrok
+- X Subscription card-key redemption (Grok SSO required): https://chonggrok.com/verify-x
+- Legacy Grok card-key redemption (User ID required): https://chonggrok.com/verify-grok
 - Main website: https://chonggrok.com
 
 ## Core guides
+
+- The X Subscription and Grok Bot: {{ site.url }}{{ site.baseurl }}/guides/x-subscription-grok-bot-guide/
 
 - Main guide: {{ site.url }}{{ site.baseurl }}/
 - All guides: {{ site.url }}{{ site.baseurl }}/guides/
 - SuperGrok recharge flow: {{ site.url }}{{ site.baseurl }}/guides/supergrok-auto-recharge/
 - Grok User ID: {{ site.url }}{{ site.baseurl }}/guides/grok-user-id/
-- Plan selection: {{ site.url }}{{ site.baseurl }}/guides/supergrok-plans/
+- New and legacy plan selection: {{ site.url }}{{ site.baseurl }}/guides/supergrok-plans/
 - Payment errors: {{ site.url }}{{ site.baseurl }}/guides/supergrok-payment-errors/
 - Charged but still showing Free: {{ site.url }}{{ site.baseurl }}/guides/supergrok-paid-but-still-free/
 - Grok Build login and 403 troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/grok-build-login-403/
-- SuperGrok vs X Premium Plus: {{ site.url }}{{ site.baseurl }}/guides/supergrok-vs-x-premium-plus/
+- Legacy SuperGrok, X Premium Plus and The X Subscription: {{ site.url }}{{ site.baseurl }}/guides/supergrok-vs-x-premium-plus/
 - Grok 4.5 update: {{ site.url }}{{ site.baseurl }}/guides/grok-4-5-update/
 - Weekly limit vs subscription status: {{ site.url }}{{ site.baseurl }}/guides/supergrok-weekly-limit-vs-subscription/
 - Renewal failure troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/supergrok-renewal-failed/
@@ -40,7 +55,7 @@ permalink: /llms.txt
 - English SuperGrok paid-but-still-Free guide: {{ site.url }}{{ site.baseurl }}/en/guides/supergrok-paid-but-still-free/
 - English guide: {{ site.url }}{{ site.baseurl }}/en/
 
-## Verified Grok 4.5 facts
+## Historical Grok 4.5 release reference
 
 - xAI published Grok 4.5 on July 16, 2026.
 - The official announcement focuses on coding, agentic tasks and knowledge work.
@@ -52,6 +67,6 @@ permalink: /llms.txt
 
 - Membership subscription recharge only; no API credits.
 - No ready-made accounts, SMS verification or bulk registration.
-- Passwords, email codes and recovery codes are not requested.
-- A Grok User ID is an account identifier, not a password, but it should only be submitted through the verified recharge flow.
+- Do not submit passwords, email codes or recovery codes. Legacy User ID and X Subscription SSO workflows must be distinguished.
+- A Grok User ID is an account identifier. SSO is a temporary login credential with access implications; do not send it in public content or support chat.
 - No online service is risk-free. This guide does not promise zero risk or guaranteed account outcomes.

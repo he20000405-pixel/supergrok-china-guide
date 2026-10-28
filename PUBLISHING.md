@@ -362,7 +362,7 @@ Bing 显示“已成功编制索引”表示该页面已经进入 Bing 索引。
 - [ ] Google 已请求主页和 6 个重点页面编入索引；
 - [ ] Bing 网站地图状态为成功；
 - [ ] Bing 已检查主页和 6 个重点页面；
-- [ ] `https://chonggrok.com/supergrok` 和 `https://chonggrok.com/verify` 链接可以正常打开。
+- [ ] `https://chonggrok.com/supergrok` 和 `https://chonggrok.com/verify-grok` 链接可以正常打开。
 
 ---
 

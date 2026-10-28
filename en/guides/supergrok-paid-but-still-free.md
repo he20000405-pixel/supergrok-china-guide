@@ -105,7 +105,9 @@ The expected result is that the same account now shows the active plan. If it re
 
 ## 6. Check a ChongGrok order without repurchasing
 
-For an existing ChongGrok card key or order, use [chonggrok.com/verify](https://chonggrok.com/verify?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_paid_but_still_free&utm_content=en_verify_existing_order) and confirm:
+For a new X Subscription order, use [verify-x](https://chonggrok.com/verify-x), check the workspace and plan in Grok Dashboard, and contact support with redacted order evidence. Do not send SSO in support chat.
+
+For an existing **legacy SuperGrok** card key or order, use [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_paid_but_still_free&utm_content=en_verify_existing_order) and confirm:
 
 - the card key was accepted;
 - the submitted Grok User ID belongs to the intended account;
