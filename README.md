@@ -63,7 +63,7 @@ xAI 当前消费者 FAQ 说明了账号、账单和支持入口，但没有把�
 | [Grok 付款失败排查](guides/supergrok-payment-errors.md) | card declined、3DS 与账单地址 |
 | [付款成功但仍显示 Free](guides/supergrok-paid-but-still-free.md) | 账号、购买入口、App 同步、周额度与卡密核销 |
 | [Grok Build 登录与 403 排查](guides/grok-build-login-403.md) | 浏览器授权、设备码、版本、旧会话与订阅权益 |
-| [SuperGrok vs X Premium+](guides/supergrok-vs-x-premium-plus.md) | 按 Grok 与 X 的真实使用场景选择 |
+| [旧版 SuperGrok、X Premium+ 与 X 联合会员](guides/supergrok-vs-x-premium-plus.md) | 区分旧版权益、账号关联与新联合会员，判断是否使用官方 Unify |
 | [Grok 4.5 更新说明](guides/grok-4-5-update.md) | 官方已确认能力、入口与 SuperGrok 可用性边界 |
 
 ## 历史版本资料：Grok 4.5
@@ -76,7 +76,7 @@ xAI 于 **2026 年 7 月 16 日**发布 Grok 4.5，官方将其定位于编程�
 
 - 不应提交登录密码、邮箱验证码、短信验证码或恢复码。新旧兑换所需凭据分别核对。
 - 旧版流程仅提交 User ID；联合会员 SSO 具有临时登录权限，不在聊天或公开截图发送。
-- 保存订单号、卡密、提交的 User ID 和核销状态，方便异常时追溯。
+- 保留订单号、卡密与处理记录；旧版订单核对 User ID，联合会员核对目标工作区。对外提供脱敏状态截图，不在聊天发送 SSO。
 - 不承诺零风险、绝对安全、永久不封号或固定到账时间。
 - 本知识库讨论 Grok 订阅，不提供 API 额度、接码或批量注册流程。
 - ChongGrok 与 xAI、X 不存在隶属或官方合作关系。

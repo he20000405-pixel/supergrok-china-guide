@@ -1,11 +1,11 @@
 ---
 title: "SuperGrok Paid but Still Free: Account and Billing Checks"
-description: "If SuperGrok was charged but Grok still shows Free or Upgrade, check the receipt, billing route, original account, Apple Hide My Email, weekly limit and paid plan on the account before paying again."
+description: "If Grok still shows Free after payment, distinguish legacy SuperGrok from The X Subscription, check the original account and workspace, and use the correct ChongGrok order route before paying again."
 permalink: /en/guides/supergrok-paid-but-still-free/
 lang: en
 schema_type: Article
 date_published: 2026-07-24
-last_modified_at: 2026-08-05
+last_modified_at: 2026-10-28
 breadcrumbs:
   - name: "Home"
     url: /
@@ -19,9 +19,9 @@ faq:
   - question: "Should I buy SuperGrok again if the first payment was charged?"
     answer: "No. Check the original billing channel and account first. A second purchase can create duplicate subscriptions or charges without making the first paid plan appear on the account you are using."
   - question: "Can a weekly usage limit make an active SuperGrok account show an upgrade prompt?"
-    answer: "An active subscription can temporarily lose access to some paid usage after a weekly limit is reached. Check Settings and Usage before treating the prompt as an inactive subscription."
+    answer: "Yes. Check Settings → Usage for legacy Grok plans, or the correct workspace's Usage view in Grok Dashboard for The X Subscription. A reached usage allowance does not by itself mean the subscription was cancelled; extra usage may incur separate charges."
   - question: "What should I check for a ChongGrok card-key order?"
-    answer: "Use the verification page to check the card key, submitted Grok User ID, target account and processing result. Do not publish the User ID or place a second order while the first one is unresolved."
+    answer: "First identify the order product. X Subscription orders use chonggrok.com/verify-x; check the result and the workspace and plan in Grok Dashboard. Legacy SuperGrok orders use chonggrok.com/verify-grok and the submitted User ID. SSO is a temporary login credential, not a User ID; never send it in support chat or public screenshots. Do not repurchase while the order is unresolved."
 ---
 
 # SuperGrok Was Charged but Still Shows Free: Account, Billing Route and Entitlement Checks
@@ -29,6 +29,8 @@ faq:
 **Short answer:** do not pay again. A bank charge, store receipt, active subscription and paid plan shown in Grok are separate states, so first identify the original purchase route and the exact account that owns it.
 
 If the plan is active but a feature is unavailable, also check the weekly usage limit. A usage cap and a missing subscription are not the same problem.
+
+This guide distinguishes **legacy SuperGrok** from **The X Subscription**. For The X Subscription, check the purchasing workspace in [Grok Dashboard](https://grok.com/dashboard); a different workspace can show a different plan. A legacy User ID redemption flow does not apply to an X Subscription order.
 
 ## Separate the four states
 
@@ -45,11 +47,13 @@ Check only the platform that processed the purchase:
 
 | Purchase route | Where to check |
 |---|---|
-| grok.com | The signed-in Grok account's billing page |
+| Legacy SuperGrok on grok.com | The original account's Settings → Billing |
+| The X Subscription | The purchasing workspace's plan and billing in Grok Dashboard; retain the original receipt |
 | Apple App Store | Subscriptions and purchase history under the original Apple account |
 | Google Play | Payments & subscriptions under the original Google account |
 | X Premium+ | Premium settings under the purchasing X account |
-| ChongGrok card key | Card-key verification and order processing status |
+| ChongGrok X Subscription card key | [verify-x](https://chonggrok.com/verify-x), then the target workspace and plan; do not send SSO in support chat |
+| ChongGrok legacy SuperGrok card key | [verify-grok](https://chonggrok.com/verify-grok), submitted User ID and processing status |
 
 If you cannot identify the route, search the receipt issuer and transaction description before changing accounts or paying again.
 
@@ -78,16 +82,18 @@ Do not create another account to solve this mismatch. Return to the original App
 
 An account can have an active paid subscription while some paid usage is temporarily unavailable.
 
+Legacy Grok plans show usage in **Settings → Usage**. The X Subscription shows it in the selected workspace's **Grok Dashboard → Usage**. Its included weekly pool covers eligible first-party usage for that paid seat; Cursor third-party models and first-party usage beyond the allowance are paid Additional Usage. See the [official usage rules](https://docs.x.ai/x-subscription/usage-limits).
+
 | Observation | More likely explanation |
 |---|---|
 | Billing shows no active plan | Missing, expired or wrong-account subscription |
-| Billing is active and Settings → Usage shows a reached limit | Weekly usage allowance is exhausted |
+| Billing is active and the relevant Usage view shows a reached limit | Weekly usage allowance is exhausted |
 | Another login shows the paid plan | Current session uses the wrong account |
 | Store subscription is active but app shows Upgrade | App/session synchronization or account mismatch |
 
 Check the current usage screen and reset information. Do not purchase another membership to bypass a weekly usage limit.
 
-If Billing shows an active plan and Usage shows a reached limit, the subscription is working; wait for the reset shown on that account. If Billing shows no plan, continue with account and purchase checks instead.
+If Billing shows an active plan and Usage shows a reached limit, the limit alone does not indicate cancellation. You can wait for the displayed reset or review the extra-usage options and spending controls in the official account. Extra usage can cost more. If Billing shows no plan, continue with account and purchase checks instead.
 
 ## 5. Refresh the app or browser state
 
@@ -105,7 +111,7 @@ The expected result is that the same account now shows the active plan. If it re
 
 ## 6. Check a ChongGrok order without repurchasing
 
-For a new X Subscription order, use [verify-x](https://chonggrok.com/verify-x), check the workspace and plan in Grok Dashboard, and contact support with redacted order evidence. Do not send SSO in support chat.
+For an **X Subscription order**, use [verify-x](https://chonggrok.com/verify-x), check the workspace and plan in Grok Dashboard, and contact support with the order number and redacted status screenshots. This redemption flow requests SSO, a temporary login credential. It is not a User ID: do not substitute one for the other or send SSO in support chat or screenshots.
 
 For an existing **legacy SuperGrok** card key or order, use [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_paid_but_still_free&utm_content=en_verify_existing_order) and confirm:
 
@@ -117,7 +123,12 @@ For an existing **legacy SuperGrok** card key or order, use [chonggrok.com/verif
 
 A Grok User ID is an account identifier, not a password, but it is sensitive and must not be posted publicly. Do not place a second order while the first order or payment remains unresolved.
 
-Only after confirming that no active, completed or pending purchase exists should current options at [chonggrok.com/supergrok](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_paid_but_still_free&utm_content=en_repurchase_boundary) be considered.
+Only reassess a purchase after the original provider has resolved the first order and confirmed that no active subscription, pending transaction or refund remains. This does **not** establish eligibility for a legacy plan.
+
+- For a new X Subscription purchase, first compare the official plans. If considering third-party assistance, check account eligibility, fulfillment and support terms on the [X Subscription service page](https://chonggrok.com/x-subscription). Its redemption flow uses SSO.
+- For legacy SuperGrok renewal, use the [legacy service page](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_paid_but_still_free&utm_content=en_repurchase_boundary) only after confirming that the account meets the current legacy product conditions. Its redemption flow uses a card key and User ID.
+
+ChongGrok does not convert legacy memberships to The X Subscription; follow the [official unification process](https://docs.x.ai/x-subscription/unify-accounts) if choosing to switch. The [official buying policy](https://x.ai/pricing) does not authorize third-party sellers and warns that affected accounts may be suspended or terminated. Not requesting a password does not remove the risks of sharing a temporary login credential.
 
 ## Completion checklist
 
@@ -138,12 +149,13 @@ Only after confirming that no active, completed or pending purchase exists shoul
 | Bank authorization or issuer decline | Card issuer |
 | ChongGrok card key or processing record | ChongGrok support |
 
-Keep the account email, login method, platform, redacted receipt, date, currency, amount, screenshot, app version and device details. Never publish passwords, codes, full payment details or User IDs.
+Keep the account email, login method, platform, redacted receipt, date, currency, amount, screenshot, app version and device details. Never publish passwords, codes, card keys, full payment details or User IDs. Do not send SSO in support chat or screenshots.
 
 ## Scope and safety
 
 - ChongGrok is not affiliated with xAI, X, Apple or Google.
 - Passwords, verification codes and recovery codes are not requested.
+- Legacy User ID and X Subscription SSO flows are different; SSO is a temporary login credential with account-access implications.
 - No online service is risk-free, and no fixed recovery time or account outcome is guaranteed.
 - This guide covers consumer memberships, not API credits or API billing.
 - Ready-made accounts, SMS verification and bulk registration are outside this service.
@@ -153,8 +165,10 @@ Keep the account email, login method, platform, redacted receipt, date, currency
 ## Official references
 
 - [xAI Grok consumer FAQ](https://docs.x.ai/grok/faq)
+- [The X Subscription overview](https://docs.x.ai/x-subscription/overview)
+- [The X Subscription usage limits](https://docs.x.ai/x-subscription/usage-limits)
 - [X Premium FAQ](https://help.x.com/en/using-x/x-premium-faq)
 - [Chinese SuperGrok paid-but-still-Free guide]({{ '/guides/supergrok-paid-but-still-free/' | relative_url }})
 - [Weekly limit versus subscription guide]({{ '/guides/supergrok-weekly-limit-vs-subscription/' | relative_url }})
 
-**Fact check:** July 24, 2026. Subscription interfaces and usage limits can change; verify the current official account page.
+**Updated:** October 28, 2026. The legacy and X Subscription usage and redemption routes were checked against public documentation. No purchase, redemption or paid-usage test was performed; account status and charges must still be checked in the official account.

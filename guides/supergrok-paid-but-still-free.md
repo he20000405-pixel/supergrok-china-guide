@@ -1,9 +1,9 @@
 ---
 title: "SuperGrok 付款成功但仍显示 Free：账号、订阅入口、App 同步与卡密核销排查"
-description: "SuperGrok 已扣款但未生效、付款成功仍显示 Free 或卡密核销后未到账时，按 grok.com、App Store、Google Play、X Premium+ 和 ChongGrok 订单入口排查。"
+description: "Grok 已扣款但仍显示 Free 时，区分旧版 SuperGrok 与 X 联合会员，核对购买入口、账号和工作区；ChongGrok 新旧订单分别查询，不重复付款。"
 permalink: /guides/supergrok-paid-but-still-free/
 date_published: 2026-07-12
-last_modified_at: 2026-07-12
+last_modified_at: 2026-10-28
 breadcrumbs:
   - name: "首页"
     url: /
@@ -19,20 +19,20 @@ faq:
   - question: "使用 Apple 隐藏邮箱购买后，应该怎样登录？"
     answer: "应继续使用原来的 Sign in with Apple 登录。不要改用私密转发邮箱通过 Google 或普通邮箱登录，否则可能进入另一个账号，导致订阅无法被识别。"
   - question: "ChongGrok 卡密核销后仍未到账怎么办？"
-    answer: "先在核销页查看处理状态，核对提交的 Grok User ID 与当前账号是否一致，并保存订单号、卡密、提交记录和页面截图联系售后；不要重复核销或改填其他 User ID。"
+    answer: "先按订单产品分流：X 联合会员在 chonggrok.com/verify-x 查处理结果，并核对 Grok Dashboard 的工作区与套餐；旧版 SuperGrok 在 chonggrok.com/verify-grok 查状态并核对 User ID。SSO 是临时登录凭证，不是 User ID，不要发到客服聊天或公开截图。订单未查清前不要重复核销或购买。"
 ---
 
 # SuperGrok 付款成功但仍显示 Free 怎么办
 
 > **一句话结论：不要重复付款。**先确认钱是从哪个入口支付的、交易是否真正完成，以及当前登录的 Grok 账号是否就是购买订阅的账号，再到对应平台检查订阅状态。
 
-**English summary:** If SuperGrok was charged but Grok still shows Free, Activate or Upgrade, first identify the original purchase channel and sign-in account. Check web billing, App Store or Google Play subscription status, X account linking, or the ChongGrok redemption record before paying again.
+**English summary:** If Grok still shows Free after payment, first identify the purchase channel, account and subscription type. The X Subscription uses Grok Dashboard and a workspace; legacy SuperGrok uses its original billing route. ChongGrok X Subscription orders use verify-x, while legacy orders use verify-grok. Do not pay again while the first order is unresolved.
 
 **Keywords:** `SuperGrok still Free` · `SuperGrok charged not active` · `Grok Activate Upgrade` · `SuperGrok subscription not showing` · `ChongGrok card key redemption`
 
 <!-- 截图占位：Grok 显示 Free / Activate / Upgrade 的真实脱敏截图。未提供清晰素材前不公开显示。 -->
 
-## 先区分四种状态
+## 先区分实际状态
 
 “银行卡显示扣款”和“SuperGrok 已经激活”不是同一件事。先记录你实际看到的状态：
 
@@ -48,21 +48,23 @@ faq:
 
 ## 第一步：确认从哪里购买
 
-SuperGrok、X Premium+ 和应用商店订阅由不同平台管理。先选择与你实际购买方式一致的路径：
+先确认购买的是旧版 SuperGrok、X Premium+ 还是 The X Subscription（X 联合会员），再按实际收款渠道查订单。联合会员还要核对当前工作区，不能只看另一个账号或工作区的 Free 标签。
 
 | 购买入口 | 应检查的位置 | 主要责任方 |
 |---|---|---|
-| grok.com 网页 | Grok `Settings → Billing` | xAI |
+| 旧版 SuperGrok 网页订阅 | Grok `Settings → Billing` | xAI |
+| 官方 X 联合会员 | Grok Dashboard 中目标工作区的套餐与账单 | 官方订阅支持；商店收款时按原商店规则 |
 | iPhone / iPad | Apple ID 的订阅和购买记录 | Apple 处理交易与退款 |
 | Android | Google Play 的订阅记录 | Google Play 管理订阅，退款按 xAI 官方 FAQ 指引 |
 | X Premium+ | X 的 Premium 设置与 Grok 账号连接 | X 处理 X Premium 订阅问题 |
-| chonggrok.com | 卡密核销状态、订单和提交的 User ID | ChongGrok 售后核对 |
+| ChongGrok X 联合会员 | [verify-x](https://chonggrok.com/verify-x) 处理结果、目标工作区和套餐 | ChongGrok 售后核对订单；不要在聊天发送 SSO |
+| ChongGrok 旧版 SuperGrok | [verify-grok](https://chonggrok.com/verify-grok) 状态、订单和提交的 User ID | ChongGrok 售后核对旧版订单 |
 
 如果自己已经记不清入口，先查收据、账单商户、应用商店订阅列表和订单邮件，不要在另一个入口再次购买。
 
 ## grok.com 网页订阅怎么查
 
-登录付款时使用的 Grok 账号，打开 [Grok Billing](https://grok.com/?_s=billing) 或进入 `Settings → Billing`：
+旧版 SuperGrok 登录付款时使用的 Grok 账号，打开 [Grok Billing](https://grok.com/?_s=billing) 或进入 `Settings → Billing`。X 联合会员进入 [Grok Dashboard](https://grok.com/dashboard)，选择购买时的工作区，再查套餐与账单：
 
 1. 查看当前计划是否显示有效；
 2. 核对付款账号与当前页面账号是否一致；
@@ -118,7 +120,11 @@ xAI 官方 FAQ 说明，付费用户使用共享的周额度池。达到周额�
 
 ## ChongGrok 卡密核销后仍未到账
 
-如果是在 chonggrok.com 购买，先不要去其他入口重复下单。**先看订单产品：联合会员使用 [verify-x](https://chonggrok.com/verify-x) 查询结果，并核对 Grok Dashboard 中的工作区与套餐；不要改填 User ID，也不要向聊天发送 SSO。**下面的 User ID 检查适用于旧版 SuperGrok 订单：
+如果是在 chonggrok.com 购买，先不要去其他入口重复下单。按订单产品选择原兑换页：
+
+**X 联合会员订单：**使用 [verify-x](https://chonggrok.com/verify-x) 查看处理结果，再核对 [Grok Dashboard](https://grok.com/dashboard) 中的工作区与套餐。该兑换流程要求的 SSO 是临时登录凭证，不是 User ID；不要改填 User ID，也不要把 SSO 发给客服聊天或放进截图。处理未完成时保留原订单；需要售后时提供订单号及已遮挡敏感信息的状态截图。
+
+**旧版 SuperGrok 订单：**下面的 User ID 检查只适用于 [verify-grok](https://chonggrok.com/verify-grok)：
 
 1. 打开 [卡密核销与状态查询](https://chonggrok.com/verify-grok)；
 2. 查看卡密是未使用、处理中、完成还是异常状态；
@@ -139,7 +145,7 @@ Grok User ID 不是登录密码，但仍属于账号标识。不要公开订单�
 | 订单号或商店收据 | 定位交易 | 只发给对应支持渠道 |
 | 当前登录方式 | 排查账号不一致 | 不提供密码、验证码或恢复码 |
 | Billing / 订阅状态截图 | 判断权益是否绑定 | 隐藏邮箱和个人信息 |
-| ChongGrok 卡密与提交记录 | 核对核销流程 | 不公开发布卡密或 User ID |
+| ChongGrok 订单产品、卡密与提交记录 | 核对对应的新旧兑换流程 | 不公开卡密或 User ID；不向聊天发送 SSO，截图遮挡所有凭证 |
 | Free / Activate / Upgrade 页面截图 | 说明实际现象 | 先隐藏账号标识 |
 
 描述问题时写清楚“从哪个入口购买、哪个账号登录、哪里显示有效、哪里仍显示 Free”，比只说“没有到账”更容易定位。
@@ -148,7 +154,12 @@ Grok User ID 不是登录密码，但仍属于账号标识。不要公开订单�
 
 只有在原支付方明确确认**没有有效订单或订阅**，并且不存在待处理交易、重复订阅或退款流程时，才重新评估购买。
 
-如果最终确认尚未成功开通，且没有合适的海外付款方式，可以查看 [chonggrok.com SuperGrok 充值页](https://chonggrok.com/supergrok)。该流程支持支付宝或微信，提交自己的 Grok User ID，不需要登录密码；但任何线上订阅服务都不是零风险，也不能保证固定到账时间或特定功能立即开放。
+查清原订单并不等于获得旧版续费资格。重新比较方案时：
+
+- **新购 X 联合会员：**先核对官方方案；如考虑第三方协助，再到 [ChongGrok 联合会员服务页](https://chonggrok.com/x-subscription)确认账号资格、交付及售后条件。兑换使用 verify-x，并涉及具有临时登录权限的 SSO。
+- **保留旧版 SuperGrok：**只有确认账号符合旧版商品条件后，才查看 [旧版 SuperGrok 续费页](https://chonggrok.com/supergrok)。该流程使用卡密与 User ID；没有有效订阅本身不能证明账号可办理旧版商品。
+
+ChongGrok 不办理旧会员转联合会员；需要转换时按[官方 Unify 说明](https://docs.x.ai/x-subscription/unify-accounts)处理。第三方服务不保证固定到账时间或特定功能立即开放；[官方购买政策](https://x.ai/pricing)说明未授权第三方销售，相关账号可能被暂停或终止。
 
 主站延伸阅读：[SuperGrok 充值完整教程](https://chonggrok.com/blog/supergrok-chongzhi-zhinan)与[SuperGrok 国内充值失败排查](https://chonggrok.com/blog/supergrok-payment-failed-ai-recharge-2026)。
 
@@ -156,7 +167,7 @@ Grok User ID 不是登录密码，但仍属于账号标识。不要公开订单�
 
 - 本文只讨论 Grok / SuperGrok 会员订阅，不提供 API 额度、成品号、接码或批量注册服务。
 - 不要求用户提供 Grok、X、Apple、Google 或邮箱密码，也不应提交验证码和恢复码。
-- User ID 不是密码，但仍应只通过确认的会员核销流程提交。
+- 旧版 User ID 是账号标识；联合会员 SSO 是临时登录凭证。两者不能互换，不索要密码也不代表没有敏感凭据或账号风险。
 - ChongGrok 是独立第三方充值协助服务，与 xAI、X、Apple 或 Google 没有隶属或官方合作关系。
 - 订阅权益、额度、退款和页面状态以对应官方平台实时显示为准。
 
@@ -165,6 +176,8 @@ Grok User ID 不是登录密码，但仍属于账号标识。不要公开订单�
 ## 官方资料
 
 - [xAI: FAQ - Grok Website / Apps](https://docs.x.ai/grok/faq)
+- [The X Subscription 官方总览](https://docs.x.ai/x-subscription/overview)
+- [联合会员用量与额外费用](https://docs.x.ai/x-subscription/usage-limits)
 - [X Premium FAQ](https://help.x.com/en/using-x/x-premium-faq)
 - [xAI Accounts](https://accounts.x.ai)
 
