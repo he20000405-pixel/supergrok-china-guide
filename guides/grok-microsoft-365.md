@@ -279,5 +279,3 @@ Word、Excel 和 PowerPoint 可在 My Add-ins 或加载项管理中找到 Grok �
 - [Microsoft：在 Outlook 中使用加载项](https://support.microsoft.com/en-us/outlook/getstarted/use-add-ins-in-outlook)
 
 **事实核验日期：2026-08-15。**插件名称、发布者、安装入口、权限、套餐、地区与组织可用性可能变化，请以 xAI、Microsoft Marketplace、Microsoft 支持页面和当前账号实时显示为准。
-
-{% include faq.html %}

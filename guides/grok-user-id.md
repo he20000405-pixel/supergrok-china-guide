@@ -2,6 +2,8 @@
 title: "Grok User ID 怎么找：userId 获取、UUID 核对与安全说明"
 description: "Grok User ID 查询与安全核对指南：确认目标账号，按照当前核销说明提交最小必要账号标识，并避免误交邮箱、X 用户名或完整会话内容。"
 permalink: /guides/grok-user-id/
+alternate_zh: /guides/grok-user-id/
+alternate_en: /en/guides/grok-user-id/
 date_published: 2026-07-11
 last_modified_at: 2026-08-05
 breadcrumbs:

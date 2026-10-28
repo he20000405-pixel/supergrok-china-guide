@@ -2,6 +2,8 @@
 title: "Grok Build 登录失败与 403 排查：浏览器授权、设备码、版本更新与订阅权益"
 description: "Grok Build 登录失败和 403 排查指南：检查版本、浏览器授权账号、设备码登录、旧会话、团队账号修复与 SuperGrok / X Premium+ 订阅权益。"
 permalink: /guides/grok-build-login-403/
+alternate_zh: /guides/grok-build-login-403/
+alternate_en: /en/guides/grok-build-login-403/
 date_published: 2026-07-12
 last_modified_at: 2026-07-12
 breadcrumbs:

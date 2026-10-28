@@ -2,6 +2,8 @@
 title: "SuperGrok 付款成功但仍显示 Free：账号、订阅入口、App 同步与卡密核销排查"
 description: "Grok 已扣款但仍显示 Free 时，区分旧版 SuperGrok 与 X 联合会员，核对购买入口、账号和工作区；ChongGrok 新旧订单分别查询，不重复付款。"
 permalink: /guides/supergrok-paid-but-still-free/
+alternate_zh: /guides/supergrok-paid-but-still-free/
+alternate_en: /en/guides/supergrok-paid-but-still-free/
 date_published: 2026-07-12
 last_modified_at: 2026-10-28
 breadcrumbs:

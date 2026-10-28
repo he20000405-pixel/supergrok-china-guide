@@ -2,6 +2,8 @@
 title: "Grok User ID / UUID: How to Find and Verify It"
 description: "Find the Grok userId used for ChongGrok account verification, distinguish it from an email, X handle or xUserId, and submit only the minimum required identifier."
 permalink: /en/guides/grok-user-id/
+alternate_zh: /guides/grok-user-id/
+alternate_en: /en/guides/grok-user-id/
 lang: en
 schema_type: Article
 date_published: 2026-07-23

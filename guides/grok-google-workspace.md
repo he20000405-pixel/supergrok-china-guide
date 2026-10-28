@@ -277,5 +277,3 @@ Marketplace 当前列出的权限包括访问和编辑 Docs、Slides、已安装
 - [Google：Marketplace 应用安装提示说明](https://support.google.com/marketplace/answer/12408485?hl=en)
 
 **事实核验日期：2026-08-15。**插件名称、权限、按钮位置、地区与组织可用性可能变化，请以 SpaceXAI、xAI、Google Workspace Marketplace 和当前账号页面为准。
-
-{% include faq.html %}

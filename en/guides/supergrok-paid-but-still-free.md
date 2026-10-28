@@ -2,6 +2,8 @@
 title: "SuperGrok Paid but Still Free: Account and Billing Checks"
 description: "If Grok still shows Free after payment, distinguish legacy SuperGrok from The X Subscription, check the original account and workspace, and use the correct ChongGrok order route before paying again."
 permalink: /en/guides/supergrok-paid-but-still-free/
+alternate_zh: /guides/supergrok-paid-but-still-free/
+alternate_en: /en/guides/supergrok-paid-but-still-free/
 lang: en
 schema_type: Article
 date_published: 2026-07-24

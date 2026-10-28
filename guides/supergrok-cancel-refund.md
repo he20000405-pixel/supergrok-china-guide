@@ -12,19 +12,20 @@ breadcrumbs:
     url: /guides/
   - name: "取消订阅与退款"
     url: /guides/supergrok-cancel-refund/
+faq_markdown: true
 faq:
   - question: "SuperGrok 取消订阅后会自动退款吗？"
-    answer: "不会。取消订阅用于停止未来续费，申请退款是另一项操作。退款必须按原购买渠道提交，是否符合条件由 xAI、Apple、Google Play 或 X 的实时规则决定。"
+    answer: "不会。取消用于停止未来续费，退款必须按原订单渠道单独申请。"
   - question: "在 grok.com 购买的 SuperGrok 怎样取消？"
-    answer: "使用原购买账号登录 grok.com，打开 grok.com/?_s=billing，在 Billing 门户中管理计划、更新付款方式或取消订阅。若门户打不开，可关闭拦截扩展并改用无痕窗口或其他浏览器。"
+    answer: "登录原购买账号，打开 `grok.com/?_s=billing`，在 Billing 门户中取消。若门户打不开，先关闭拦截扩展并改用无痕窗口或其他浏览器。"
   - question: "Google Play 购买的 SuperGrok 应该向谁申请退款？"
-    answer: "xAI 当前消费者 FAQ 说明，Google Play 购买的 SuperGrok 在 Google Play 取消续费，但退款通过 xAI Refund Request 表单申请。提交当天仍应核对官方实时说明。"
+    answer: "xAI 当前消费者 FAQ 说明，Google Play 购买的 SuperGrok 在 Google Play 取消，但退款通过 xAI Refund Request 表单申请。"
   - question: "X Premium+ 和 SuperGrok 的退款入口相同吗？"
-    answer: "不同。X Premium+ 由 X 或其原应用商店管理，不应提交到 SuperGrok 的 xAI 退款入口。网页购买的 X Premium+ 按 X 规则处理，应用内购买则按 Apple 或 Google Play 的平台规则处理。"
+    answer: "不同。X Premium+ 由 X 或其原应用商店管理，不应提交到 SuperGrok 的 xAI 退款入口。"
   - question: "怎样更换 SuperGrok 的付款方式？"
-    answer: "grok.com 网页购买的订阅可在 grok.com/?_s=billing 更新付款方式。Apple、Google Play 或 X Premium+ 购买的订阅，需要回到对应平台管理付款方式。"
-  - question: "ChongGrok 订单应该在哪里查询？"
-    answer: "已有卡密或订单时，旧版 SuperGrok 在 chonggrok.com/verify-grok、联合会员在 chonggrok.com/verify-x 查询结果，再通过主站售后核对。不要把 ChongGrok 订单提交到 xAI、Apple、Google Play 或 X 的退款入口。"
+    answer: "网页购买可在 `grok.com/?_s=billing` 更新。Apple、Google Play 或 X Premium+ 购买则回原平台管理。"
+  - question: "已有 ChongGrok 订单怎么办？"
+    answer: "按订单产品在 [旧版 Grok 查询](https://chonggrok.com/verify-grok)或[联合会员查询](https://chonggrok.com/verify-x)检查处理状态，再通过主站售后核对。不要再次购买。"
 ---
 
 # SuperGrok 怎么取消订阅、申请退款或更换付款方式？
@@ -220,29 +221,7 @@ ChongGrok 只能处理自己的订单，不能替其他平台取消订阅或决�
 
 ## 常见问题
 
-### SuperGrok 取消订阅后会自动退款吗？
-
-不会。取消用于停止未来续费，退款必须按原订单渠道单独申请。
-
-### 在 grok.com 购买的 SuperGrok 怎样取消？
-
-登录原购买账号，打开 `grok.com/?_s=billing`，在 Billing 门户中取消。若门户打不开，先关闭拦截扩展并改用无痕窗口或其他浏览器。
-
-### Google Play 购买的 SuperGrok 应该向谁申请退款？
-
-xAI 当前消费者 FAQ 说明，Google Play 购买的 SuperGrok 在 Google Play 取消，但退款通过 xAI Refund Request 表单申请。
-
-### X Premium+ 和 SuperGrok 的退款入口相同吗？
-
-不同。X Premium+ 由 X 或其原应用商店管理，不应提交到 SuperGrok 的 xAI 退款入口。
-
-### 怎样更换 SuperGrok 的付款方式？
-
-网页购买可在 `grok.com/?_s=billing` 更新。Apple、Google Play 或 X Premium+ 购买则回原平台管理。
-
-### 已有 ChongGrok 订单怎么办？
-
-按订单产品在 [旧版 Grok 查询](https://chonggrok.com/verify-grok)或[联合会员查询](https://chonggrok.com/verify-x)检查处理状态，再通过主站售后核对。不要再次购买。
+{% include faq-prose.html %}
 
 ## 官方来源
 
