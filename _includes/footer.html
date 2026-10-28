@@ -1,14 +1,45 @@
 <footer class="site-footer">
   <div class="footer-shell">
-    <div class="footer-brand">
-      <span class="brand-mark" aria-hidden="true">CG</span>
-      <div><strong>ChongGrok AI 会员指南 · Grok</strong><p>联合会员、旧版续费、Grok Bot 与付款排障知识库。</p></div>
+    <div class="footer-top">
+      <div class="footer-intro">
+        <span class="brand-mark" aria-hidden="true">CG</span>
+        <div>
+          <p class="footer-title">ChongGrok AI 会员指南 · Grok</p>
+          <p>联合会员、旧版续费、Grok Bot 与付款排障知识库。</p>
+          <a class="footer-main-link" href="https://chonggrok.com/?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=grok_knowledge&amp;utm_content=footer_main_site">访问 chonggrok.com <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <nav class="footer-link-group" aria-label="产品知识库">
+        <strong>产品知识库</strong>
+        <a href="{{ site.chatgpt_guide_url | default: 'https://he20000405-pixel.github.io/chatgpt-plus-pro-china-guide/' }}">ChatGPT</a>
+        <a href="{{ site.grok_guide_url | default: 'https://he20000405-pixel.github.io/supergrok-china-guide/' }}">Grok</a>
+        <a href="{{ site.claude_guide_url | default: 'https://he20000405-pixel.github.io/claude-pro-max-china-guide/' }}">Claude</a>
+        <a href="{{ site.gemini_guide_url | default: 'https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/' }}">Gemini</a>
+        <a href="{{ '/guides/' | relative_url }}">Grok 全部专题</a>
+      </nav>
+      <nav class="footer-link-group" aria-label="站内资源">
+        <strong>查找答案</strong>
+        <a href="{{ site.portal_url }}search/">搜索指南</a>
+        <a href="{{ site.portal_url }}resources/">实用资源</a>
+        <a href="{{ site.portal_url }}resources/ai-membership-safety-checklist/">订阅安全清单</a>
+        <a href="{{ site.portal_url }}resources/ai-subscription-payment-troubleshooting/">付款排障决策树</a>
+        <a href="{{ site.portal_url }}labs/">技术实验室</a>
+        <a href="{{ site.portal_url }}about/">关于本站</a>
+      </nav>
+      <nav class="footer-link-group footer-extra" aria-label="更多入口">
+        <strong>更多入口</strong>
+        <a href="{{ site.guide_portal_url | default: 'https://guides.chonggrok.com/' }}">指南总入口</a>
+        <a href="{{ '/en/' | relative_url }}" lang="en">English</a>
+        <a href="{{ '/llms.txt' | relative_url }}">llms.txt</a>
+        <a href="https://chonggrok.com/x-subscription">X 联合会员方案</a>
+        <a href="https://chonggrok.com/verify-x">联合会员兑换</a>
+        <a href="https://chonggrok.com/supergrok?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=grok_knowledge&amp;utm_content=footer">旧版 SuperGrok 方案</a>
+        <a href="https://chonggrok.com/verify-grok?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=grok_knowledge&amp;utm_content=footer_verify">旧版 Grok 兑换</a>
+      </nav>
     </div>
-    <div class="footer-links" aria-label="页脚导航">
-      <div><strong>知识库</strong><a href="{{ site.portal_url }}">总首页</a><a href="https://guides.chonggrok.com/">指南门户</a><a href="{{ '/guides/' | relative_url }}">Grok 专题</a><a href="{{ site.chatgpt_guide_url }}">ChatGPT 指南</a></div>
-      <div><strong>实用资源</strong><a href="{{ site.portal_url }}resources/ai-membership-safety-checklist/">订阅安全清单</a><a href="{{ site.portal_url }}resources/ai-subscription-payment-troubleshooting/">付款排障决策树</a><a href="{{ site.portal_url }}search/">搜索全部内容</a></div>
-      <div><strong>服务入口</strong><a href="https://chonggrok.com/x-subscription">X 联合会员方案</a><a href="https://chonggrok.com/verify-x">联合会员兑换</a><a href="https://chonggrok.com/supergrok?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=grok_knowledge&amp;utm_content=footer">旧版 SuperGrok 方案</a><a href="https://chonggrok.com/verify-grok?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=grok_knowledge&amp;utm_content=footer_verify">旧版 Grok 兑换</a><a href="{{ '/en/' | relative_url }}" lang="en">English guide</a></div>
+    <div class="footer-bottom">
+      <p class="footer-note">本站为 chonggrok.com 的独立服务指南，与 xAI、X 不存在隶属、授权或官方合作关系。套餐、权益和可用模型以官方页面及账号内实时展示为准。</p>
+      <p>© {{ 'now' | date: '%Y' }} ChongGrok</p>
     </div>
-    <p class="footer-disclaimer">本站为 chonggrok.com 的独立服务指南，与 xAI、X 不存在隶属、授权或官方合作关系。套餐、权益和可用模型以官方页面及账号内实时展示为准。</p>
   </div>
 </footer>
