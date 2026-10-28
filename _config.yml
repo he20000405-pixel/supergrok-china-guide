@@ -40,6 +40,51 @@ defaults:
     values:
       sitemap: false
 
+  - scope:
+      path: "guides/x-subscription-overview.md"
+    values:
+      date_published: "2026-10-28"
+      breadcrumbs:
+        - name: "首页"
+          url: /
+        - name: "专题"
+          url: /guides/
+        - name: "Grok 联合会员总纲"
+          url: /guides/x-subscription-overview/
+  - scope:
+      path: "guides/grok-bot-weekly-pool-guide.md"
+    values:
+      date_published: "2026-10-28"
+      breadcrumbs:
+        - name: "首页"
+          url: /
+        - name: "专题"
+          url: /guides/
+        - name: "Grok Bot 权限与额度池"
+          url: /guides/grok-bot-weekly-pool-guide/
+  - scope:
+      path: "guides/supergrok-unify-migration-guide.md"
+    values:
+      date_published: "2026-10-28"
+      breadcrumbs:
+        - name: "首页"
+          url: /
+        - name: "专题"
+          url: /guides/
+        - name: "旧会员合并指南"
+          url: /guides/supergrok-unify-migration-guide/
+  - scope:
+      path: "guides/grok-cursor-shared-billing.md"
+    values:
+      date_published: "2026-10-28"
+      breadcrumbs:
+        - name: "首页"
+          url: /
+        - name: "专题"
+          url: /guides/
+        - name: "Cursor 计费规则"
+          url: /guides/grok-cursor-shared-billing/
+
 exclude:
   - README.md
   - PUBLISHING.md

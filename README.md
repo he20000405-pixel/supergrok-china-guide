@@ -56,6 +56,10 @@ xAI 当前消费者 FAQ 说明了账号、账单和支持入口，但没有把�
 
 | 专题 | 解决的问题 |
 |---|---|
+| [Grok 联合会员（The X Subscription）怎么选？2026 四档价格、Grok Bot 权限与国内开通指南](guides/x-subscription-overview.md) | 四档价格、Grok Bot 权限与国内开通流程。 |
+| [为什么开了 Grok 会员还是用不了 Grok Bot？2026 权限解锁、每周额度池（Weekly Pool）与 Top-ups 指南](guides/grok-bot-weekly-pool-guide.md) | 无权限排查、Weekly Pool 与 Top-ups 使用说明。 |
+| [老版 SuperGrok 与 Cursor 要不要合并（Unify）？2026 X 联合会员迁移避坑、苹果退费与旧版保留指南](guides/supergrok-unify-migration-guide.md) | Unify 迁移、苹果退费与旧版订阅保留说明。 |
+| [X 联合会员下使用 Cursor 编程怎么计费？2026 Grok 第一方额度池与 Claude / GPT 扣费规则解析](guides/grok-cursor-shared-billing.md) | Grok 第一方额度池与 Claude、GPT 扣费规则。 |
 | [X 联合会员与 Grok Bot](guides/x-subscription-grok-bot-guide.md) | 四档、共享周额度、旧版资格与官方转换 |
 | [SuperGrok 自助充值完整流程](guides/supergrok-auto-recharge.md) | 从下单、卡密核销、User ID 到到账验收 |
 | [Grok User ID 怎么找](guides/grok-user-id.md) | 找到正确的 `userId`，避免提交邮箱或 X 用户名 |

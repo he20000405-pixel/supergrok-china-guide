@@ -10,6 +10,14 @@ breadcrumbs:
   - name: "专题"
     url: /guides/
 item_list:
+  - name: "Grok 联合会员四档与国内开通"
+    url: /guides/x-subscription-overview/
+  - name: "Grok Bot 权限与每周额度池"
+    url: /guides/grok-bot-weekly-pool-guide/
+  - name: "SuperGrok 与 Cursor 合并指南"
+    url: /guides/supergrok-unify-migration-guide/
+  - name: "X 联合会员下的 Cursor 计费"
+    url: /guides/grok-cursor-shared-billing/
   - name: X 联合会员与 Grok Bot
     url: /guides/x-subscription-grok-bot-guide/
   - name: SuperGrok 自助充值
@@ -66,6 +74,10 @@ item_list:
 > **不知道先读哪篇？** 新购或使用 Bot 先看“X 联合会员”；保留旧版则看套餐或充值流程；第一次付款报错看“付款失败”；会员到期或自动续费报错看“续费失败”；已扣款看“仍显示 Free”；计划有效但功能受限先检查“周额度”；Grok Build 报 403 进入开发工具专题。
 
 <div class="catalog-list">
+  <a class="catalog-item" href="{{ '/guides/x-subscription-overview/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>Grok 联合会员四档与国内开通</strong><p>四档价格、Grok Bot 权限与国内开通流程。</p><span class="catalog-meta">2026 年 10 月专题</span></span><span class="intent-label">套餐 / 开通</span></a>
+  <a class="catalog-item" href="{{ '/guides/grok-bot-weekly-pool-guide/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>Grok Bot 权限与每周额度池</strong><p>无权限排查、Weekly Pool 与 Top-ups 使用说明。</p><span class="catalog-meta">2026 年 10 月专题</span></span><span class="intent-label">权限 / 用量</span></a>
+  <a class="catalog-item" href="{{ '/guides/supergrok-unify-migration-guide/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>SuperGrok 与 Cursor 合并指南</strong><p>Unify 迁移、苹果退费与旧版订阅保留说明。</p><span class="catalog-meta">2026 年 10 月专题</span></span><span class="intent-label">合并 / 退款</span></a>
+  <a class="catalog-item" href="{{ '/guides/grok-cursor-shared-billing/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>X 联合会员下的 Cursor 计费</strong><p>Grok 第一方额度池与 Claude、GPT 扣费规则。</p><span class="catalog-meta">2026 年 10 月专题</span></span><span class="intent-label">编程 / 计费</span></a>
   <a class="catalog-item" href="{{ '/guides/x-subscription-grok-bot-guide/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>X 联合会员与 Grok Bot</strong><p>四档、共享周额度、旧版资格与官方转换；新购和续费分开办理。</p><span class="catalog-meta">完成目标：确定套餐、费用与适用办理路径</span></span><span class="intent-label">订阅 / 用量</span></a>
   <a class="catalog-item" href="{{ '/guides/supergrok-auto-recharge/' | relative_url }}"><span class="catalog-number">01</span><span class="catalog-copy"><strong>SuperGrok 自助充值流程</strong><p>支付宝/微信、卡密核销、User ID 和到账验收。</p><span class="catalog-meta">约 7 分钟 · 完成目标：提交最小资料并回官方页面验收</span></span><span class="intent-label">旧版 / 流程</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-user-id/' | relative_url }}"><span class="catalog-number">02</span><span class="catalog-copy"><strong>Grok User ID 的用途与核对</strong><p>识别正确的账号标识，并避免公开或提交其他账号信息。</p><span class="catalog-meta">约 5 分钟 · 完成目标：只提交当前核销流程要求的 User ID</span></span><span class="intent-label">账号 / 凭据</span></a>

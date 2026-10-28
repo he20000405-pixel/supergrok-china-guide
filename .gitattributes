@@ -8,3 +8,9 @@
 .gitattributes text eol=lf
 .gitignore text eol=lf
 Gemfile text eol=lf
+
+# Preserve these author-supplied articles byte-for-byte.
+guides/x-subscription-overview.md -text -eol
+guides/grok-bot-weekly-pool-guide.md -text -eol
+guides/supergrok-unify-migration-guide.md -text -eol
+guides/grok-cursor-shared-billing.md -text -eol

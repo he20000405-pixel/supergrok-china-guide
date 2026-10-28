@@ -8,6 +8,14 @@ breadcrumbs:
   - name: 首页
     url: /
 item_list:
+  - name: "Grok 联合会员四档与国内开通"
+    url: /guides/x-subscription-overview/
+  - name: "Grok Bot 权限与每周额度池"
+    url: /guides/grok-bot-weekly-pool-guide/
+  - name: "SuperGrok 与 Cursor 合并指南"
+    url: /guides/supergrok-unify-migration-guide/
+  - name: "X 联合会员下的 Cursor 计费"
+    url: /guides/grok-cursor-shared-billing/
   - name: X 联合会员与 Grok Bot
     url: /guides/x-subscription-grok-bot-guide/
   - name: SuperGrok 自助充值
@@ -79,6 +87,10 @@ faq:
 <p class="section-intro">充值、账号、报错、开发工具和版本更新分别由独立页面回答，避免不同问题混在一起。</p>
 
 <div class="guide-grid">
+  <section class="guide-card"><h3><a href="{{ '/guides/x-subscription-overview/' | relative_url }}">Grok 联合会员四档与国内开通</a></h3><p>四档价格、Grok Bot 权限与国内开通流程。</p></section>
+  <section class="guide-card"><h3><a href="{{ '/guides/grok-bot-weekly-pool-guide/' | relative_url }}">Grok Bot 权限与每周额度池</a></h3><p>无权限排查、Weekly Pool 与 Top-ups 使用说明。</p></section>
+  <section class="guide-card"><h3><a href="{{ '/guides/supergrok-unify-migration-guide/' | relative_url }}">SuperGrok 与 Cursor 合并指南</a></h3><p>Unify 迁移、苹果退费与旧版订阅保留说明。</p></section>
+  <section class="guide-card"><h3><a href="{{ '/guides/grok-cursor-shared-billing/' | relative_url }}">X 联合会员下的 Cursor 计费</a></h3><p>Grok 第一方额度池与 Claude、GPT 扣费规则。</p></section>
   <section class="guide-card"><h3><a href="{{ '/guides/x-subscription-grok-bot-guide/' | relative_url }}">X 联合会员与 Grok Bot</a></h3><p>四档功能、共享周额度、额外费用和旧会员官方转换。</p></section>
   <section class="guide-card"><h3><a href="{{ '/guides/supergrok-auto-recharge/' | relative_url }}">自助充值流程</a></h3><p>下单、卡密、核销、User ID 和到账验收。</p></section>
   <section class="guide-card"><h3><a href="{{ '/guides/grok-user-id/' | relative_url }}">Grok User ID</a></h3><p>准确查找、复制和脱敏，避免常见填错。</p></section>
