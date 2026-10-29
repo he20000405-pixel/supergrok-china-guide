@@ -3,7 +3,7 @@ title: "X 联合会员下使用 Cursor 编程怎么计费？2026 Grok 第一方�
 description: "2026年10月开发者实测：详解 The X Subscription（Grok 联合会员）下 Cursor 编辑器的双轨计费规则，区分 Grok 4.7/4.5 第一方模型共享每周额度池（Weekly Pool）与 Claude/GPT 第三方模型按 API 扣取预充值余额的边界，附国内通过 chonggrok.com 开通指南。"
 permalink: /guides/grok-cursor-shared-billing/
 date: 2026-10-28
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 ---
 
 # X 联合会员下使用 Cursor 编程怎么计费？2026 Grok 第一方额度池与 Claude / GPT 扣费规则解析

@@ -3,7 +3,7 @@ title: "Grok 联合会员（The X Subscription）怎么选？2026 四档价格�
 description: "2026年10月最新实测：详解 xAI 新版 The X Subscription 联合会员 Plus ($8)、Premium ($30)、Super ($100)、Ultra ($200) 四档差异，对比新版联合会员与旧版 SuperGrok 选型，附国内通过 chonggrok.com 支付宝/微信本号升级及对应核销全流程（联合会员使用 SSO，旧版 SuperGrok 使用 User ID）。"
 permalink: /guides/x-subscription-overview/
 date: 2026-10-28
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 ---
 
 # Grok 联合会员（The X Subscription）怎么选？2026 四档价格、Grok Bot 权限与国内开通指南

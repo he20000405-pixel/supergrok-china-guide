@@ -9,7 +9,7 @@ chatgpt_guide_url: "https://he20000405-pixel.github.io/chatgpt-plus-pro-china-gu
 grok_guide_url: "https://he20000405-pixel.github.io/supergrok-china-guide/"
 claude_guide_url: "https://he20000405-pixel.github.io/claude-pro-max-china-guide/"
 gemini_guide_url: "https://he20000405-pixel.github.io/gemini-google-ai-pro-china-guide/"
-asset_version: "20261028-search-focus-2"
+asset_version: "20261030-noncontent-repair"
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
 author:
@@ -84,6 +84,15 @@ defaults:
           url: /guides/
         - name: "Cursor 计费规则"
           url: /guides/grok-cursor-shared-billing/
+
+  - scope:
+      path: "en"
+    values:
+      locale: "en_US"
+  - scope:
+      path: "README_EN.md"
+    values:
+      locale: "en_US"
 
 exclude:
   - README.md
