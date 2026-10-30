@@ -7,7 +7,7 @@ alternate_en: /en/guides/grok-user-id/
 lang: en
 schema_type: Article
 date_published: 2026-07-23
-last_modified_at: 2026-08-05
+last_modified_at: 2026-10-30
 breadcrumbs:
   - name: "Home"
     url: /
@@ -87,7 +87,7 @@ Do not guess a value or submit an identifier from another account.
 
 ## If the account already has a charge or pending order
 
-Do not buy again. First verify the original billing channel and account status using the [SuperGrok charged-but-still-Free guide]({{ '/guides/supergrok-paid-but-still-free/' | relative_url }}).
+Do not buy again. First verify the original billing channel and account status using the [SuperGrok charged-but-still-Free guide]({{ '/en/guides/supergrok-paid-but-still-free/' | relative_url }}).
 
 Only after confirming that there is no active or pending subscription should a new membership path be considered. Current service details are available at [chonggrok.com/supergrok](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_user_id&utm_content=en_service_options).
 

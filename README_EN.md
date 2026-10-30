@@ -3,7 +3,7 @@ title: "Grok Subscriptions: The X Subscription and Legacy SuperGrok"
 description: "Distinguish The X Subscription, Grok Bot access, legacy SuperGrok renewal, official unification and separate ChongGrok redemption routes."
 lang: en
 permalink: /en/
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 ---
 
 # Grok Subscriptions and Payment Troubleshooting
@@ -52,10 +52,10 @@ Check the model picker in your own account and the [official Grok 4.5 announceme
 
 - [Chinese guide](https://he20000405-pixel.github.io/supergrok-china-guide/)
 - [All topic guides](https://he20000405-pixel.github.io/supergrok-china-guide/guides/)
-- [Grok User ID guide](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/)
+- [Grok User ID guide](https://he20000405-pixel.github.io/supergrok-china-guide/en/guides/grok-user-id/)
 - [Payment error troubleshooting](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-payment-errors/)
-- [Charged but still showing Free](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-paid-but-still-free/)
-- [Grok Build login and 403 troubleshooting](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-build-login-403/)
+- [Charged but still showing Free](https://he20000405-pixel.github.io/supergrok-china-guide/en/guides/supergrok-paid-but-still-free/)
+- [Grok Build login and 403 troubleshooting](https://he20000405-pixel.github.io/supergrok-china-guide/en/guides/grok-build-login-403/)
 - [Grok 4.5 update](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-4-5-update/)
 - [xAI consumer Grok FAQ](https://docs.x.ai/grok/faq)
 
