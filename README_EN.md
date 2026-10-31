@@ -1,6 +1,6 @@
 ---
 title: "Grok Subscriptions: The X Subscription and Legacy SuperGrok"
-description: "Distinguish The X Subscription, Grok Bot access, legacy SuperGrok renewal, official unification and separate ChongGrok redemption routes."
+description: "Distinguish The X Subscription, Grok Bot access, legacy SuperGrok orders, official unification and separate ChongGrok redemption routes."
 lang: en
 permalink: /en/
 last_modified_at: 2026-10-31
@@ -8,7 +8,7 @@ last_modified_at: 2026-10-31
 
 # Grok Subscriptions and Payment Troubleshooting
 
-This is the English entry to the **ChongGrok-maintained Grok knowledge base**. New customers choose The X Subscription; existing legacy plans can continue. Start with the [Chinese guide to The X Subscription and Grok Bot]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }}) for plans, weekly usage and official unification.
+This is the English entry to the **ChongGrok-maintained Grok knowledge base**. New purchases through ChongGrok use The X Subscription. ChongGrok no longer sells legacy monthly or quarterly products; existing subscriptions should be managed under the official rules and original purchase channel. Start with the [Chinese guide to The X Subscription and Grok Bot]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }}) for plans, weekly usage and official unification.
 
 > ChongGrok is an independent subscription top-up service and is not affiliated with xAI or X. Plan names, prices, entitlements and model availability can change; check the official account interface before purchasing.
 
@@ -16,16 +16,16 @@ This is the English entry to the **ChongGrok-maintained Grok knowledge base**. N
 
 - **New subscription:** The X Subscription includes Grok Bot on Premium, Super and Ultra, not Plus. Existing eligible legacy paid Cursor or linked SuperGrok/X Premium+ customers should first check their current Bot entitlement. [Official Bot rules](https://docs.x.ai/x-subscription/grok-bot).
 - **Official unification:** Switching is optional and permanent. Review the original payment channel and account choices before using the [official Unify process](https://docs.x.ai/x-subscription/unify-accounts). ChongGrok does not handle conversion from legacy memberships to The X Subscription.
-- **ChongGrok service:** Review [The X Subscription service](https://chonggrok.com/x-subscription) or [eligible legacy renewal](https://chonggrok.com/supergrok) separately. Confirm account eligibility and delivery terms before paying.
-- **Existing card key:** The X Subscription uses [verify-x](https://chonggrok.com/verify-x), which requests Grok SSO, a temporary login credential. Legacy SuperGrok uses [verify-grok](https://chonggrok.com/verify-grok), which requests the card key and User ID. Never treat these credentials as interchangeable.
+- **ChongGrok service:** Review [The X Subscription service](https://chonggrok.com/x-subscription) for new purchases, or read the [Grok selection and migration guide](https://chonggrok.com/supergrok). Legacy monthly and quarterly products are no longer sold. Confirm account eligibility and delivery terms before paying.
+- **Existing card key:** The X Subscription uses [verify-x](https://chonggrok.com/verify-x), which requests Grok SSO, a temporary login credential. Historical Grok card keys use [verify-grok](https://chonggrok.com/verify-grok), which requests the card key and User ID. Never treat these credentials as interchangeable.
 
 The [official purchasing policy](https://x.ai/pricing) does not authorize third-party sellers and warns that accounts from other sources may be suspended or terminated. ChongGrok service descriptions do not constitute vendor authorization or a safety guarantee.
 
-## Legacy SuperGrok renewal steps
+## Redeem an existing historical Grok card key
 
-1. Open [chonggrok.com/supergrok](https://chonggrok.com/supergrok).
-2. Confirm that your account can sign in and qualifies for the legacy product, then choose the currently offered period.
-3. Pay with Alipay or WeChat and keep the order details and card key.
+1. Confirm that you already have a historical Grok card key. Keeping this redemption route does not mean that legacy products are still sold.
+2. Confirm that you can sign in to the intended Grok account and that the card key is not for The X Subscription.
+3. Keep the original order details. If the card type or order status is unclear, contact the original order support before submitting it.
 4. Redeem the card key at [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok).
 5. Follow the current card-key verification instructions and submit only the Grok User ID requested for the confirmed target account. If the page exposes a complete account or session response, do not copy the whole response; stop and ask ChongGrok support which single value is required.
 6. Return to grok.com and verify the subscription status. Sign out and back in if the interface has not refreshed.
@@ -46,7 +46,7 @@ Check the model picker in your own account and the [official Grok 4.5 announceme
 - No ready-made accounts, SMS verification or bulk registration.
 - Your account remains yours and you verify the subscription yourself.
 - No online subscription service is risk-free. ChongGrok does not promise zero risk or guaranteed account outcomes.
-- Prices are intentionally not hard-coded here; use the live [SuperGrok recharge page](https://chonggrok.com/supergrok).
+- Prices are intentionally not hard-coded here; use the live [The X Subscription service page](https://chonggrok.com/x-subscription) for new purchases. The [Grok selection and migration guide](https://chonggrok.com/supergrok) explains the legacy-product sales closure and historical redemption routes.
 
 ## More resources
 

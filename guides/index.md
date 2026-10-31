@@ -1,9 +1,9 @@
 ---
-title: "Grok 联合会员、旧版续费与付款排障专题"
-description: "X 联合会员、Grok Bot、共享额度、旧版 SuperGrok 续费、User ID、付款失败、仍显示 Free、Grok Build 403 和历史版本专题目录。"
+title: "Grok 联合会员、旧订阅与付款排障专题"
+description: "X 联合会员、Grok Bot、共享额度、历史 Grok 卡兑换、User ID、付款失败、仍显示 Free、Grok Build 403 和历史版本专题目录。"
 permalink: /guides/
 schema_type: CollectionPage
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 breadcrumbs:
   - name: "首页"
     url: /
@@ -71,17 +71,17 @@ item_list:
 
 <p class="lead">将充值、账号标识、付款报错、开发工具和版本更新拆成独立页面。先按问题类型选择专题，再执行对应检查，避免把不同原因混在一起。</p>
 
-> **不知道先读哪篇？** 新购或使用 Bot 先看“X 联合会员”；保留旧版则看套餐或充值流程；第一次付款报错看“付款失败”；会员到期或自动续费报错看“续费失败”；已扣款看“仍显示 Free”；计划有效但功能受限先检查“周额度”；Grok Build 报 403 进入开发工具专题。
+> **不知道先读哪篇？** 新购或使用 Bot 先看“X 联合会员”；已有旧订阅先核对原购买渠道，历史卡密可参考旧版兑换流程；第一次付款报错看“付款失败”；会员到期或自动续费报错看“续费失败”；已扣款看“仍显示 Free”；计划有效但功能受限先检查“周额度”；Grok Build 报 403 进入开发工具专题。
 
 <div class="catalog-list">
   <a class="catalog-item" href="{{ '/guides/x-subscription-overview/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>Grok 联合会员四档与国内开通</strong><p>四档价格、Grok Bot 权限与国内开通流程。</p><span class="catalog-meta">2026 年 10 月专题</span></span><span class="intent-label">套餐 / 开通</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-bot-weekly-pool-guide/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>Grok Bot 权限与每周额度池</strong><p>无权限排查、Weekly Pool 与 Top-ups 使用说明。</p><span class="catalog-meta">2026 年 10 月专题</span></span><span class="intent-label">权限 / 用量</span></a>
   <a class="catalog-item" href="{{ '/guides/supergrok-unify-migration-guide/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>SuperGrok 与 Cursor 合并指南</strong><p>Unify 迁移、苹果退费与旧版订阅保留说明。</p><span class="catalog-meta">2026 年 10 月专题</span></span><span class="intent-label">合并 / 退款</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-cursor-shared-billing/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>X 联合会员下的 Cursor 计费</strong><p>Grok 第一方额度池与 Claude、GPT 扣费规则。</p><span class="catalog-meta">2026 年 10 月专题</span></span><span class="intent-label">编程 / 计费</span></a>
-  <a class="catalog-item" href="{{ '/guides/x-subscription-grok-bot-guide/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>X 联合会员与 Grok Bot</strong><p>四档、共享周额度、旧版资格与官方转换；新购和续费分开办理。</p><span class="catalog-meta">完成目标：确定套餐、费用与适用办理路径</span></span><span class="intent-label">订阅 / 用量</span></a>
-  <a class="catalog-item" href="{{ '/guides/supergrok-auto-recharge/' | relative_url }}"><span class="catalog-number">01</span><span class="catalog-copy"><strong>SuperGrok 自助充值流程</strong><p>支付宝/微信、卡密核销、User ID 和到账验收。</p><span class="catalog-meta">约 7 分钟 · 完成目标：提交最小资料并回官方页面验收</span></span><span class="intent-label">旧版 / 流程</span></a>
+  <a class="catalog-item" href="{{ '/guides/x-subscription-grok-bot-guide/' | relative_url }}"><span class="catalog-number">新</span><span class="catalog-copy"><strong>X 联合会员与 Grok Bot</strong><p>四档、共享周额度、旧版权益与官方转换；本站新购买统一走联合会员入口。</p><span class="catalog-meta">完成目标：确定套餐、费用与适用办理路径</span></span><span class="intent-label">订阅 / 用量</span></a>
+  <a class="catalog-item" href="{{ '/guides/supergrok-auto-recharge/' | relative_url }}"><span class="catalog-number">01</span><span class="catalog-copy"><strong>SuperGrok 自助充值流程</strong><p>历史充值与卡密兑换流程参考；旧版商品已停售，已有卡密继续核对 User ID 与到账状态。</p><span class="catalog-meta">约 7 分钟 · 完成目标：提交最小资料并回官方页面验收</span></span><span class="intent-label">旧版 / 流程</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-user-id/' | relative_url }}"><span class="catalog-number">02</span><span class="catalog-copy"><strong>Grok User ID 的用途与核对</strong><p>识别正确的账号标识，并避免公开或提交其他账号信息。</p><span class="catalog-meta">约 5 分钟 · 完成目标：只提交当前核销流程要求的 User ID</span></span><span class="intent-label">账号 / 凭据</span></a>
-  <a class="catalog-item" href="{{ '/guides/supergrok-plans/' | relative_url }}"><span class="catalog-number">03</span><span class="catalog-copy"><strong>Grok 新旧套餐怎么选</strong><p>先比较联合会员与旧版，再选择功能、额度或 1/3 个月旧版商品。</p><span class="catalog-meta">约 5 分钟 · 完成目标：判断现在是否需要付费</span></span><span class="intent-label">套餐 / 选择</span></a>
+  <a class="catalog-item" href="{{ '/guides/supergrok-plans/' | relative_url }}"><span class="catalog-number">03</span><span class="catalog-copy"><strong>Grok 新旧套餐怎么选</strong><p>比较联合会员与已有旧订阅；旧版商品周期为历史记录，不代表当前仍可购买。</p><span class="catalog-meta">约 5 分钟 · 完成目标：判断现在是否需要付费</span></span><span class="intent-label">套餐 / 选择</span></a>
   <a class="catalog-item" href="{{ '/guides/supergrok-payment-errors/' | relative_url }}"><span class="catalog-number">04</span><span class="catalog-copy"><strong>Grok 付款失败排查</strong><p>card declined、3DS、账单地址和发卡行限制。</p><span class="catalog-meta">约 8 分钟 · 完成目标：识别原支付渠道和拒付责任方</span></span><span class="intent-label">报错 / 搜索</span></a>
   <a class="catalog-item" href="{{ '/guides/supergrok-paid-but-still-free/' | relative_url }}"><span class="catalog-number">05</span><span class="catalog-copy"><strong>付款成功但仍显示 Free</strong><p>按新旧订单核对购买入口、账号与工作区、额度和兑换状态。</p><span class="catalog-meta">约 9 分钟 · 完成目标：区分订单、订阅和账号权益</span></span><span class="intent-label">付款 / 状态</span></a>
   <a class="catalog-item" href="{{ '/guides/grok-build-login-403/' | relative_url }}"><span class="catalog-number">06</span><span class="catalog-copy"><strong>Grok Build 登录与 403</strong><p>浏览器授权、设备码、版本、旧会话和订阅权益。</p><span class="catalog-meta">约 9 分钟 · 完成目标：判断 403 属于登录、版本还是权益</span></span><span class="intent-label">开发者 / 搜索</span></a>
@@ -121,6 +121,6 @@ item_list:
 
 <section class="service-panel">
   <h2>服务入口</h2>
-  <p>新购联合会员与旧版续费分别核对资格；本站不办理旧会员转换。有待处理订单时先查原订单，方案与交付规则以服务页为准。</p>
-  <div class="hero-actions"><a class="primary-link" href="https://chonggrok.com/x-subscription?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_guides_index">联合会员方案</a><a class="secondary-link" href="https://chonggrok.com/supergrok">旧版续费方案</a><a class="secondary-link" href="{{ '/' | relative_url }}">返回 Grok 首页</a></div>
+  <p>新购买查看联合会员方案，历史 Grok 卡使用独立兑换入口。已有旧订阅按官方规则和原购买渠道核对；有待处理订单时先查原订单。</p>
+  <div class="hero-actions"><a class="primary-link" href="https://chonggrok.com/x-subscription?utm_source=github_guides&utm_medium=referral&utm_campaign=grok_guides_index">联合会员方案</a><a class="secondary-link" href="https://chonggrok.com/supergrok">Grok 选购与迁移说明</a><a class="secondary-link" href="{{ '/' | relative_url }}">返回 Grok 首页</a></div>
 </section>

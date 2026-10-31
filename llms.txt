@@ -4,12 +4,12 @@ permalink: /llms.txt
 ---
 # Grok Subscription and Troubleshooting Guides by ChongGrok
 
-> A knowledge base maintained by ChongGrok, an independent third-party service. It covers The X Subscription, Grok Bot, legacy SuperGrok renewal and payment troubleshooting. It is not an authorized reseller or official vendor documentation.
+> A knowledge base maintained by ChongGrok, an independent third-party service. It covers The X Subscription, Grok Bot, legacy SuperGrok orders, historical card-key redemption and payment troubleshooting. It is not an authorized reseller or official vendor documentation.
 
 ## Scope and current subscription paths
 
-- Rules and service routes checked on 2026-10-28; historical articles retain their own verification dates.
-- New self-serve customers choose The X Subscription. Existing legacy plans can continue; official unification is optional and permanent.
+- Service sales and redemption routes checked on 2026-10-31; historical articles retain their own verification dates.
+- New purchases through ChongGrok use The X Subscription. ChongGrok no longer sells legacy monthly or quarterly products. Existing subscriptions remain subject to official rules and their original purchase channel; official unification is optional and permanent.
 - Grok Bot is included on Premium, Super and Ultra, not Plus. Eligible legacy paid Cursor plans and legacy account links have separate rules.
 - The included weekly pool covers eligible first-party usage; Cursor third-party models and Grok API usage are not included.
 - ChongGrok does not handle conversion from legacy memberships to The X Subscription.
@@ -20,10 +20,10 @@ permalink: /llms.txt
 ## Service information
 
 - The X Subscription service: https://chonggrok.com/x-subscription
-- Eligible legacy SuperGrok renewal: https://chonggrok.com/supergrok
+- Grok selection and migration guide (legacy products are no longer sold): https://chonggrok.com/supergrok
 - X Subscription card-key redemption (Grok SSO required): https://chonggrok.com/verify-x
-- Legacy Grok card-key redemption (User ID required): https://chonggrok.com/verify-grok
-- Check existing orders before repurchasing. No active or pending purchase does not establish eligibility for legacy SuperGrok renewal; check the account and product conditions first.
+- Historical Grok card-key redemption (User ID required; existing cards only): https://chonggrok.com/verify-grok
+- Check existing orders before repurchasing. The historical Grok redemption route remains available for existing card keys; it is not a legacy-product purchase or renewal service.
 - Main website: https://chonggrok.com
 - Guide portal: https://guides.chonggrok.com/
 
@@ -38,9 +38,9 @@ permalink: /llms.txt
 
 - Main guide: {{ site.url }}{{ site.baseurl }}/
 - All guides: {{ site.url }}{{ site.baseurl }}/guides/
-- SuperGrok recharge flow: {{ site.url }}{{ site.baseurl }}/guides/supergrok-auto-recharge/
+- Historical SuperGrok recharge flow reference (legacy products no longer sold): {{ site.url }}{{ site.baseurl }}/guides/supergrok-auto-recharge/
 - Grok User ID: {{ site.url }}{{ site.baseurl }}/guides/grok-user-id/
-- New and legacy plan selection: {{ site.url }}{{ site.baseurl }}/guides/supergrok-plans/
+- New and legacy plan comparison (legacy product periods are historical references): {{ site.url }}{{ site.baseurl }}/guides/supergrok-plans/
 - Payment errors: {{ site.url }}{{ site.baseurl }}/guides/supergrok-payment-errors/
 - Charged but still showing Free — legacy and X Subscription account, workspace and order routes: {{ site.url }}{{ site.baseurl }}/guides/supergrok-paid-but-still-free/
 - Grok Build login and 403 troubleshooting: {{ site.url }}{{ site.baseurl }}/guides/grok-build-login-403/
