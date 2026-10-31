@@ -7,7 +7,7 @@ alternate_en: /en/guides/supergrok-paid-but-still-free/
 lang: en
 schema_type: Article
 date_published: 2026-07-24
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 breadcrumbs:
   - name: "Home"
     url: /
@@ -171,6 +171,6 @@ Keep the account email, login method, platform, redacted receipt, date, currency
 - [The X Subscription usage limits](https://docs.x.ai/x-subscription/usage-limits)
 - [X Premium FAQ](https://help.x.com/en/using-x/x-premium-faq)
 - [Chinese SuperGrok paid-but-still-Free guide]({{ '/guides/supergrok-paid-but-still-free/' | relative_url }})
-- [Weekly limit versus subscription guide]({{ '/guides/supergrok-weekly-limit-vs-subscription/' | relative_url }})
+- [Weekly limit versus subscription guide (Chinese)]({{ '/guides/supergrok-weekly-limit-vs-subscription/' | relative_url }})
 
 **Updated:** October 28, 2026. The legacy and X Subscription usage and redemption routes were checked against public documentation. No purchase, redemption or paid-usage test was performed; account status and charges must still be checked in the official account.

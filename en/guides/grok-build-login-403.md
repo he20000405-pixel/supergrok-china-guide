@@ -7,7 +7,7 @@ alternate_en: /en/guides/grok-build-login-403/
 lang: en
 schema_type: Article
 date_published: 2026-07-23
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 breadcrumbs:
   - name: "Home"
     url: /
@@ -42,7 +42,7 @@ Do not repurchase a membership or delete local credential files before the failu
 | One account works and another does not | Which account owns the entitlement | That identical display names mean identical accounts |
 | The error is on a web payment page | Billing channel, bank or 3DS | That Grok Build caused the payment error |
 
-If the error occurs during membership payment, use the [Grok payment-error guide]({{ '/guides/supergrok-payment-errors/' | relative_url }}). If payment completed but the consumer account still shows Free or Upgrade, use the [charged-but-still-Free guide]({{ '/en/guides/supergrok-paid-but-still-free/' | relative_url }}).
+If the error occurs during membership payment, use the [Grok payment-error guide (Chinese)]({{ '/guides/supergrok-payment-errors/' | relative_url }}). If payment completed but the consumer account still shows Free or Upgrade, use the [charged-but-still-Free guide]({{ '/en/guides/supergrok-paid-but-still-free/' | relative_url }}).
 
 ## 1. Check and update the client
 
