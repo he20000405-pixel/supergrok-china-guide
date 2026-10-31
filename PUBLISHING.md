@@ -188,29 +188,27 @@ Upgrade SuperGrok guide with Grok 4.5 content cluster
 
 应当显示：
 
-- Source：`Deploy from a branch`；
-- Branch：`main`；
-- Folder：`/(root)`。
+- Source：`GitHub Actions`；
+- 使用仓库内的发布前检查工作流；
+- `github-pages` 部署环境仅允许 `main`。
 
-如果已经是这些设置，不要修改。
+具体规则见 [发布前检查说明](.github/PUBLISHING-CHECKS.md)。如果已经是这些设置，不要改回分支直接发布。
 
-如果不是，则选择：
-
-1. Branch 选择 `main`；
-2. Folder 选择 `/(root)`；
-3. 点击 `Save`。
+如果仍使用分支发布，应将 `Source` 切换为 `GitHub Actions`，并确认上述工作流与部署环境规则已配置。
 
 ## 第 2 步：查看部署状态
 
 1. 点击仓库顶部的 `Actions`；
-2. 找到最新的 `pages build and deployment`；
-3. 等待左侧图标变成绿色对勾。
+2. 找到本次提交对应的发布前检查工作流运行；
+3. 确认 `main` 的正常运行依次通过 `verify` → `release-ready` → `deploy`。`release-ready` 是无权限哨兵任务，依赖 `verify` 成功。
+
+PR 和 `ci-check` 测试分支只验收，不发布。只有 `main` 的正常检查通过后才部署同一次运行已检查的产物；检查失败时不执行发布，线上保留上一次成功版本。
 
 状态含义：
 
 - 黄色圆点：正在构建，继续等待；
-- 绿色对勾：构建成功；
-- 红色叉号：构建失败，先不要提交搜索引擎，把错误页面截图交给 Codex 排查。
+- 绿色对勾：对应任务成功；只有本次 `deploy` 成功才代表已完成部署；
+- 红色叉号：检查或部署失败，查看对应任务日志排查，不要切回分支发布来绕过检查。
 
 ## 第 3 步：逐个打开公开页面
 
@@ -354,7 +352,7 @@ Bing 显示“已成功编制索引”表示该页面已经进入 Bing 索引。
 全部完成后核对：
 
 - [ ] GitHub 仓库显示新 README 和 `guides` 目录；
-- [ ] GitHub Actions 的 Pages 部署为绿色；
+- [ ] 本次 `main` 的 `verify`、`release-ready` 和 `deploy` 均成功；
 - [ ] Pages 主页和 8 篇专题都能打开；
 - [ ] `sitemap.xml` 能打开；
 - [ ] `llms.txt` 能打开；
@@ -406,7 +404,7 @@ git push origin main
 
 ## 第 6 步：等待 Pages 自动更新
 
-进入 GitHub 的 `Actions` 页面，等最新部署变成绿色，再到 Google 和 Bing 提交本次新增或明显修改的 URL。
+进入 GitHub 的 `Actions` 页面，确认本次 `main` 的 `verify`、`release-ready` 和 `deploy` 均成功并检查公开页面，再到 Google 和 Bing 提交本次新增或明显修改的 URL。
 
 ---
 
