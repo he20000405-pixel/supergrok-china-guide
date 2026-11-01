@@ -5,7 +5,7 @@ permalink: /guides/supergrok-paid-but-still-free/
 alternate_zh: /guides/supergrok-paid-but-still-free/
 alternate_en: /en/guides/supergrok-paid-but-still-free/
 date_published: 2026-07-12
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-01
 breadcrumbs:
   - name: "首页"
     url: /
@@ -159,7 +159,7 @@ Grok User ID 不是登录密码，但仍属于账号标识。不要公开订单�
 查清原订单并不等于获得旧版续费资格。重新比较方案时：
 
 - **新购 X 联合会员：**先核对官方方案；如考虑第三方协助，再到 [ChongGrok 联合会员服务页](https://chonggrok.com/x-subscription)确认账号资格、交付及售后条件。兑换使用 verify-x，并涉及具有临时登录权限的 SSO。
-- **保留旧版 SuperGrok：**只有确认账号符合旧版商品条件后，才查看 [旧版 SuperGrok 续费页](https://chonggrok.com/supergrok)。该流程使用卡密与 User ID；没有有效订阅本身不能证明账号可办理旧版商品。
+- **保留旧版 SuperGrok：**回原购买渠道核对续费条件。[Grok 选购与迁移说明](https://chonggrok.com/supergrok)已明确本站停售旧版月度、季度商品；已有历史卡密仍可在 [旧版 Grok 核销页](https://chonggrok.com/verify-grok)提交卡密与 User ID。保留兑换入口不代表仍可购买旧套餐，没有有效订阅也不能证明账号具备旧版续费资格。
 
 ChongGrok 不办理旧会员转联合会员；需要转换时按[官方 Unify 说明](https://docs.x.ai/x-subscription/unify-accounts)处理。第三方服务不保证固定到账时间或特定功能立即开放；[官方购买政策](https://x.ai/pricing)说明未授权第三方销售，相关账号可能被暂停或终止。
 
@@ -184,3 +184,5 @@ ChongGrok 不办理旧会员转联合会员；需要转换时按[官方 Unify �
 - [xAI Accounts](https://accounts.x.ai)
 
 {% include faq.html %}
+
+入口与办理说明更新：2026-11-01。

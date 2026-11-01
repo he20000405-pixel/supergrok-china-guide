@@ -5,7 +5,7 @@ permalink: /guides/grok-build-login-403/
 alternate_zh: /guides/grok-build-login-403/
 alternate_en: /en/guides/grok-build-login-403/
 date_published: 2026-07-12
-last_modified_at: 2026-07-12
+last_modified_at: 2026-11-01
 breadcrumbs:
   - name: "首页"
     url: /
@@ -116,7 +116,7 @@ xAI 发布 Grok Build 时写明，其早期测试版面向 SuperGrok 和 X Premi
 - 当前官方说明仍将该订阅列为可用入口；
 - 不是把普通 Grok 网页模型入口与 Grok Build 终端入口混为一谈。
 
-如果确认账号没有符合条件的会员订阅，且没有可用的境外付款方式，可以把 [chonggrok.com SuperGrok 充值页](https://chonggrok.com/supergrok)作为一个可选入口。该服务支持支付宝或微信，只提交自己的 Grok User ID，不需要登录密码；但它解决的是会员订阅付款问题，**不保证修复客户端、网络、团队权限或所有 403**。
+如果确认账号没有符合条件的会员订阅，且没有可用的境外付款方式，可以先查看 [ChongGrok Grok 选购与迁移说明](https://chonggrok.com/supergrok)。本站已停售旧版月度、季度商品；新购请到 [X 联合会员订阅页](https://chonggrok.com/x-subscription) 核对账号和交付条件，核销使用 SSO，不能套用旧版 User ID 流程。已有历史卡密仍使用 [旧版 Grok 核销页](https://chonggrok.com/verify-grok)。订阅协助解决的是付款与交付问题，**不保证修复客户端、网络、团队权限或所有 403**。
 
 ## 哪些问题充值无法解决
 
@@ -150,3 +150,5 @@ xAI 发布 Grok Build 时写明，其早期测试版面向 SuperGrok 和 X Premi
 继续阅读：[Grok 4.5 更新说明]({{ '/guides/grok-4-5-update/' | relative_url }})、[SuperGrok 套餐怎么选]({{ '/guides/supergrok-plans/' | relative_url }})、[SuperGrok 充值流程]({{ '/guides/supergrok-auto-recharge/' | relative_url }})。
 
 {% include faq.html %}
+
+入口与办理说明更新：2026-11-01。

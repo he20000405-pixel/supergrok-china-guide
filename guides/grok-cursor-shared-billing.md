@@ -3,7 +3,7 @@ title: "X 联合会员下使用 Cursor 编程怎么计费？2026 Grok 第一方�
 description: "2026年10月开发者实测：详解 The X Subscription（Grok 联合会员）下 Cursor 编辑器的双轨计费规则，区分 Grok 4.7/4.5 第一方模型共享每周额度池（Weekly Pool）与 Claude/GPT 第三方模型按 API 扣取预充值余额的边界，附国内通过 chonggrok.com 开通指南。"
 permalink: /guides/grok-cursor-shared-billing/
 date: 2026-10-28
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-01
 ---
 
 # X 联合会员下使用 Cursor 编程怎么计费？2026 Grok 第一方额度池与 Claude / GPT 扣费规则解析
@@ -64,7 +64,7 @@ last_modified_at: 2026-10-29
 | **1. 模型需求评估**        | 已清楚新版 X 联合会员每周额度池仅包 **Grok 第一方模型**，Claude 与 GPT 在 Cursor 内需额外消耗预充值余额 |
 | **2. 档位权限核对**        | 若需使用 Cursor Cloud Agents 与 Grok Bot，已确认选择 **Premium（$30/月）** 或以上档位（不选 $8 的 Plus 档） |
 | **3. 旧账号防误操作**      | 若手头有包含第三方额度的旧版 Cursor Pro 且不想失去该权益，确认**不要点击 `cursor.com/unify` 合并** |
-| **4. 独立充值凭证准备**    | 若决定不合并 Cursor、仅单独为 Grok 账号充值「旧版 SuperGrok」，已按 [Grok User ID 怎么找](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/) 准备好 User ID |
+| **4. 独立充值凭证准备**    | 若不合并 Cursor、希望保留旧版 Grok 订阅，先回原购买渠道核对续费条件；已有历史卡密需兑换时，再按 [Grok User ID 怎么找](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/) 准备 User ID |
 | **5. 严守密码与 API 边界** | 明确 `chonggrok.com` 仅办理个人原号会员订阅升级（不做 API 额度售卖），且全程不向任何人提供账号明文密码 |
 
 ---
@@ -76,9 +76,9 @@ last_modified_at: 2026-10-29
 1. **方案一：主攻 Grok 编码 + Grok Bot 自动化（开通新版 X 联合会员）**
    * 打开 **[https://chonggrok.com/x-subscription](https://chonggrok.com/x-subscription)**，按页面实时展示价格选择 **X 联合会员 — Premium（$30 档，4x 额度池）** 或 **Super（$100 档，15x 额度池）**。
    * 付款后保存卡密，前往 **[https://chonggrok.com/verify-x](https://chonggrok.com/verify-x)**，按页面说明验证卡密、填写目标 Grok 账号的 SSO 并提交，回到 [grok.com/dashboard](https://grok.com/dashboard) 验收后即可用同一账号直接登录 Cursor 与 Grok Bot。**SSO 属于敏感登录凭据，不要发送到客服聊天或公开页面。**
-2. **方案二：保留旧版 Cursor 不动，仅单独充值「旧版 SuperGrok」**
-   * 若你不想合并现有的 Cursor 账单，只想在网页端使用 Grok 4.5 / 4.7 与 DeepSearch 辅助查资料，可在 **[https://chonggrok.com/supergrok](https://chonggrok.com/supergrok)** 选择「旧版 SuperGrok（1个月 / 3个月）」。
-   * 在 **[https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)** 仅需提交 **卡密 + Grok User ID** 即可免密码完成充值（详见 [SuperGrok 国内自助充值教程](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-auto-recharge/)）。
+2. **方案二：保留旧版 Cursor，核对原 Grok 订阅与历史卡密**
+   * 若你不想合并现有的 Cursor 账单，可保留原订阅并回原购买渠道确认 Grok 续费条件。**[Grok 选购与迁移说明](https://chonggrok.com/supergrok)** 已明确停售旧版月度、季度商品，不能再通过该页新购「旧版 SuperGrok」。
+   * 已有历史卡密的用户，可在 **[https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)** 按提示提交 **卡密 + Grok User ID** 完成兑换（详见 [SuperGrok 国内自助充值教程](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-auto-recharge/)）。
 3. **方案三：Grok + Claude Pro 或 ChatGPT Plus/Pro 多工具组合**
    * 对于不想在 Cursor 里按高昂 API 单价为每次 Claude/GPT 请求付费的开发者，可在 **[https://chonggrok.com](https://chonggrok.com)** 同步为自己的个人原账号开通 **[Claude Pro](https://chonggrok.com/claude)** 或 **[ChatGPT Plus / Pro](https://chonggrok.com/chatgpt)** 会员，以固定月费锁定各大第一方官方客户端的充足推理与编程额度。**这些订阅用于各自官方产品，不会抵扣 Cursor 内 Claude / GPT 的预充值费用。**
 
@@ -88,7 +88,7 @@ last_modified_at: 2026-10-29
 
 * **坚持自有原账号升级：** ChatGPT、Grok、Claude 均只做用户自有原账号的会员订阅升级（全站仅 Gemini 另有一年成品账号这一项专属业务例外），绝不做多人共享合租号，代码仓库与对话隐私完全由开发者个人掌控。
 * **不做 API 额度与违规业务：** 请特别注意，本知识库与 `chonggrok.com` **只办理消费者会员订阅升级，不提供官方 API Key 售卖或 API 预充值额度（Prepaid Credit / Top-ups）代充**，也不做手机接码或批量注册。
-* **最小化凭证原则：** 旧版 SuperGrok 充值在 [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok) 提交卡密与 Grok User ID；X 联合会员在 [chonggrok.com/verify-x](https://chonggrok.com/verify-x) 按页面说明提交对应卡密与 Grok SSO。User ID 是账号标识，SSO 是敏感登录凭据，两者不能混用。无需登录密码、邮箱验证码或恢复码。任何线上订阅协助服务均非零风险，请仅在核实无误的对应核销页面提交信息，不要向客服聊天或公开页面发送 SSO，并保存好订单号与核销截图。
+* **最小化凭证原则：** 旧版 SuperGrok 历史卡密兑换在 [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok) 提交卡密与 Grok User ID；X 联合会员在 [chonggrok.com/verify-x](https://chonggrok.com/verify-x) 按页面说明提交对应卡密与 Grok SSO。User ID 是账号标识，SSO 是敏感登录凭据，两者不能混用。无需登录密码、邮箱验证码或恢复码。任何线上订阅协助服务均非零风险，请仅在核实无误的对应核销页面提交信息，不要向客服聊天或公开页面发送 SSO，并保存好订单号与核销截图。
 * **独立第三方声明：** ChongGrok (`chonggrok.com`) 是独立的第三方会员订阅充值服务网站，与 xAI、Grok、X、Cursor、Anthropic 或 OpenAI 不存在隶属、官方授权或合作关系。
 
 ---
@@ -118,7 +118,7 @@ last_modified_at: 2026-10-29
   * [ChongGrok AI 会员指南总门户 (guides.chonggrok.com)](https://guides.chonggrok.com/)
 * **ChongGrok 主站入口：**
   * [ChongGrok 主站首页 — ChatGPT / Grok / Claude / Gemini 订阅服务 (https://chonggrok.com)](https://chonggrok.com/)
-  * [ChongGrok 旧版 SuperGrok 订阅页（https://chonggrok.com/supergrok）](https://chonggrok.com/supergrok)
+  * [ChongGrok Grok 选购与迁移说明（https://chonggrok.com/supergrok）](https://chonggrok.com/supergrok)
   * [ChongGrok X 联合会员订阅页（https://chonggrok.com/x-subscription）](https://chonggrok.com/x-subscription)
   * [ChongGrok 旧版 Grok 核销页（https://chonggrok.com/verify-grok）](https://chonggrok.com/verify-grok)
   * [ChongGrok X 联合会员核销页（https://chonggrok.com/verify-x）](https://chonggrok.com/verify-x)
@@ -128,3 +128,5 @@ last_modified_at: 2026-10-29
 
 *事实与流程核验日期：2026-10-28。ChongGrok is not affiliated with xAI, X, Cursor, Anthropic, or OpenAI.*
 *Keywords: X 联合会员 Cursor 计费 · Cursor 用 Claude 怎么扣费 · Grok 联合会员 Cursor 额度池 · Additional Usage Credit · Prepaid Credit · Cursor Pro 合并 SuperGrok · 国内开通 Cursor Grok · chonggrok.com*
+
+入口与办理说明更新：2026-11-01。

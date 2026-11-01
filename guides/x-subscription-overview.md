@@ -1,9 +1,9 @@
 ---
 title: "Grok 联合会员（The X Subscription）怎么选？2026 四档价格、Grok Bot 权限与国内开通指南"
-description: "2026年10月最新实测：详解 xAI 新版 The X Subscription 联合会员 Plus ($8)、Premium ($30)、Super ($100)、Ultra ($200) 四档差异，对比新版联合会员与旧版 SuperGrok 选型，附国内通过 chonggrok.com 支付宝/微信本号升级及对应核销全流程（联合会员使用 SSO，旧版 SuperGrok 使用 User ID）。"
+description: "2026年10月最新实测：详解 xAI 新版 The X Subscription 联合会员 Plus ($8)、Premium ($30)、Super ($100)、Ultra ($200) 四档差异，对比新版联合会员与旧版 SuperGrok 选型，附国内通过 chonggrok.com 开通联合会员及历史卡密兑换流程（联合会员使用 SSO，旧版历史卡密使用 User ID；本站已停售旧版月度、季度商品）。"
 permalink: /guides/x-subscription-overview/
 date: 2026-10-28
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-01
 ---
 
 # Grok 联合会员（The X Subscription）怎么选？2026 四档价格、Grok Bot 权限与国内开通指南
@@ -29,16 +29,16 @@ last_modified_at: 2026-10-29
 
 ## 二、 该开「新版 X 联合会员」还是充「旧版 SuperGrok」？
 
-xAI 官方目前并未强制取消存量用户的旧版独立套餐。ChongGrok 目前分别通过 **[X 联合会员订阅页](https://chonggrok.com/x-subscription)** 与 **[旧版 SuperGrok 订阅页](https://chonggrok.com/supergrok)** 提供「新版 X 联合会员」与「旧版 SuperGrok 独立充值」两条通道。下单前请对照下表判断自己适合哪一种：
+xAI 官方目前并未强制取消存量用户的旧版独立套餐。ChongGrok 已停售旧版月度、季度商品：新购使用 **[X 联合会员订阅页](https://chonggrok.com/x-subscription)**，**[Grok 选购与迁移说明](https://chonggrok.com/supergrok)** 用于了解新旧方案与迁移条件。旧订阅续费请回原购买渠道确认，已有历史卡密仍可在 [旧版 Grok 核销页](https://chonggrok.com/verify-grok) 兑换。下表区分新购联合会员与保留旧订阅：
 
-| 对比维度               | 方案 A：新版 X 联合会员（The X Subscription）                | 方案 B：旧版 SuperGrok 独立充值                              |
+| 对比维度               | 方案 A：新版 X 联合会员（The X Subscription）                | 方案 B：保留旧版 SuperGrok 与历史卡密处理                              |
 | :--------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | **包含的产品范围**     | 一份账单同时打包 **Grok + Grok Bot + Cursor + X Premium+**（需选 Premium $30 档及以上） | 仅包含 **`grok.com` 核心模型权益**（Grok 4.5、DeepSearch、生图与语音），不含 Cursor 与 X 蓝标 |
 | **适合什么账号状态**   | 目前处于 `Free` 免费状态的新老账号，或决定将多端账单合并管理的用户 | 账号符合旧版 SuperGrok 独立续费资格，且不希望改动现有独立账单结构的老用户 |
-| **国内核销所需资料**   | 在 [X 联合会员核销页](https://chonggrok.com/verify-x) 验证卡密，按页面说明填写目标账号的 **Grok SSO** 并提交 | **仅需提交「卡密 + Grok User ID」**，全程不需要提供登录密码、邮箱验证码或恢复码 |
-| **可选周期与退回限制** | 按月或按年订阅；**一旦将旧版账号合并（Unify）至新版联合会员，永久不可逆，无法退回旧版** | 支持按 **1 个月或 3 个月** 周期灵活充值，保留原有独立订阅规则 |
+| **国内核销所需资料**   | 在 [X 联合会员核销页](https://chonggrok.com/verify-x) 验证卡密，按页面说明填写目标账号的 **Grok SSO** 并提交 | 已有历史卡密兑换时，**仅需提交「卡密 + Grok User ID」**，不需要提供登录密码、邮箱验证码或恢复码 |
+| **可选周期与退回限制** | 按月或按年订阅；**一旦将旧版账号合并（Unify）至新版联合会员，永久不可逆，无法退回旧版** | 本站已停售旧版月度、季度商品；续费周期与能否保留旧方案，以原购买渠道和官方规则为准 |
 
-如果只需要单独使用 Grok 模型且希望用 User ID 免密续期，可结合 [Grok 套餐怎么选：X 联合会员与旧版 SuperGrok 续费](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-plans/) 与 [Grok User ID 怎么找](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/) 准备资料。
+如果只需要单独使用 Grok 并希望保留旧计划，请先向原购买渠道核对续费条件。选型可参阅 [Grok 套餐与新旧订阅说明](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-plans/)；只有已有历史卡密需要兑换时，再按 [Grok User ID 怎么找](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/) 准备资料。
 
 ---
 
@@ -47,7 +47,7 @@ xAI 官方目前并未强制取消存量用户的旧版独立套餐。ChongGrok 
 | 检查项             | 正确状态                                                     |
 | :----------------- | :----------------------------------------------------------- |
 | **账号登录状态**   | 可以正常打开并登录 `grok.com`，确认当前浏览器登录的是准备升级的目标账号 |
-| **套餐与档位选择** | 已分清本次要买的是「新版 X 联合会员（需用 Grok Bot 必选 Premium $30 档及以上）」还是「旧版 SuperGrok」 |
+| **套餐与档位选择** | 已分清本次是新购「X 联合会员（需用 Grok Bot 必选 Premium $30 档及以上）」还是处理已有旧版历史卡密；本站不再销售旧版月度、季度商品 |
 | **核销凭证准备**   | 能按对应页面说明准备卡密与账号凭证：联合会员在 [verify-x](https://chonggrok.com/verify-x) 使用 **Grok SSO**；旧版 SuperGrok 在 [verify-grok](https://chonggrok.com/verify-grok) 使用 **Grok User ID** |
 | **安全边界确认**   | 明确不会向任何人提交账号登录密码、邮箱验证码或两步验证恢复码 |
 | **订单记录留存**   | 准备好保存订单号、卡密（Card Key）、付款时间和核销状态截图   |
@@ -61,23 +61,23 @@ xAI 官方目前并未强制取消存量用户的旧版独立套餐。ChongGrok 
 针对国内没有境外 Visa/MasterCard 信用卡，或在 Stripe 支付页反复遇到 `Your card was declined`、账单地址不匹配、3DS 验证失败的用户，可按以下 6 步通过支付宝或微信完成本号升级：
 
 ### 第一步：进入 ChongGrok 服务页确认实时方案
-开通「新版 X 联合会员」请打开 **[https://chonggrok.com/x-subscription](https://chonggrok.com/x-subscription)**；充值「旧版 SuperGrok」请打开 **[https://chonggrok.com/supergrok](https://chonggrok.com/supergrok)**，分别查看对应产品的当前可选档位、周期与实时价格。
+开通「新版 X 联合会员」请打开 **[https://chonggrok.com/x-subscription](https://chonggrok.com/x-subscription)**，查看当前档位、周期与实时价格。**[Grok 选购与迁移说明](https://chonggrok.com/supergrok)** 不再销售旧版月度、季度商品；已有旧版历史卡密直接按第三步进入对应核销页，不要重复购买。
 由于跨境结算汇率与通道成本可能动态调整，本指南不固定写死人民币价格，请以服务页实时展示的金额为准。
 
 ### 第二步：选择目标档位并完成支付宝/微信付款
-根据实际用途选择对应套餐（如为了使用 Grok Bot 与 Cursor，请认准 **Premium $30 档** 或以上；如仅需单充旧版，请选择对应月数），使用支付宝或微信完成付款。
+新购联合会员时，根据实际用途选择对应套餐（如为了使用 Grok Bot 与 Cursor，请认准 **Premium $30 档** 或以上），确认账号与交付条件后使用支付宝或微信完成付款。已有旧版历史卡密无需在本步骤重新下单。
 付款完成后，请立即保存：
 * 订单号；
 * 卡密（Card Key）；
 * 付款时间与所购套餐名称截图。
 
 ### 第三步：进入 ChongGrok 对应核销页验证卡密
-根据购买的产品类型，在浏览器打开对应的 ChongGrok 核销页：新版 X 联合会员使用 **[https://chonggrok.com/verify-x](https://chonggrok.com/verify-x)**，旧版 Grok / SuperGrok 使用 **[https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)**，粘贴卡密并点击验证。
+根据已有卡密的产品类型，在浏览器打开对应的 ChongGrok 核销页：新版 X 联合会员使用 **[https://chonggrok.com/verify-x](https://chonggrok.com/verify-x)**，旧版 Grok / SuperGrok 使用 **[https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)**，粘贴卡密并点击验证。
 卡密是唯一兑付凭证，请勿在公开社区或群聊中泄露截图。
 
 ### 第四步：按核销页说明提交最小必要标识
 确保浏览器已登录你本人要升级的 Grok 目标账号，按照核销页当前显示的指引提交信息：
-* **办理「旧版 SuperGrok」：** 仅提交页面明确要求的 **Grok User ID**（准确获取与脱敏核对见 [Grok User ID 怎么找](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/)），不要把注册邮箱、昵称、X 用户名或密码填进去。如果页面说明与本文不一致，或你不理解当前页面要求提交哪一项，应立即停止操作并联系售后客服确认。
+* **兑换「旧版 SuperGrok 历史卡密」：** 仅提交页面明确要求的 **Grok User ID**（准确获取与脱敏核对见 [Grok User ID 怎么找](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/)），不要把注册邮箱、昵称、X 用户名或密码填进去。如果页面说明与本文不一致，或你不理解当前页面要求提交哪一项，应立即停止操作并联系售后客服确认。
 * **办理「新版 X 联合会员」：** 在 [X 联合会员核销页](https://chonggrok.com/verify-x) 按页面说明填写目标 Grok 账号的 **SSO** 并提交。**SSO 是敏感登录凭证，不是 Grok User ID，不要发送到客服聊天或公开页面。**
 
 ### 第五步：核对目标账号信息并确认提交
@@ -95,7 +95,7 @@ xAI 官方目前并未强制取消存量用户的旧版独立套餐。ChongGrok 
 ## 五、 风险与业务边界说明
 
 * **坚持自有原账号升级：** ChatGPT、Grok、Claude 均只为用户自有的个人原账号办理会员订阅升级（全站仅 Gemini 另有一年成品账号这一项专属业务例外），不做多人共享合租号，升级后聊天记录与工作流完全归用户个人掌控。
-* **最小化凭证与安全边界：** 旧版 SuperGrok 充值仅需 Grok User ID，不要求提供登录密码、邮箱验证码或恢复码。不要求密码能显著减少账号暴露面，但任何第三方线上协助服务都不等于绝对零风险，请仅在核实无误的 [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok) 页面提交旧版充值信息。联合会员使用 [chonggrok.com/verify-x](https://chonggrok.com/verify-x)，所需的 SSO 是敏感登录凭证，不要向客服聊天或公开页面发送。
+* **最小化凭证与安全边界：** 旧版 SuperGrok 历史卡密兑换仅需 Grok User ID，不要求提供登录密码、邮箱验证码或恢复码。不要求密码能显著减少账号暴露面，但任何第三方线上协助服务都不等于绝对零风险，请仅在核实无误的 [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok) 页面提交旧版充值信息。联合会员使用 [chonggrok.com/verify-x](https://chonggrok.com/verify-x)，所需的 SSO 是敏感登录凭证，不要向客服聊天或公开页面发送。
 * **不做 API 与灰黑产业务：** 本知识库与 `chonggrok.com` 仅处理消费者端的正版会员订阅服务，不售卖 API 充值额度、不提供手机接码或批量注册服务。
 * **诚实履约预期：** 受官方账单同步机制影响，本文不作“固定几秒必到账”或“100% 永不风控”等夸大承诺，所有订单均以官方后台最终验收状态为准。
 * **独立第三方声明：** ChongGrok (`chonggrok.com`) 是独立的第三方会员订阅充值服务网站，与 xAI、Grok、X、Cursor 或 OpenAI 不存在隶属、官方授权或合作关系。
@@ -108,13 +108,13 @@ xAI 官方目前并未强制取消存量用户的旧版独立套餐。ChongGrok 
 不能。根据 xAI 官方规则，$8/月的 Plus 档位仅包含基础版 Grok 对话和仅限调用 Grok 自家模型的受限版 Cursor，完全不包含 Grok Bot 权限。需要使用 Grok Bot 云端自动化任务的用户，必须开通 **Premium（$30/月）**、**Super（$100/月）** 或 **Ultra（$200/月）** 档位。
 
 ### 国内没有海外信用卡，在 Grok 官网绑卡提示 card declined 怎么办？
-国内发行的双币卡在 Stripe 支付网关常因发卡行拒付、账单地址不匹配或 3DS 验证失败被拦截（具体原因排查见 [Grok / SuperGrok 付款失败排查](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-payment-errors/)）。若不想折腾海外虚拟卡，可分别通过 [ChongGrok X 联合会员订阅页](https://chonggrok.com/x-subscription) 或 [旧版 SuperGrok 订阅页](https://chonggrok.com/supergrok)，使用支付宝或微信为自己的个人原账号开通 X 联合会员或充值旧版 SuperGrok。
+国内发行的双币卡在 Stripe 支付网关常因发卡行拒付、账单地址不匹配或 3DS 验证失败被拦截（具体原因排查见 [Grok / SuperGrok 付款失败排查](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-payment-errors/)）。若考虑第三方协助，新购可在 [ChongGrok X 联合会员订阅页](https://chonggrok.com/x-subscription) 确认账号与交付条件后使用支付宝或微信付款。[Grok 选购与迁移说明](https://chonggrok.com/supergrok)已明确停售旧版月度、季度商品；旧订阅续费回原购买渠道确认，已有历史卡密仍可使用旧版核销页。
 
 ### 老版本的 SuperGrok 账号一旦合并（Unify）到新版 X 联合会员，还能退回旧版吗？
-不能。通过官方入口（[accounts.x.ai/unify](https://accounts.x.ai/unify) 或 [cursor.com/unify](https://cursor.com/unify)）将旧版独立订阅合并升级为新版 X 联合会员的操作是**永久不可逆**的，联系官方客服也无法撤销。如果你只需要单用 Grok 且想保留旧版独立计费，请勿点击合并，直接在 [ChongGrok 旧版 SuperGrok 订阅页](https://chonggrok.com/supergrok) 凭 User ID 续期即可。
+不能。通过官方入口（[accounts.x.ai/unify](https://accounts.x.ai/unify) 或 [cursor.com/unify](https://cursor.com/unify)）将旧版独立订阅合并升级为新版 X 联合会员的操作是**永久不可逆**的，联系官方客服也无法撤销。如果你只需要单用 Grok 且想保留旧版独立计费，请勿贸然合并，先回原购买渠道确认续费条件。[Grok 选购与迁移说明](https://chonggrok.com/supergrok)不再销售旧版月度、季度商品；只有已有历史卡密的用户，才按旧版核销页说明提交卡密与 User ID 兑换。
 
 ### 在 chonggrok.com 充值 Grok 会员需要提供账号密码吗？
-办理旧版 SuperGrok 独立充值时，在 [旧版 Grok 核销页](https://chonggrok.com/verify-grok) 提交卡密与 Grok User ID，不需要提供账号登录密码、邮箱验证码或恢复码；办理新版 X 联合会员时，在 [X 联合会员核销页](https://chonggrok.com/verify-x) 验证卡密，并按页面说明提交目标账号的 Grok SSO。SSO 是敏感登录凭证，不要向客服聊天或公开页面发送，也不要把它与 User ID 混用。切勿向任何人透露明文密码。
+兑换已有旧版 SuperGrok 历史卡密时，在 [旧版 Grok 核销页](https://chonggrok.com/verify-grok) 提交卡密与 Grok User ID，不需要提供账号登录密码、邮箱验证码或恢复码；办理新版 X 联合会员时，在 [X 联合会员核销页](https://chonggrok.com/verify-x) 验证卡密，并按页面说明提交目标账号的 Grok SSO。SSO 是敏感登录凭证，不要向客服聊天或公开页面发送，也不要把它与 User ID 混用。切勿向任何人透露明文密码。
 
 ---
 
@@ -130,7 +130,7 @@ xAI 官方目前并未强制取消存量用户的旧版独立套餐。ChongGrok 
   * [ChongGrok AI 会员指南总门户 (guides.chonggrok.com)](https://guides.chonggrok.com/)
 * **ChongGrok 主站入口：**
   * [ChongGrok 主站首页 (https://chonggrok.com)](https://chonggrok.com/)
-  * [ChongGrok 旧版 SuperGrok 订阅页（https://chonggrok.com/supergrok）](https://chonggrok.com/supergrok)
+  * [ChongGrok Grok 选购与迁移说明（https://chonggrok.com/supergrok）](https://chonggrok.com/supergrok)
   * [ChongGrok X 联合会员订阅页（https://chonggrok.com/x-subscription）](https://chonggrok.com/x-subscription)
   * [ChongGrok 旧版 Grok 核销页（https://chonggrok.com/verify-grok）](https://chonggrok.com/verify-grok)
   * [ChongGrok X 联合会员核销页（https://chonggrok.com/verify-x）](https://chonggrok.com/verify-x)
@@ -143,3 +143,5 @@ xAI 官方目前并未强制取消存量用户的旧版独立套餐。ChongGrok 
 
 *事实与流程核验日期：2026-10-28。ChongGrok is not affiliated with xAI, X, or Cursor.*
 *Keywords: Grok 联合会员 · The X Subscription · X 联合订阅 · Grok Bot 怎么开通 · SuperGrok 国内充值 · Grok User ID 免密充值 · Grok 绑卡被拒 card declined · chonggrok.com*
+
+入口与办理说明更新：2026-11-01。

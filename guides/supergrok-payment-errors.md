@@ -3,7 +3,7 @@ title: "Grok / SuperGrok 付款失败：card declined、3DS 与账单地址排�
 description: "Grok 付款失败排查：Your credit card was declined、unable to authenticate payment、3D Secure、发卡行限制与账单地址。"
 permalink: /guides/supergrok-payment-errors/
 date_published: 2026-07-11
-last_modified_at: 2026-08-17
+last_modified_at: 2026-11-01
 breadcrumbs:
   - name: "首页"
     url: /
@@ -80,7 +80,7 @@ Grok 付款报错不等于账号异常。先停止连续重试，保存完整报
 
 ## 没有境外卡时的可选路径
 
-只有确认没有成功扣款、有效订阅或待处理订单后，才考虑新的付款路径。[chonggrok.com SuperGrok 充值](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_payment_errors)支持支付宝/微信付款。用户按当前核销页面提交自己的 Grok User ID，不需要登录密码，账号仍归用户本人。完成后回到 grok.com 验收订阅。
+只有确认没有成功扣款、有效订阅或待处理订单后，才考虑新的付款路径。[ChongGrok Grok 选购与迁移说明](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_payment_errors)已明确停售旧版月度、季度商品；新购可在 [X 联合会员订阅页](https://chonggrok.com/x-subscription) 核对账号与交付条件，再使用支付宝/微信付款。联合会员在 [verify-x](https://chonggrok.com/verify-x) 按指引提交卡密与 Grok SSO；已有旧版历史卡密在 [verify-grok](https://chonggrok.com/verify-grok) 使用卡密与 User ID。SSO 是敏感登录凭证，不能与 User ID 混用，也不要发到客服聊天。完成后回到 grok.com 验收订阅。
 
 这是一种省去境外卡支付环节的可选方案，不代表零风险或官方合作。完整步骤见 [SuperGrok 自助充值教程]({{ '/guides/supergrok-auto-recharge/' | relative_url }})。
 
@@ -98,3 +98,5 @@ Grok 付款报错不等于账号异常。先停止连续重试，保存完整报
 - [Google Play：Fix payment issues on your account](https://support.google.com/googleplay/answer/1267137)
 
 {% include faq.html %}
+
+入口与办理说明更新：2026-11-01。

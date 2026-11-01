@@ -7,7 +7,7 @@ alternate_en: /en/guides/supergrok-paid-but-still-free/
 lang: en
 schema_type: Article
 date_published: 2026-07-24
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-01
 breadcrumbs:
   - name: "Home"
     url: /
@@ -128,7 +128,7 @@ A Grok User ID is an account identifier, not a password, but it is sensitive and
 Only reassess a purchase after the original provider has resolved the first order and confirmed that no active subscription, pending transaction or refund remains. This does **not** establish eligibility for a legacy plan.
 
 - For a new X Subscription purchase, first compare the official plans. If considering third-party assistance, check account eligibility, fulfillment and support terms on the [X Subscription service page](https://chonggrok.com/x-subscription). Its redemption flow uses SSO.
-- For legacy SuperGrok renewal, use the [legacy service page](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_paid_but_still_free&utm_content=en_repurchase_boundary) only after confirming that the account meets the current legacy product conditions. Its redemption flow uses a card key and User ID.
+- To retain legacy SuperGrok, check renewal eligibility with the original billing provider. The [Grok selection and migration guide (Chinese)](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_paid_but_still_free&utm_content=en_repurchase_boundary) explains that ChongGrok no longer sells legacy monthly or quarterly products. Existing legacy card keys can still be processed through [historical Grok redemption (Chinese)](https://chonggrok.com/verify-grok) using the card key and User ID; that route does not mean legacy plans are still for sale.
 
 ChongGrok does not convert legacy memberships to The X Subscription; follow the [official unification process](https://docs.x.ai/x-subscription/unify-accounts) if choosing to switch. The [official buying policy](https://x.ai/pricing) does not authorize third-party sellers and warns that affected accounts may be suspended or terminated. Not requesting a password does not remove the risks of sharing a temporary login credential.
 
@@ -174,3 +174,5 @@ Keep the account email, login method, platform, redacted receipt, date, currency
 - [Weekly limit versus subscription guide (Chinese)]({{ '/guides/supergrok-weekly-limit-vs-subscription/' | relative_url }})
 
 **Updated:** October 28, 2026. The legacy and X Subscription usage and redemption routes were checked against public documentation. No purchase, redemption or paid-usage test was performed; account status and charges must still be checked in the official account.
+
+Entry and service-route update: November 1, 2026.

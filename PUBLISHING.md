@@ -6,16 +6,11 @@
 - GitHub Pages：`https://he20000405-pixel.github.io/supergrok-china-guide/`
 - 本地文件夹：`C:\Users\37132\Desktop\总chonggrok\grok\supergrok-china-guide`
 
-## 先看你现在处于哪一步
+## 当前维护与首次发布说明
 
-Codex 已经完成：
+仓库目前已上线。下面保留首次发布时的操作步骤与输出示例，不代表当前仍待首次推送；日常更新请使用文末“以后新增或修改文章时怎么上传”。实际分支、待提交文件和待推送提交以本次 `git status` 为准，本地路径以当前工作目录为准。
 
-- 升级 README 和 GitHub Pages 首页；
-- 建立 8 篇专题文章；
-- 建立 Jekyll、SEO、FAQ 结构化数据、站点地图和 `llms.txt`；
-- 完成本地 Git 提交。
-
-因此，**你现在不需要重新执行 `git add .`，也不需要重新提交核心内容。第一步直接从“推送到 GitHub”开始。**
+当前专题范围以 `/guides/` 和 `sitemap.xml` 为准，不沿用首次发布时的固定文章数量。
 
 ---
 
@@ -58,7 +53,7 @@ PS C:\Users\37132\Desktop\总chonggrok\grok\supergrok-china-guide>
 git status
 ```
 
-正常结果应包含：
+首次发布时已有一条待推送提交的输出示例（当前状态以实际结果为准）：
 
 ```text
 On branch main
@@ -301,7 +296,7 @@ https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/
 https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-build-login-403/
 ```
 
-这六篇分别承接热点、充值转化、付款报错、付款后未生效、User ID 和 Grok Build 403 搜索，优先级最高。其他专题已经包含在网站地图里，可以随后再提交，不必在短时间内反复请求。
+这六个地址是首次发布时的重点专题示例，不代表当前全部文章或固定提交优先级。后续按本次新增、明显修改及实际索引状态选择 URL；当前文章范围以 `/guides/` 和 `sitemap.xml` 为准，不必在短时间内反复请求。
 
 “已请求编入索引”不等于马上能在 Google 搜到。Google 仍会自行决定抓取和收录时间。
 
@@ -341,7 +336,7 @@ https://he20000405-pixel.github.io/supergrok-china-guide/sitemap.xml
 2. 先检查主页；
 3. 如果页面已经编入索引，不需要重复提交；
 4. 如果是更新页面，点击“请求编制索引”；
-5. 再提交 Grok 4.5、充值流程、付款报错、付款后仍显示 Free、User ID 和 Grok Build 403 六个重点专题。
+5. 再按需提交本次新增或明显修改的重点专题，不照搬首次发布时的固定列表。
 
 Bing 显示“已成功编制索引”表示该页面已经进入 Bing 索引。网站地图显示“成功”只代表 Bing 成功读取了 URL 列表，不代表每个页面都已完成收录，这两个状态要分开看。
 
@@ -353,20 +348,20 @@ Bing 显示“已成功编制索引”表示该页面已经进入 Bing 索引。
 
 - [ ] GitHub 仓库显示新 README 和 `guides` 目录；
 - [ ] 本次 `main` 的 `verify`、`release-ready` 和 `deploy` 均成功；
-- [ ] Pages 主页和 8 篇专题都能打开；
+- [ ] Pages 主页及当前 `/guides/`、`sitemap.xml` 中的全部专题都能打开；
 - [ ] `sitemap.xml` 能打开；
 - [ ] `llms.txt` 能打开；
 - [ ] Google Search Console 网站地图状态为成功；
-- [ ] Google 已请求主页和 6 个重点页面编入索引；
+- [ ] Google 已核对本次重点页面的索引状态，并按需请求编入索引；
 - [ ] Bing 网站地图状态为成功；
-- [ ] Bing 已检查主页和 6 个重点页面；
+- [ ] Bing 已检查本次重点页面；
 - [ ] `https://chonggrok.com/supergrok` 和 `https://chonggrok.com/verify-grok` 链接可以正常打开。
 
 ---
 
 # 以后新增或修改文章时怎么上传
 
-下面这一节是以后使用的，**不是这次首次推送前必须重复执行的命令**。
+下面这一节用于已上线仓库的日常更新；先检查实际修改，再提交和推送。
 
 ## 第 1 步：进入仓库
 

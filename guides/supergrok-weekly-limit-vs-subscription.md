@@ -4,7 +4,7 @@ description: "Grok 付费后仍提示升级时，按旧版 SuperGrok 或 X 联�
 permalink: /guides/supergrok-weekly-limit-vs-subscription/
 schema_type: Article
 date_published: 2026-07-23
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-01
 breadcrumbs:
   - name: "首页"
     url: /
@@ -147,7 +147,7 @@ faq:
 
 如果账号已有有效订阅、成功扣款或待处理交易，先处理原订单。只有原支付方确认没有有效订阅、待处理交易或退款流程，才重新比较方案；这不代表账号具备旧版续费资格。
 
-新购可先核对官方 X 联合会员；考虑第三方协助时，在 [ChongGrok 联合会员服务页](https://chonggrok.com/x-subscription)确认账号与交付条件。保留旧版的用户，只有确认符合当前旧版商品条件后，才查看 [旧版 SuperGrok 续费页](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_weekly_limit)。ChongGrok 不办理旧会员转联合会员，需要转换时使用[官方 Unify 流程](https://docs.x.ai/x-subscription/unify-accounts)。
+新购可先核对官方 X 联合会员；考虑第三方协助时，在 [ChongGrok 联合会员服务页](https://chonggrok.com/x-subscription)确认账号与交付条件。保留旧版的用户，请回原购买渠道核对续费条件。[Grok 选购与迁移说明](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_weekly_limit)已明确停售旧版月度、季度商品；已有历史卡密仍可在 [verify-grok](https://chonggrok.com/verify-grok) 兑换，不要把保留兑换入口理解为仍可购买旧套餐。ChongGrok 不办理旧会员转联合会员，需要转换时使用[官方 Unify 流程](https://docs.x.ai/x-subscription/unify-accounts)。
 
 ## 业务与风险边界
 
@@ -171,3 +171,5 @@ faq:
 - [AI 订阅付款排障决策树](https://he20000405-pixel.github.io/resources/ai-subscription-payment-troubleshooting/)
 
 **本次更新：2026 年 10 月 28 日。**复核了新旧用量入口、官方周额度说明与 ChongGrok 兑换流程；没有执行真实购买、兑换或付费额度测试。套餐、费用与账号状态仍以对应平台实时页面为准。
+
+入口与办理说明更新：2026-11-01。

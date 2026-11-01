@@ -1,14 +1,14 @@
 ---
 title: "老版 SuperGrok 与 Cursor 要不要合并（Unify）？2026 X 联合会员迁移避坑、苹果退费与旧版保留指南"
-description: "2026年10月最新实测：详解 xAI 与 Cursor 账号合并（accounts.x.ai/unify）的永久不可逆规则、Apple App Store 与 Google Play 退费差异，对比保留旧版独立订阅与升级新版 X 联合会员的利弊，附国内通过 chonggrok.com 续费旧版 SuperGrok 或开通新版 X 联合会员的流程。"
+description: "2026年10月最新实测：详解 xAI 与 Cursor 账号合并（accounts.x.ai/unify）的永久不可逆规则、Apple App Store 与 Google Play 退费差异，对比保留旧版独立订阅与升级新版 X 联合会员的利弊，附旧版订阅原渠道续费核对、历史卡密兑换与通过 chonggrok.com 开通新版 X 联合会员的流程。"
 permalink: /guides/supergrok-unify-migration-guide/
 date: 2026-10-28
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-01
 ---
 
 # 老版 SuperGrok 与 Cursor 要不要合并（Unify）？2026 X 联合会员迁移避坑、苹果退费与旧版保留指南
 
-**直接结论：** xAI 与 Cursor 推出的账号合并功能（[accounts.x.ai/unify](https://accounts.x.ai/unify) 或 [cursor.com/unify](https://cursor.com/unify)）是**完全自愿且永久不可逆**的。一旦将现有的旧版 SuperGrok 或旧版 Cursor Pro 合并升级为新版 **The X Subscription（X 联合会员）**，**永久无法退回旧版独立套餐，联系官方客服也无法撤销**。如果你重度依赖旧版 Cursor Pro 套餐内赠送的 Claude / GPT 固定额度，或平时只需要单用 `grok.com` 对话与生图功能，**请勿点击合并**，可直接在 **[ChongGrok 旧版 SuperGrok 订阅页](https://chonggrok.com/supergrok)** 选择「旧版 SuperGrok」通道，仅凭 **Grok User ID + 卡密** 完成免密续期；如果你希望用一份账单同时解锁 **Grok + Grok Bot + Cursor + X Premium+**，则可通过 **[ChongGrok X 联合会员订阅页](https://chonggrok.com/x-subscription)** 核对账号条件并开通新版 X 联合会员（需使用 Grok Bot 请必选 **Premium $30/月** 及以上档位）。**ChongGrok 不办理旧会员转换；已有 SuperGrok 或 Cursor 订阅需要合并（Unify）时，请按[官方合并指南](https://docs.x.ai/x-subscription/unify-accounts)操作。**
+**直接结论：** xAI 与 Cursor 推出的账号合并功能（[accounts.x.ai/unify](https://accounts.x.ai/unify) 或 [cursor.com/unify](https://cursor.com/unify)）是**完全自愿且永久不可逆**的。一旦将现有的旧版 SuperGrok 或旧版 Cursor Pro 合并升级为新版 **The X Subscription（X 联合会员）**，**永久无法退回旧版独立套餐，联系官方客服也无法撤销**。如果你重度依赖旧版 Cursor Pro 套餐内赠送的 Claude / GPT 固定额度，或平时只需要单用 `grok.com` 对话与生图功能，**请勿点击合并**，应回原购买渠道确认旧版续费条件。**[ChongGrok Grok 选购与迁移说明](https://chonggrok.com/supergrok)** 已明确停售旧版月度、季度商品，已有历史卡密仍可凭 **Grok User ID + 卡密** 在 [旧版 Grok 核销页](https://chonggrok.com/verify-grok) 兑换；如果你希望用一份账单同时解锁 **Grok + Grok Bot + Cursor + X Premium+**，则可通过 **[ChongGrok X 联合会员订阅页](https://chonggrok.com/x-subscription)** 核对账号条件并开通新版 X 联合会员（需使用 Grok Bot 请必选 **Premium $30/月** 及以上档位）。**ChongGrok 不办理旧会员转换；已有 SuperGrok 或 Cursor 订阅需要合并（Unify）时，请按[官方合并指南](https://docs.x.ai/x-subscription/unify-accounts)操作。**
 
 ---
 
@@ -24,7 +24,7 @@ last_modified_at: 2026-10-29
 | **4. 多个 Cursor 账号的处理**      | 以前因配合 SuperGrok 与 Grok Bot 可能存在多个关联账号        | 合并时需指定一个**主账号（Primary Cursor Account）**，其余关联账号将被合并至主账号下 |
 | **5. 账单周期与旧余额结算**        | 按各自原有的月度或季度到期日独立结算                         | **合并当天立即开启全新的计费周期**；原网页端未用完的时长将按比例折算退费（Apple 内购除外） |
 
-> **选型与续费提示：** 如果看完上述规则后，你决定保留旧版 SuperGrok 不合并，可通过 **[旧版 SuperGrok 订阅页](https://chonggrok.com/supergrok)** 使用支付宝或微信付款，并在 **[旧版 Grok 核销页](https://chonggrok.com/verify-grok)** 完成核销；如果希望直接将免费账号升级为新版 X 联合会员，可通过 **[X 联合会员订阅页](https://chonggrok.com/x-subscription)** 使用支付宝或微信付款，并在 **[X 联合会员核销页](https://chonggrok.com/verify-x)** 完成兑换。
+> **选型与续费提示：** 如果决定保留旧版 SuperGrok 不合并，请回原购买渠道核对续费条件。**[Grok 选购与迁移说明](https://chonggrok.com/supergrok)** 不再销售旧版月度、季度商品；已有历史卡密仍可在 **[旧版 Grok 核销页](https://chonggrok.com/verify-grok)** 兑换。新购 X 联合会员可通过 **[X 联合会员订阅页](https://chonggrok.com/x-subscription)** 确认账号与交付条件后使用支付宝或微信付款，再在 **[X 联合会员核销页](https://chonggrok.com/verify-x)** 完成兑换。
 
 ---
 
@@ -34,7 +34,7 @@ last_modified_at: 2026-10-29
 
 ### 1. 建议「停止合并、保留旧版独立订阅」的 3 类用户
 * **主力使用 Claude / GPT 写代码的旧版 Cursor Pro 用户：** 旧版 $20/月的 Cursor Pro 包含一定额度的第三方模型调用；一旦合并到新版 X 联合会员，即便开通 $30 的 Premium 或 $100 的 Super 档位，扩大也只是 Grok 第一方模型的每周额度池（详见 [X 联合会员下使用 Cursor 编程的计费规则](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-cursor-shared-billing/)），Claude 和 GPT 将全部变为额外按量扣费。
-* **仅使用 `grok.com` 对话、DeepSearch 与生图的纯 Grok 用户：** 如果你完全不用 Cursor 写代码，也不需要运行 Grok Bot 自动化脚本，保留旧版 SuperGrok 独立订阅（支持在 **[chonggrok.com/supergrok](https://chonggrok.com/supergrok)** 按 1 个月或 3 个月周期凭 **Grok User ID** 免密充值）在操作上更轻量，无需改动现有账号绑定关系。
+* **仅使用 `grok.com` 对话、DeepSearch 与生图的纯 Grok 用户：** 如果你完全不用 Cursor 写代码，也不需要运行 Grok Bot 自动化脚本，可按原购买渠道的适用规则保留旧版 SuperGrok 独立订阅，无需为此主动改动现有账号绑定关系。**[Grok 选购与迁移说明](https://chonggrok.com/supergrok)** 已停售旧版月度、季度商品；历史卡密兑换不代表仍可购买旧套餐。
 * **一个账号属于个人、另一个账号属于团队（Team）的用户：** 个人计划与团队计划必须分开独立合并（个人走 [cursor.com/unify](https://cursor.com/unify)，团队管理员走 [cursor.com/unify/team](https://cursor.com/unify/team)），不能将个人号与团队号混同合并。
 
 ### 2. 建议「直接开通或合并升级新版 X 联合会员」的 3 类用户
@@ -69,17 +69,21 @@ last_modified_at: 2026-10-29
 | **1. 明确不可逆后果**     | 已清楚一旦合并为 X 联合会员就**永远无法退回旧版独立套餐**；若仍想保留旧版 Cursor 的 Claude/GPT 赠送额度，**请立即停止合并** |
 | **2. 核查原付款渠道**     | 已查清旧订阅是网页端付款还是 Apple App Store / Google Play 内购；若是苹果内购的 Cursor，已准备好手动去 iOS 设置里关停续费 |
 | **3. 确认主账号归属**     | 若手头有多个 Cursor 账号，已确认好把哪一个设为主账号（Primary Account）；若要绑定个人 X 账号领蓝标，确认该 X 账号未绑定过其他 Grok 账号（每个 X 账号仅限绑定一个 Grok 账号） |
-| **4. 准备好对应核销标识** | 若在 [旧版 SuperGrok 订阅页](https://chonggrok.com/supergrok)选择续费「旧版 SuperGrok」，已提前按 [Grok User ID 怎么找](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/)准备好 User ID；若选择开通「新版 X 联合会员」，已确认目标档位（需用 Grok Bot 必选 Premium $30 档及以上），并了解需在 [X 联合会员核销页](https://chonggrok.com/verify-x)按指引提交对应卡密和 Grok SSO |
+| **4. 准备好对应核销标识** | 若已有历史旧版卡密需要兑换，已提前按 [Grok User ID 怎么找](https://he20000405-pixel.github.io/supergrok-china-guide/guides/grok-user-id/)准备好 User ID；没有历史卡密时，旧版续费请回原购买渠道核对；若选择开通「新版 X 联合会员」，已确认目标档位（需用 Grok Bot 必选 Premium $30 档及以上），并了解需在 [X 联合会员核销页](https://chonggrok.com/verify-x)按指引提交对应卡密和 Grok SSO |
 | **5. 严守密码安全边界**   | 明确不会向任何人提供登录密码、邮箱验证码或恢复码，并准备好保存订单号与卡密截图 |
 
 ---
 
-## 五、 国内如何免境外卡续费「旧版 SuperGrok」或开通「新版 X 联合会员」？
+<span id="五-国内如何免境外卡续费旧版-supergrok或开通新版-x-联合会员"></span>
 
-无论你最终决定**不合并（继续单充旧版 SuperGrok）**，还是决定**直接开通新版 X 联合会员**，若遇到国内银行卡被 Stripe 拒付（`Card declined`，详见 [Grok 付款失败排查](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-payment-errors/)），均可按以下双轨流程通过支付宝或微信办理。**以下流程不用于旧会员 Unify 转换；已有订阅需要合并时，请按[官方合并指南](https://docs.x.ai/x-subscription/unify-accounts)操作。**
+## 五、 国内如何处理旧版历史卡密或开通「新版 X 联合会员」？
 
-### 路径一：不合并老账号，仅凭 User ID 免密续费「旧版 SuperGrok」
-1. **选择旧版方案：** 打开 **[https://chonggrok.com/supergrok](https://chonggrok.com/supergrok)**（或主站 **[https://chonggrok.com](https://chonggrok.com)**），在旧版 SuperGrok 专区按实时页面展示选择 1 个月或 3 个月周期（价格随汇率动态调整，本文不固定写死人民币价格），使用支付宝或微信完成付款并保存卡密。
+以下分别说明**已有旧版历史卡密的兑换**与**新购 X 联合会员**。旧版月度、季度商品已经停售，旧订阅续费请回原购买渠道核对；新购联合会员若遇到国内银行卡被 Stripe 拒付（`Card declined`，详见 [Grok 付款失败排查](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-payment-errors/)），可确认办理条件后使用支付宝或微信付款。**以下流程不用于旧会员 Unify 转换；已有订阅需要合并时，请按[官方合并指南](https://docs.x.ai/x-subscription/unify-accounts)操作。**
+
+<span id="路径一不合并老账号仅凭-user-id-免密续费旧版-supergrok"></span>
+
+### 路径一：不合并老账号，处理已有旧版历史卡密
+1. **先确认是否已有历史卡密：** **[Grok 选购与迁移说明](https://chonggrok.com/supergrok)** 已明确停售旧版月度、季度商品。没有历史卡密时，请回原购买渠道确认旧订阅续费条件，不再通过该页购买旧版套餐；已有卡密则保留原订单信息，继续以下兑换步骤。
 2. **提交 User ID 核销：** 登录 `grok.com` 确认目标账号无误后，打开 **[https://chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)** 进入旧版 Grok 卡密核销页面，**仅提交「卡密 + Grok User ID」**（无需登录密码或验证码，详细步骤见 [SuperGrok 国内自助充值教程](https://he20000405-pixel.github.io/supergrok-china-guide/guides/supergrok-auto-recharge/)）。
 3. **官方页面验收：** 核销完成后返回 `grok.com` 刷新检查会员状态。
 
@@ -93,7 +97,7 @@ last_modified_at: 2026-10-29
 ## 六、 风险与业务边界说明
 
 * **坚持自有原账号升级：** ChatGPT、Grok、Claude 均只做用户自有原账号的会员订阅升级（全站仅 Gemini 另有一年成品账号这一项专属业务例外），绝不售卖多人共享合租号，账号与数据归用户个人独立管理。
-* **最小化凭证与安全意识：** 旧版 SuperGrok 充值使用 [旧版 Grok 核销页](https://chonggrok.com/verify-grok)，提交卡密与 Grok User ID；X 联合会员使用 [联合会员核销页](https://chonggrok.com/verify-x)，按页面指引提交对应卡密与 Grok SSO。User ID 是账号标识，SSO 是敏感登录凭据，两者不能混用。不需要提交登录密码、短信/邮箱验证码或恢复码。不要求密码能减少不必要的账号暴露，但不等于绝对零风险；请只在确认无误的对应核销页面提交信息，不要向客服聊天或公开页面发送 SSO。
+* **最小化凭证与安全意识：** 旧版 SuperGrok 历史卡密兑换使用 [旧版 Grok 核销页](https://chonggrok.com/verify-grok)，提交卡密与 Grok User ID；X 联合会员使用 [联合会员核销页](https://chonggrok.com/verify-x)，按页面指引提交对应卡密与 Grok SSO。User ID 是账号标识，SSO 是敏感登录凭据，两者不能混用。不需要提交登录密码、短信/邮箱验证码或恢复码。不要求密码能减少不必要的账号暴露，但不等于绝对零风险；请只在确认无误的对应核销页面提交信息，不要向客服聊天或公开页面发送 SSO。
 * **不做 API 与违规业务：** 全站只处理消费者会员订阅，不提供 API 额度充值、接码或批量注册服务。
 * **独立第三方声明：** ChongGrok (`chonggrok.com`) 是独立的第三方会员订阅充值服务网站，与 xAI、Grok、X、Cursor 或 OpenAI 不存在隶属、官方授权或合作关系。
 
@@ -111,7 +115,7 @@ last_modified_at: 2026-10-29
 在执行 `unify` 合并流程时，系统会允许你登录并添加多个符合条件的 Cursor 账号，并在下一步让你指定其中一个作为**主账号（Primary Account）**，其余 Cursor 账号的权益将统一归并到该主账号名下（注意：并非所有特殊类型账号均支持多号合并，以页面实际提示为准）。
 
 ### 如果我不点合并，还能在国内继续单独给旧版 SuperGrok 续费吗？
-可以。只要你的账号本身符合旧版独立订阅条件且未主动执行 `unify` 合并，就可以继续保留旧版计划，并通过 [chonggrok.com/supergrok](https://chonggrok.com/supergrok)选择 1 个月或 3 个月方案，仅凭 Grok User ID 和卡密在 [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)完成免密续费。
+是否可以续费，应以旧订阅的官方规则和原购买渠道为准；不点合并并不意味着本站仍销售旧版套餐。[Grok 选购与迁移说明](https://chonggrok.com/supergrok)已明确停售旧版月度、季度商品。已有历史卡密仍可在 [chonggrok.com/verify-grok](https://chonggrok.com/verify-grok)按提示提交卡密与 Grok User ID 兑换；新购需另行比较联合会员。
 
 ---
 
@@ -128,7 +132,7 @@ last_modified_at: 2026-10-29
   * [ChongGrok AI 会员指南总门户 (guides.chonggrok.com)](https://guides.chonggrok.com/)
 * **ChongGrok 主站入口：**
   * [ChongGrok 主站首页 (https://chonggrok.com)](https://chonggrok.com/)
-  * [ChongGrok 旧版 SuperGrok 订阅页（https://chonggrok.com/supergrok）](https://chonggrok.com/supergrok)
+  * [ChongGrok Grok 选购与迁移说明（https://chonggrok.com/supergrok）](https://chonggrok.com/supergrok)
   * [ChongGrok X 联合会员订阅页（https://chonggrok.com/x-subscription）](https://chonggrok.com/x-subscription)
   * [ChongGrok 旧版 Grok 核销页（https://chonggrok.com/verify-grok）](https://chonggrok.com/verify-grok)
   * [ChongGrok X 联合会员核销页（https://chonggrok.com/verify-x）](https://chonggrok.com/verify-x)
@@ -139,3 +143,5 @@ last_modified_at: 2026-10-29
 
 *事实与流程核验日期：2026-10-28。ChongGrok is not affiliated with xAI, X, or Cursor.*
 *Keywords: SuperGrok 合并 Cursor · accounts.x.ai/unify · cursor.com/unify · X 联合会员合并不可逆 · Cursor 苹果内购退费 · 旧版 SuperGrok 续费 · Grok User ID 免密充值 · chonggrok.com*
+
+入口与办理说明更新：2026-11-01。

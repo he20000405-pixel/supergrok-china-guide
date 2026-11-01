@@ -3,12 +3,12 @@ title: "Grok Subscriptions: The X Subscription and Legacy SuperGrok"
 description: "Distinguish The X Subscription, Grok Bot access, legacy SuperGrok orders, official unification and separate ChongGrok redemption routes."
 lang: en
 permalink: /en/
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-01
 ---
 
 # Grok Subscriptions and Payment Troubleshooting
 
-This is the English entry to the **ChongGrok-maintained Grok knowledge base**. New purchases through ChongGrok use The X Subscription. ChongGrok no longer sells legacy monthly or quarterly products; existing subscriptions should be managed under the official rules and original purchase channel. Start with the [Chinese guide to The X Subscription and Grok Bot]({{ '/guides/x-subscription-grok-bot-guide/' | relative_url }}) for plans, weekly usage and official unification.
+This is the English entry to the **ChongGrok-maintained Grok knowledge base**. New purchases through ChongGrok use The X Subscription. ChongGrok no longer sells legacy monthly or quarterly products; existing subscriptions should be managed under the official rules and original purchase channel. Start with the [Chinese guide to The X Subscription and Grok Bot](https://he20000405-pixel.github.io/supergrok-china-guide/guides/x-subscription-grok-bot-guide/) for plans, weekly usage and official unification.
 
 > ChongGrok is an independent subscription top-up service and is not affiliated with xAI or X. Plan names, prices, entitlements and model availability can change; check the official account interface before purchasing.
 

@@ -3,7 +3,7 @@ title: "旧版 SuperGrok、X Premium+ 与 X 联合会员有什么区别"
 description: "说明旧版 SuperGrok、X Premium+ 与 The X Subscription 的关系，区分保留旧权益、Bot 账号关联和不可撤销的官方 Unify 转换。"
 permalink: /guides/supergrok-vs-x-premium-plus/
 date_published: 2026-07-11
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-01
 breadcrumbs:
   - name: "首页"
     url: /
@@ -75,8 +75,10 @@ ChongGrok 不办理旧会员转换；需要转换时按官方 [Grok/X Unify](htt
 
 ## 购买与续费入口分别核对
 
-已明确选择第三方协助时，联合会员新购查看[本站联合会员说明](https://chonggrok.com/x-subscription?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_vs_x_premium_plus&utm_content=new_plan)；符合条件的旧版续费查看[旧版 SuperGrok 商品](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_vs_x_premium_plus&utm_content=legacy_plan)。账号资格、办理时间、交付和售后均应在付款前确认。
+已明确选择第三方协助时，联合会员新购查看[本站联合会员说明](https://chonggrok.com/x-subscription?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_vs_x_premium_plus&utm_content=new_plan)；保留旧版请先回原购买渠道核对续费条件。[Grok 选购与迁移说明](https://chonggrok.com/supergrok?utm_source=github_guides&utm_medium=referral&utm_campaign=supergrok_vs_x_premium_plus&utm_content=legacy_plan)已明确停售旧版月度、季度商品，已有历史卡密仍可在 [verify-grok](https://chonggrok.com/verify-grok) 兑换。账号资格、办理时间、交付和售后均应在付款前确认。
 
 ChongGrok 与产品厂商无官方授权关系。[官方购买 FAQ](https://x.ai/pricing)明确未授权第三方销售，并说明相关账号可能被暂停或终止。本文不把商家服务说明当作官方背书。
 
 {% include faq.html %}
+
+入口与办理说明更新：2026-11-01。
