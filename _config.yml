@@ -13,6 +13,7 @@ asset_version: "20261101-audit-fixes"
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
 author:
+  type: Organization
   name: "ChongGrok"
   url: "https://chonggrok.com/"
 
